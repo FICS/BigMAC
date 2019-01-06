@@ -1,0 +1,203 @@
+query> query_mac process:tee_245 _ 1
+INFO: Start 1563998661.174644
+INFO: Query <process:tee_245> -> <_> (cutoff 1)
+INFO: binary inst2 - ['n120', '_', '1']
+INFO: Got 87 paths in 0.76 seconds (use `print` to display)
+query> print
+1: process:tee_245 -> file:gatekeeper_data_file_data_misc_gatekeeper
+2: process:tee_245 -> file:gpu_device_r_dev_kgsl-3d0
+3: process:tee_245 -> file:vndbinder_device_r_dev_vndbinder
+4: process:tee_245 -> file:zero_device_r_dev_zero
+5: process:tee_245 -> hwservice_manager:hal_display_config_hwservice_r_0
+6: process:tee_245 -> hwservice_manager:hal_graphics_allocator_hwservice_r_0
+7: process:tee_245 -> hwservice_manager:hal_qdutils_disp_hwservice_r_0
+8: process:tee_245 -> hwservice_manager:hal_tui_comm_hwservice_r_0
+9: process:tee_245 -> hwservice_manager:hidl_base_hwservice_r_0
+10: process:tee_245 -> hwservice_manager:hidl_manager_hwservice_r_0
+11: process:tee_245 -> property_service:mobicore_prop_r_0
+12: process:tee_245 -> property_service:system_prop_r_0
+13: process:tee_245 -> file:hwbinder_device_r_dev_hwbinder
+14: process:tee_245 -> service_manager:qdisplay_service_r_0
+15: process:tee_245 -> service_manager:surfaceflinger_service_r_0
+16: process:tee_245 -> file:kgsl_device_r_dev_kgsl-2d0
+17: process:tee_245 -> file:kgsl_device_r_dev_kgsl-2d1
+18: process:tee_245 -> socket:logd_r_0
+19: process:tee_245 -> socket:tee_w_0
+20: process:tee_245 -> file:mobicore_data_file_data_misc_mcRegistry
+21: process:tee_245 -> file:mobicore_device_r_dev_mobicore
+22: process:tee_245 -> file:mobicore_user_device_r_dev_mobicore-user
+23: process:tee_245 -> file:null_device_r_dev_null
+24: process:tee_245 -> file:owntty_device_r_dev_tty
+25: process:tee_245 -> file:persist_drm_file_persist_data
+26: process:tee_245 -> file:persist_drm_file_persist_drm
+27: process:tee_245 -> file:pmsg_device_r_dev_pmsg0
+28: process:tee_245 -> file:prov_efs_file_efs_DAK
+29: process:tee_245 -> file:prov_efs_file_efs_TEE
+30: process:tee_245 -> file:prov_efs_file_efs_prov
+31: process:tee_245 -> file:prov_efs_file_efs_prov_data
+32: process:tee_245 -> file:ptmx_device_r_dev_ptmx
+33: process:tee_245 -> file:qfp-daemon_data_file_data_vendor_misc_qti_fp
+34: process:tee_245 -> file:qfp-daemon_data_file_data_vendor_misc_qti_fp_bg_estimation
+35: process:tee_245 -> file:qfp-daemon_data_file_data_vendor_misc_qti_fp_calib_test
+36: process:tee_245 -> file:qfp-daemon_data_file_data_vendor_misc_qti_fp_database
+37: process:tee_245 -> file:qsee_ipc_irq_spss_device_r_dev_qsee_ipc_irq_spss
+38: process:tee_245 -> file:qvop-daemon_data_file_data_misc_qvop
+39: process:tee_245 -> file:random_device_r_dev_random
+40: process:tee_245 -> file:random_device_r_dev_urandom
+41: process:tee_245 -> file:sec_poc_file_efs_etc_poc
+42: process:tee_245 -> binder:hal_graphics_allocator_default_r_0
+43: process:tee_245 -> binder:hal_graphics_composer_default_r_0
+44: process:tee_245 -> binder:hal_qdutils_disp_qti_r_0
+45: process:tee_245 -> binder:hal_tui_comm_qti_r_0
+46: process:tee_245 -> binder:hwservicemanager_r_0
+47: process:tee_245 -> binder:servicemanager_r_0
+48: process:tee_245 -> binder:surfaceflinger_r_0
+49: process:tee_245 -> binder:tee_w_0
+50: process:tee_245 -> binder:vndservicemanager_r_0
+51: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight
+52: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel
+53: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel0-backlight
+54: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel0-backlight_brightness
+55: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel0-backlight_max_brightness
+56: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel_auto_brightness
+57: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel_auto_brightness_level
+58: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel_brightness
+59: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel_weakness_ccb
+60: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel_weakness_hbm_comp
+61: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal
+62: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_duration
+63: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_max
+64: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_min
+65: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_rdc
+66: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_status
+67: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_temp
+68: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_v_duration
+69: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_v_status
+70: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_v_validation
+71: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_host_notify
+72: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_host_notify_usb_otg
+73: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_host_notify_usb_otg_booster
+74: process:tee_245 -> file:apk_data_file_data_app
+75: process:tee_245 -> file:ashmem_device_r_dev_ashmem
+76: process:tee_245 -> file:binder_device_r_dev_binder
+77: process:tee_245 -> file:cgroup_r_acct
+78: process:tee_245 -> file:cgroup_r_acct_uid
+79: process:tee_245 -> file:cgroup_r_dev_cpuctl
+80: process:tee_245 -> file:cgroup_r_dev_memcg
+81: process:tee_245 -> file:cgroup_r_dev_stune
+82: process:tee_245 -> file:data_qsee_file_data_misc_qsee
+83: process:tee_245 -> file:debugfs_trace_marker_r_sys_kernel_debug_tracing_trace_marker
+84: process:tee_245 -> file:debugfs_trace_marker_r_sys_kernel_tracing_trace_marker
+85: process:tee_245 -> file:tee_device_r_dev_qseecom
+86: process:tee_245 -> file:tui_device_r_dev_t-base-tui
+87: process:tee_245 -> file:efs_file_efs_etc
+query> query process:tee_245 _ 1
+INFO: Start 1564003225.768123
+INFO: Query <process:tee_245> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n120', '_', '1']
+INFO: Got 87 paths in 0.93 seconds (use `print` to display)
+query> print
+1: process:tee_245 -> file:gatekeeper_data_file_data_misc_gatekeeper
+2: process:tee_245 -> file:gpu_device_r_dev_kgsl-3d0
+3: process:tee_245 -> file:vndbinder_device_r_dev_vndbinder
+4: process:tee_245 -> file:zero_device_r_dev_zero
+5: process:tee_245 -> hwservice_manager:hal_display_config_hwservice_r_0
+6: process:tee_245 -> hwservice_manager:hal_graphics_allocator_hwservice_r_0
+7: process:tee_245 -> hwservice_manager:hal_qdutils_disp_hwservice_r_0
+8: process:tee_245 -> hwservice_manager:hal_tui_comm_hwservice_r_0
+9: process:tee_245 -> hwservice_manager:hidl_base_hwservice_r_0
+10: process:tee_245 -> hwservice_manager:hidl_manager_hwservice_r_0
+11: process:tee_245 -> property_service:mobicore_prop_r_0
+12: process:tee_245 -> property_service:system_prop_r_0
+13: process:tee_245 -> file:hwbinder_device_r_dev_hwbinder
+14: process:tee_245 -> service_manager:qdisplay_service_r_0
+15: process:tee_245 -> service_manager:surfaceflinger_service_r_0
+16: process:tee_245 -> file:kgsl_device_r_dev_kgsl-2d0
+17: process:tee_245 -> file:kgsl_device_r_dev_kgsl-2d1
+18: process:tee_245 -> socket:logd_r_0
+19: process:tee_245 -> socket:tee_w_0
+20: process:tee_245 -> file:mobicore_data_file_data_misc_mcRegistry
+21: process:tee_245 -> file:mobicore_device_r_dev_mobicore
+22: process:tee_245 -> file:mobicore_user_device_r_dev_mobicore-user
+23: process:tee_245 -> file:null_device_r_dev_null
+24: process:tee_245 -> file:owntty_device_r_dev_tty
+25: process:tee_245 -> file:persist_drm_file_persist_data
+26: process:tee_245 -> file:persist_drm_file_persist_drm
+27: process:tee_245 -> file:pmsg_device_r_dev_pmsg0
+28: process:tee_245 -> file:prov_efs_file_efs_DAK
+29: process:tee_245 -> file:prov_efs_file_efs_TEE
+30: process:tee_245 -> file:prov_efs_file_efs_prov
+31: process:tee_245 -> file:prov_efs_file_efs_prov_data
+32: process:tee_245 -> file:ptmx_device_r_dev_ptmx
+33: process:tee_245 -> file:qfp-daemon_data_file_data_vendor_misc_qti_fp
+34: process:tee_245 -> file:qfp-daemon_data_file_data_vendor_misc_qti_fp_bg_estimation
+35: process:tee_245 -> file:qfp-daemon_data_file_data_vendor_misc_qti_fp_calib_test
+36: process:tee_245 -> file:qfp-daemon_data_file_data_vendor_misc_qti_fp_database
+37: process:tee_245 -> file:qsee_ipc_irq_spss_device_r_dev_qsee_ipc_irq_spss
+38: process:tee_245 -> file:qvop-daemon_data_file_data_misc_qvop
+39: process:tee_245 -> file:random_device_r_dev_random
+40: process:tee_245 -> file:random_device_r_dev_urandom
+41: process:tee_245 -> file:sec_poc_file_efs_etc_poc
+42: process:tee_245 -> binder:hal_graphics_allocator_default_r_0
+43: process:tee_245 -> binder:hal_graphics_composer_default_r_0
+44: process:tee_245 -> binder:hal_qdutils_disp_qti_r_0
+45: process:tee_245 -> binder:hal_tui_comm_qti_r_0
+46: process:tee_245 -> binder:hwservicemanager_r_0
+47: process:tee_245 -> binder:servicemanager_r_0
+48: process:tee_245 -> binder:surfaceflinger_r_0
+49: process:tee_245 -> binder:tee_w_0
+50: process:tee_245 -> binder:vndservicemanager_r_0
+51: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight
+52: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel
+53: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel0-backlight
+54: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel0-backlight_brightness
+55: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel0-backlight_max_brightness
+56: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel_auto_brightness
+57: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel_auto_brightness_level
+58: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel_brightness
+59: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel_weakness_ccb
+60: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_backlight_panel_weakness_hbm_comp
+61: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal
+62: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_duration
+63: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_max
+64: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_min
+65: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_rdc
+66: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_status
+67: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_temp
+68: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_v_duration
+69: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_v_status
+70: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_dsm_maxdsm_cal_v_validation
+71: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_host_notify
+72: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_host_notify_usb_otg
+73: process:tee_245 -> file:sysfs_ss_writable_r_sys_class_host_notify_usb_otg_booster
+74: process:tee_245 -> file:apk_data_file_data_app
+75: process:tee_245 -> file:ashmem_device_r_dev_ashmem
+76: process:tee_245 -> file:binder_device_r_dev_binder
+77: process:tee_245 -> file:cgroup_r_acct
+78: process:tee_245 -> file:cgroup_r_acct_uid
+79: process:tee_245 -> file:cgroup_r_dev_cpuctl
+80: process:tee_245 -> file:cgroup_r_dev_memcg
+81: process:tee_245 -> file:cgroup_r_dev_stune
+82: process:tee_245 -> file:data_qsee_file_data_misc_qsee
+83: process:tee_245 -> file:debugfs_trace_marker_r_sys_kernel_debug_tracing_trace_marker
+84: process:tee_245 -> file:debugfs_trace_marker_r_sys_kernel_tracing_trace_marker
+85: process:tee_245 -> file:tee_device_r_dev_qseecom
+86: process:tee_245 -> file:tui_device_r_dev_t-base-tui
+87: process:tee_245 -> file:efs_file_efs_etc
+
+
+
+query> query _ process:tee_245 1
+INFO: Start 1564005335.470168
+INFO: Query <_> -> <process:tee_245> (cutoff 1)
+INFO: binary inst3 - ['_', 'n120', '1']
+INFO: Got 9573 paths in 22.34 seconds (use `print` to display)
+query> query_mac _ process:tee_245 1
+INFO: Start 1564005375.407581
+INFO: Query <_> -> <process:tee_245> (cutoff 1)
+INFO: binary inst2 - ['_', 'n120', '1']
+INFO: Got 9573 paths in 1.81 seconds (use `print` to display)
+query>
+
+
+

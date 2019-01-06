@@ -1,0 +1,81 @@
+query> query _ process:at_distributor_412 1 _ 1
+INFO: Start 1564945312.675413
+INFO: Query <_> -> <process:at_distributor_412> (cutoff 1)
+INFO: Cap _
+INFO: Source 1
+INFO: binary inst5 - ['_', 's133', '1', '_', '1']
+INFO: Got 5 paths in 771.89 seconds (use `print` to display)
+query> print
+1: file:mtp_device_w_dev_mtp_usb -> process:at_distributor_412
+2: file:at_device_w_dev_at_usb0 -> process:at_distributor_412
+3: file:usb_device_w_dev_bus_usb -> process:at_distributor_412
+4: file:usb_device_w_dev_bus_usb_0 -> process:at_distributor_412
+5: file:usbaccessory_device_w_dev_usb_accessory -> process:at_distributor_412
+query>
+query>
+query>
+query>
+query> query _ process:at_distributor_412 1 _ 2
+INFO: Start 1564946183.723560
+INFO: Query <_> -> <process:at_distributor_412> (cutoff 1)
+INFO: Cap _
+INFO: Source 2
+INFO: binary inst5 - ['_', 's133', '1', '_', '2']
+INFO: Got 6 paths in 780.52 seconds (use `print` to display)
+query> print
+1: file:block_device_w_dev_block_platform_soc_7464900.sdhci -> process:at_distributor_412
+2: file:block_device_w_dev_block_platform_soc_7464900.sdhci_by-name -> process:at_distributor_412
+3: file:block_device_w_dev_block_platform_soc_7824900.sdhci -> process:at_distributor_412
+4: file:block_device_w_dev_block_platform_soc_7824900.sdhci_by-name -> process:at_distributor_412
+5: file:block_device_w_dev_block_platform_soc_c0c4000.sdhci -> process:at_distributor_412
+6: file:block_device_w_dev_block_platform_soc_c0c4000.sdhci_by-name -> process:at_distributor_412
+query>
+query>
+query>
+query>
+query>
+query> query _ process:at_distributor_412 1 _ 3
+INFO: Start 1564947262.324931
+INFO: Query <_> -> <process:at_distributor_412> (cutoff 1)
+INFO: Cap _
+INFO: Source 3
+INFO: binary inst5 - ['_', 's133', '1', '_', '3']
+INFO: Got 24 paths in 771.36 seconds (use `print` to display)
+query> print
+1: file:qdsp_device_w_dev_adsprpc-smd -> process:at_distributor_412
+2: file:radio_device_w_dev_mdm -> process:at_distributor_412
+3: file:smd_cntl_device_w_dev_smdcntl0 -> process:at_distributor_412
+4: file:smd_cntl_device_w_dev_smdcntl1 -> process:at_distributor_412
+5: file:smd_cntl_device_w_dev_smdcntl2 -> process:at_distributor_412
+6: file:smd_cntl_device_w_dev_smdcntl3 -> process:at_distributor_412
+7: file:smd_cntl_device_w_dev_smdcntl4 -> process:at_distributor_412
+8: file:smd_cntl_device_w_dev_smdcntl5 -> process:at_distributor_412
+9: file:smd_cntl_device_w_dev_smdcntl6 -> process:at_distributor_412
+10: file:smd_cntl_device_w_dev_smdcntl7 -> process:at_distributor_412
+11: file:smd_cntl_device_w_dev_smdcntl8 -> process:at_distributor_412
+12: file:smd_cxm_qmi_device_w_dev_smd_cxm_qmi -> process:at_distributor_412
+13: file:smd_device_w_dev_smd11 -> process:at_distributor_412
+14: file:smd_device_w_dev_smdcnt_rev0 -> process:at_distributor_412
+15: file:smd_device_w_dev_smdcnt_rev1 -> process:at_distributor_412
+16: file:smd_device_w_dev_smdcnt_rev2 -> process:at_distributor_412
+17: file:smd_device_w_dev_smdcnt_rev3 -> process:at_distributor_412
+18: file:smd_device_w_dev_smdcnt_rev4 -> process:at_distributor_412
+19: file:smd_device_w_dev_smdcnt_rev5 -> process:at_distributor_412
+20: file:smd_device_w_dev_smdcnt_rev6 -> process:at_distributor_412
+21: file:smd_device_w_dev_smdcnt_rev7 -> process:at_distributor_412
+22: file:smd_device_w_dev_smdcnt_rev8 -> process:at_distributor_412
+23: file:at_device_w_dev_at_mdm0 -> process:at_distributor_412
+24: file:at_device_w_dev_at_usb0 -> process:at_distributor_412
+query>
+query>
+query>
+query> query _ process:at_distributor_412 1 _ 4
+INFO: Start 1564948428.308438
+INFO: Query <_> -> <process:at_distributor_412> (cutoff 1)
+INFO: Cap _
+INFO: Source 4
+INFO: binary inst5 - ['_', 's133', '1', '_', '4']
+
+INFO: Got 0 paths in 842.63 seconds (use `print` to display)
+query>
+query>

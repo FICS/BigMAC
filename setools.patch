@@ -1,0 +1,23 @@
+diff --git a/setup.py b/setup.py
+index 4fef00b..44ac00c 100644
+--- a/setup.py
++++ b/setup.py
+@@ -78,7 +78,7 @@ class BuildExtCommand(build_ext):
+         build_ext.run(self)
+
+
+-base_lib_dirs = ['.', '/usr/lib64', '/usr/lib', '/usr/local/lib']
++base_lib_dirs = ['.', '/usr/lib64', '/usr/lib', '/usr/local/lib', '/usr/lib/x86_64-linux-gnu']
+ include_dirs = ['libqpol', 'libqpol/include']
+
+ with suppress(KeyError):
+@@ -145,7 +145,8 @@ ext_py_mods = [Extension('setools.policyrep._qpol',
+                           'libqpol/policy_scan.c',
+                           'libqpol/xen_query.c'],
+                          include_dirs=include_dirs,
+-                         extra_compile_args=['-Werror', '-Wextra',
++                         extra_compile_args=[#'-Werror',
++                                             '-Wextra',
+                                              '-Waggregate-return',
+                                              '-Wfloat-equal',
+                                              '-Wformat', '-Wformat=2',

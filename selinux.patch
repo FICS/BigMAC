@@ -1,0 +1,39 @@
+diff --git a/libselinux/src/Makefile b/libselinux/src/Makefile
+index 2408fae..23390dd 100644
+--- a/libselinux/src/Makefile
++++ b/libselinux/src/Makefile
+@@ -81,7 +81,7 @@ CFLAGS ?= -O -Wall -W -Wundef -Wformat-y2k -Wformat-security -Winit-self -Wmissi
+           -Wno-format-nonliteral -Wframe-larger-than=$(MAX_STACK_SIZE) \
+           -fstack-protector-all --param=ssp-buffer-size=4 -fexceptions \
+           -fasynchronous-unwind-tables -fdiagnostics-show-option -funit-at-a-time \
+-          -Werror -Wno-aggregate-return -Wno-redundant-decls \
++          -Wno-aggregate-return -Wno-redundant-decls \
+           $(EXTRA_CFLAGS)
+ 
+ LD_SONAME_FLAGS=-soname,$(LIBSO),-z,defs,-z,relro
+diff --git a/libselinux/utils/Makefile b/libselinux/utils/Makefile
+index eb4851a..e07266b 100644
+--- a/libselinux/utils/Makefile
++++ b/libselinux/utils/Makefile
+@@ -35,7 +35,7 @@ CFLAGS ?= -O -Wall -W -Wundef -Wformat-y2k -Wformat-security -Winit-self -Wmissi
+           -Wno-format-nonliteral -Wframe-larger-than=$(MAX_STACK_SIZE) -Wp,-D_FORTIFY_SOURCE \
+           -fstack-protector-all --param=ssp-buffer-size=4 -fexceptions \
+           -fasynchronous-unwind-tables -fdiagnostics-show-option -funit-at-a-time \
+-          -Werror -Wno-aggregate-return -Wno-redundant-decls \
++          -Wno-aggregate-return -Wno-redundant-decls \
+           $(EXTRA_CFLAGS)
+ 
+ LD_SONAME_FLAGS=-soname,$(LIBSO),-z,defs,-z,relro
+diff --git a/libsepol/src/Makefile b/libsepol/src/Makefile
+index 819d261..ad36dff 100644
+--- a/libsepol/src/Makefile
++++ b/libsepol/src/Makefile
+@@ -20,7 +20,7 @@ LIBMAP=libsepol.map
+ LIBSO=$(TARGET).$(LIBVERSION)
+ OBJS= $(patsubst %.c,%.o,$(sort $(wildcard *.c)))
+ LOBJS= $(patsubst %.c,%.lo,$(sort $(wildcard *.c)))
+-CFLAGS ?= -Werror -Wall -W -Wundef -Wshadow -Wmissing-format-attribute -O2
++CFLAGS ?= -Wall -W -Wundef -Wshadow -Wmissing-format-attribute -O2
+ 
+ override CFLAGS += -I. -I../include -D_GNU_SOURCE
+ 

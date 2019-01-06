@@ -1,0 +1,1274 @@
+Exe:	/init
+Sid:	u:r:init:s0
+Name:	init
+Pid:	1
+PPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:zygote:s0
+Name:	app_process32
+Pid:	2
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1065 3009
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:zygote:s0
+Name:	app_process64
+Pid:	3
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1065 3009
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_server:s0
+Name:	app_process64
+Pid:	29
+PPid:	3
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1018 1021 1023 1032 3001 3002 3003 3006 3007 3009 3010
+CapInh:	0000000806897c20
+CapPrm:	0000000806897c20
+CapEff:	0000000806897c20
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/wificond
+Sid:	u:r:wificond:s0
+Name:	wificond
+Pid:	167
+PPid:	1
+Uid:	1010	1010	1010	1010
+Gid:	1010	1010	1010	1010
+Groups:	3004 3005
+CapInh:	0000000000003000
+CapPrm:	0000000000003000
+CapEff:	0000000000003000
+CapBnd:	0000000000003000
+CapAmb:	0000000000003000
+
+Exe:	/system/bin/wait_for_keymaster
+Sid:	u:r:wait_for_keymaster:s0
+Name:	wait_for_keymaster
+Pid:	169
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/vr_hwc
+Sid:	u:r:vr_hwc:s0
+Name:	vr_hwc
+Pid:	170
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1003
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/vold
+Sid:	u:r:vold:s0
+Name:	vold
+Pid:	171
+PPid:	1
+Uid:	0	0	0	0
+Gid:	1065	1065	1065	1065
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/vndservicemanager
+Sid:	u:r:vndservicemanager:s0
+Name:	vndservicemanager
+Pid:	180
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/virtual_touchpad
+Sid:	u:r:virtual_touchpad:s0
+Name:	virtual_touchpad
+Pid:	181
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1004
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/update_verifier
+Sid:	u:r:update_verifier:s0
+Name:	update_verifier
+Pid:	184
+PPid:	1
+Uid:	0	0	0	0
+Gid:	2001	2001	2001	2001
+Groups:	1000
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/update_engine
+Sid:	u:r:update_engine:s0
+Name:	update_engine
+Pid:	185
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 2001 3003 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/sbin/ueventd
+Sid:	u:r:ueventd:s0
+Name:	ueventd
+Pid:	187
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/traced_probes
+Sid:	u:r:traced_probes:s0
+Name:	traced_probes
+Pid:	189
+PPid:	1
+Uid:	9999	9999	9999	9999
+Gid:	9999	9999	9999	9999
+Groups:	3009
+CapInh:	0000000000000004
+CapPrm:	0000000000000004
+CapEff:	0000000000000004
+CapBnd:	0000000000000004
+CapAmb:	0000000000000004
+
+Exe:	/system/bin/traced
+Sid:	u:r:traced:s0
+Name:	traced
+Pid:	191
+PPid:	1
+Uid:	9999	9999	9999	9999
+Gid:	9999	9999	9999	9999
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/tombstoned
+Sid:	u:r:tombstoned:s0
+Name:	tombstoned
+Pid:	194
+PPid:	1
+Uid:	1058	1058	1058	1058
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/time_daemon
+Sid:	u:r:time:s0
+Name:	time_daemon
+Pid:	195
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/thermalserviced
+Sid:	u:r:thermalserviced:s0
+Name:	thermalserviced
+Pid:	196
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/thermal-engine
+Sid:	u:r:thermal-engine:s0
+Name:	thermal-engine
+Pid:	197
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 2002
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/qseecomd
+Sid:	u:r:tee:s0
+Name:	qseecomd
+Pid:	198
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/surfaceflinger
+Sid:	u:r:surfaceflinger:s0
+Name:	surfaceflinger
+Pid:	199
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1003	1003	1003	1003
+Groups:	1026 3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/storaged
+Sid:	u:r:storaged:s0
+Name:	storaged
+Pid:	200
+PPid:	1
+Uid:	0	0	0	0
+Gid:	1032	1032	1032	1032
+Groups:	
+CapInh:	0000000000000004
+CapPrm:	0000000000000004
+CapEff:	0000000000000004
+CapBnd:	0000000000000004
+CapAmb:	0000000000000004
+
+Exe:	/system/bin/statsd
+Sid:	u:r:statsd:s0
+Name:	statsd
+Pid:	201
+PPid:	1
+Uid:	1066	1066	1066	1066
+Gid:	1066	1066	1066	1066
+Groups:	1007
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/sh
+Sid:	u:r:shell:s0
+Name:	sh
+Pid:	203
+PPid:	1
+Uid:	2000	2000	2000	2000
+Gid:	2000	2000	2000	2000
+Groups:	1007 3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/servicemanager
+Sid:	u:r:servicemanager:s0
+Name:	servicemanager
+Pid:	204
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/rmt_storage
+Sid:	u:r:rmt:s0
+Name:	rmt_storage
+Pid:	205
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/rild
+Sid:	u:r:rild:s0
+Name:	rild
+Pid:	206
+PPid:	1
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1005 1007 2001 3003 3009 3010 9998
+CapInh:	0000001000003000
+CapPrm:	0000001000003000
+CapEff:	0000001000003000
+CapBnd:	0000001000003000
+CapAmb:	0000001000003000
+
+Exe:	/system/bin/performanced
+Sid:	u:r:performanced:s0
+Name:	performanced
+Pid:	212
+PPid:	1
+Uid:	0	0	0	0
+Gid:	1000	1000	1000	1000
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/perfd
+Sid:	u:r:perfd:s0
+Name:	perfd
+Pid:	213
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/pm-proxy
+Sid:	u:r:per_proxy:s0
+Name:	pm-proxy
+Pid:	214
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/pm-service
+Sid:	u:r:per_mgr:s0
+Name:	pm-service
+Pid:	215
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/netmgrd
+Sid:	u:r:netmgrd:s0
+Name:	netmgrd
+Pid:	217
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1001 1010 3003 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/netd
+Sid:	u:r:netd:s0
+Name:	netd
+Pid:	218
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/nanohub_slpi
+Sid:	u:r:nanohub_slpi:s0
+Name:	nanohub_slpi
+Pid:	222
+PPid:	1
+Uid:	0	0	0	0
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/mediaserver
+Sid:	u:r:mediaserver:s0
+Name:	mediaserver
+Pid:	227
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1005	1005	1005	1005
+Groups:	1006 1026 1031 3001 3002 3003 3007
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/mediametrics
+Sid:	u:r:mediametrics:s0
+Name:	mediametrics
+Pid:	228
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1013	1013	1013	1013
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/mediaextractor
+Sid:	u:r:mediaextractor:s0
+Name:	mediaextractor
+Pid:	229
+PPid:	1
+Uid:	1040	1040	1040	1040
+Gid:	1026	1026	1026	1026
+Groups:	1031
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/mediadrmserver
+Sid:	u:r:mediadrmserver:s0
+Name:	mediadrmserver
+Pid:	230
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1031	1031	1031	1031
+Groups:	1026
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.media.omx@1.0-service
+Sid:	u:r:mediacodec:s0
+Name:	android.hardware.media.omx@1.0-service
+Pid:	231
+PPid:	1
+Uid:	1046	1046	1046	1046
+Gid:	1006	1006	1006	1006
+Groups:	1026 1031
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/logd
+Sid:	u:r:logd:s0
+Name:	logd
+Pid:	233
+PPid:	1
+Uid:	1036	1036	1036	1036
+Gid:	1036	1036	1036	1036
+Groups:	1000 1032 3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/xtra-daemon
+Sid:	u:r:location:s0
+Name:	xtra-daemon
+Pid:	234
+PPid:	237
+Uid:	0	0	0	0
+Gid:	1021	1021	1021	1021
+Groups:	1010 2002 3003
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/lowi-server
+Sid:	u:r:location:s0
+Name:	lowi-server
+Pid:	235
+PPid:	237
+Uid:	0	0	0	0
+Gid:	1021	1021	1021	1021
+Groups:	1010 2002 3003
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/slim_daemon
+Sid:	u:r:location:s0
+Name:	slim_daemon
+Pid:	236
+PPid:	237
+Uid:	0	0	0	0
+Gid:	1021	1021	1021	1021
+Groups:	1010 2002 3003
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/loc_launcher
+Sid:	u:r:location:s0
+Name:	loc_launcher
+Pid:	237
+PPid:	1
+Uid:	0	0	0	0
+Gid:	1021	1021	1021	1021
+Groups:	1010 2002 3003
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/lmkd
+Sid:	u:r:lmkd:s0
+Name:	lmkd
+Pid:	238
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/keystore
+Sid:	u:r:keystore:s0
+Name:	keystore
+Pid:	239
+PPid:	1
+Uid:	1017	1017	1017	1017
+Gid:	1017	1017	1017	1017
+Groups:	1007 1026 3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/msm_irqbalance
+Sid:	u:r:irqbalance:s0
+Name:	msm_irqbalance
+Pid:	241
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/installd
+Sid:	u:r:installd:s0
+Name:	installd
+Pid:	242
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/incidentd
+Sid:	u:r:incidentd:s0
+Name:	incidentd
+Pid:	253
+PPid:	1
+Uid:	1067	1067	1067	1067
+Gid:	1067	1067	1067	1067
+Groups:	1007 3009
+CapInh:	0000000000080020
+CapPrm:	0000000000080020
+CapEff:	0000000000080020
+CapBnd:	0000000000080020
+CapAmb:	0000000000080020
+
+Exe:	/vendor/bin/imsdatadaemon
+Sid:	u:r:ims:s0
+Name:	imsdatadaemon
+Pid:	255
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1010 2002 3003
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/ims_rtp_daemon
+Sid:	u:r:ims:s0
+Name:	ims_rtp_daemon
+Pid:	256
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1001	1001	1001	1001
+Groups:	1007 2002 3003
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/imsqmidaemon
+Sid:	u:r:ims:s0
+Name:	imsqmidaemon
+Pid:	257
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1001	1001	1001	1001
+Groups:	1007 2002
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/hwservicemanager
+Sid:	u:r:hwservicemanager:s0
+Name:	hwservicemanager
+Pid:	258
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/healthd
+Sid:	u:r:healthd:s0
+Name:	healthd
+Pid:	259
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.wifi@1.0-service
+Sid:	u:r:hal_wifi_default:s0
+Name:	android.hardware.wifi@1.0-service
+Pid:	262
+PPid:	1
+Uid:	1010	1010	1010	1010
+Gid:	1010	1010	1010	1010
+Groups:	1021
+CapInh:	0000000000013000
+CapPrm:	0000000000013000
+CapEff:	0000000000013000
+CapBnd:	0000000000013000
+CapAmb:	0000000000013000
+
+Exe:	/vendor/bin/hw/android.hardware.vr@1.0-service
+Sid:	u:r:hal_vr_default:s0
+Name:	android.hardware.vr@1.0-service
+Pid:	263
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.vibrator@1.0-service.marlin
+Sid:	u:r:hal_vibrator_default:s0
+Name:	android.hardware.vibrator@1.0-service.marlin
+Pid:	264
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.usb@1.1-service.marlin
+Sid:	u:r:hal_usb_default:s0
+Name:	android.hardware.usb@1.1-service.marlin
+Pid:	265
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.sensors@1.0-service
+Sid:	u:r:hal_sensors_default:s0
+Name:	android.hardware.sensors@1.0-service
+Pid:	266
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	3010
+CapInh:	0000001000000000
+CapPrm:	0000001000000000
+CapEff:	0000001000000000
+CapBnd:	0000001000000000
+CapAmb:	0000001000000000
+
+Exe:	/vendor/bin/hw/android.hardware.power@1.1-service.marlin
+Sid:	u:r:hal_power_default:s0
+Name:	android.hardware.power@1.1-service.marlin
+Pid:	267
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.nfc@1.1-service
+Sid:	u:r:hal_nfc_default:s0
+Name:	android.hardware.nfc@1.1-service
+Pid:	268
+PPid:	1
+Uid:	1027	1027	1027	1027
+Gid:	1027	1027	1027	1027
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.memtrack@1.0-service
+Sid:	u:r:hal_memtrack_default:s0
+Name:	android.hardware.memtrack@1.0-service
+Pid:	269
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.light@2.0-service
+Sid:	u:r:hal_light_default:s0
+Name:	android.hardware.light@2.0-service
+Pid:	270
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.keymaster@3.0-service
+Sid:	u:r:hal_keymaster_default:s0
+Name:	android.hardware.keymaster@3.0-service
+Pid:	271
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1026
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.health@2.0-service.marlin
+Sid:	u:r:hal_health_default:s0
+Name:	android.hardware.health@2.0-service.marlin
+Pid:	272
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+Sid:	u:r:hal_graphics_composer_default:s0
+Name:	android.hardware.graphics.composer@2.1-service
+Pid:	273
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1003	1003	1003	1003
+Groups:	1026
+CapInh:	0000000000800000
+CapPrm:	0000000000800000
+CapEff:	0000000000800000
+CapBnd:	0000000000800000
+CapAmb:	0000000000800000
+
+Exe:	/vendor/bin/hw/android.hardware.graphics.allocator@2.0-service
+Sid:	u:r:hal_graphics_allocator_default:s0
+Name:	android.hardware.graphics.allocator@2.0-service
+Pid:	274
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1003	1003	1003	1003
+Groups:	1026
+CapInh:	0000000000800000
+CapPrm:	0000000000800000
+CapEff:	0000000000800000
+CapBnd:	0000000000800000
+CapAmb:	0000000000800000
+
+Exe:	/vendor/bin/hw/android.hardware.gnss@1.0-service
+Sid:	u:r:hal_gnss_default:s0
+Name:	android.hardware.gnss@1.0-service
+Pid:	275
+PPid:	1
+Uid:	1021	1021	1021	1021
+Gid:	1000	1000	1000	1000
+Groups:	1001 1021
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+Sid:	u:r:hal_gatekeeper_default:s0
+Name:	android.hardware.gatekeeper@1.0-service
+Pid:	276
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+Sid:	u:r:hal_fingerprint_default:s0
+Name:	android.hardware.biometrics.fingerprint@2.1-service
+Pid:	277
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1004
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.dumpstate@1.0-service.marlin
+Sid:	u:r:hal_dumpstate_impl:s0
+Name:	android.hardware.dumpstate@1.0-service.marlin
+Pid:	278
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.drm@1.1-service.widevine
+Sid:	u:r:hal_drm_widevine:s0
+Name:	android.hardware.drm@1.1-service.widevine
+Pid:	279
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1013	1013	1013	1013
+Groups:	1026 1031
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.drm@1.0-service
+Sid:	u:r:hal_drm_default:s0
+Name:	android.hardware.drm@1.0-service
+Pid:	280
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1031	1031	1031	1031
+Groups:	1026
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey
+Sid:	u:r:hal_drm_clearkey:s0
+Name:	android.hardware.drm@1.1-service.clearkey
+Pid:	281
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1013	1013	1013	1013
+Groups:	1031
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.contexthub@1.0-service
+Sid:	u:r:hal_contexthub_default:s0
+Name:	android.hardware.contexthub@1.0-service
+Pid:	282
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.configstore@1.1-service
+Sid:	u:r:hal_configstore_default:s0
+Name:	android.hardware.configstore@1.1-service
+Pid:	283
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.cas@1.0-service
+Sid:	u:r:hal_cas_default:s0
+Name:	android.hardware.cas@1.0-service
+Pid:	284
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1031	1031	1031	1031
+Groups:	1026
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.camera.provider@2.4-service
+Sid:	u:r:hal_camera_default:s0
+Name:	android.hardware.camera.provider@2.4-service
+Pid:	285
+PPid:	1
+Uid:	1047	1047	1047	1047
+Gid:	1005	1005	1005	1005
+Groups:	1004 1006 1026
+CapInh:	0000000000800000
+CapPrm:	0000000000800000
+CapEff:	0000000000800000
+CapBnd:	0000000000800000
+CapAmb:	0000000000800000
+
+Exe:	/vendor/bin/hw/android.hardware.boot@1.0-service
+Sid:	u:r:hal_bootctl_default:s0
+Name:	android.hardware.boot@1.0-service
+Pid:	286
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+Sid:	u:r:hal_bluetooth_default:s0
+Name:	android.hardware.bluetooth@1.0-service-qti
+Pid:	287
+PPid:	1
+Uid:	1002	1002	1002	1002
+Gid:	1002	1002	1002	1002
+Groups:	1000 3010
+CapInh:	0000001000801000
+CapPrm:	0000001000801000
+CapEff:	0000001000801000
+CapBnd:	0000001000801000
+CapAmb:	0000001000801000
+
+Exe:	/system/bin/hw/android.hidl.allocator@1.0-service
+Sid:	u:r:hal_allocator_default:s0
+Name:	android.hidl.allocator@1.0-service
+Pid:	289
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/gatekeeperd
+Sid:	u:r:gatekeeperd:s0
+Name:	gatekeeperd
+Pid:	290
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/drmserver
+Sid:	u:r:drmserver:s0
+Name:	drmserver
+Pid:	300
+PPid:	1
+Uid:	1019	1019	1019	1019
+Gid:	1019	1019	1019	1019
+Groups:	1000 1026 3003 3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/cnss-daemon
+Sid:	u:r:cnss-daemon:s0
+Name:	cnss-daemon
+Pid:	306
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1010 3003
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/cnd
+Sid:	u:r:cnd:s0
+Name:	cnd
+Pid:	307
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3003 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/cameraserver
+Sid:	u:r:cameraserver:s0
+Name:	cameraserver
+Pid:	308
+PPid:	1
+Uid:	1047	1047	1047	1047
+Gid:	1005	1005	1005	1005
+Groups:	1004 1006 1026
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/bufferhubd
+Sid:	u:r:bufferhubd:s0
+Name:	bufferhubd
+Pid:	309
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/audioserver
+Sid:	u:r:audioserver:s0
+Name:	audioserver
+Pid:	313
+PPid:	1
+Uid:	1041	1041	1041	1041
+Gid:	1005	1005	1005	1005
+Groups:	1006 1013 1026 1031 3001 3002 3003 3007
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/ATFWD-daemon
+Sid:	u:r:atfwd:s0
+Name:	ATFWD-daemon
+Pid:	314
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/adsprpcd
+Sid:	u:r:adsprpcd:s0
+Name:	adsprpcd
+Pid:	315
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1013	1013	1013	1013
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/adbd
+Sid:	u:r:adbd:s0
+Name:	adbd
+Pid:	316
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+

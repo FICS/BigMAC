@@ -1,0 +1,164 @@
+query> query file:nfc_device_w_dev_sec-nfc _ 1
+INFO: Start 1565199228.474118
+INFO: Query <file:nfc_device_w_dev_sec-nfc> -> <_> (cutoff 1)
+INFO: binary inst3 - ['o1195', '_', '1']
+INFO: Got 26 paths in 1.07 seconds (use `print` to display)
+query> print_trust
+1: file:nfc_device_w_dev_sec-nfc (U) -> process:init_1 (T)
+2: file:nfc_device_w_dev_sec-nfc (U) -> process:crash_dump_204 (U)
+3: file:nfc_device_w_dev_sec-nfc (U) -> process:hal_nfc_default_356 (U)
+4: file:nfc_device_w_dev_sec-nfc (U) -> process:hal_iop_default_360 (U)
+5: file:nfc_device_w_dev_sec-nfc (U) -> process:crash_dump_205 (U)
+6: file:nfc_device_w_dev_sec-nfc (U) -> process:edmaudit_388 (U)
+7: file:nfc_device_w_dev_sec-nfc (U) -> process:adbd_416 (U)
+8: file:nfc_device_w_dev_sec-nfc (U) -> process:DMM-daemon_417 (U)
+9: file:nfc_device_w_dev_sec-nfc (U) -> process:vold_220 (T)
+10: file:nfc_device_w_dev_sec-nfc (U) -> process:zygote_2 (U)
+11: file:nfc_device_w_dev_sec-nfc (U) -> process:time_daemon_243 (U)
+12: file:nfc_device_w_dev_sec-nfc (U) -> process:thermal-engine_244 (U)
+13: file:nfc_device_w_dev_sec-nfc (U) -> process:tee_245 (U)
+14: file:nfc_device_w_dev_sec-nfc (U) -> process:zygote_3 (U)
+15: file:nfc_device_w_dev_sec-nfc (U) -> process:sensors_256 (U)
+16: file:nfc_device_w_dev_sec-nfc (U) -> process:sem_257 (U)
+17: file:nfc_device_w_dev_sec-nfc (U) -> process:rmt_storage_263 (U)
+18: file:nfc_device_w_dev_sec-nfc (U) -> process:rfs_access_265 (U)
+19: file:nfc_device_w_dev_sec-nfc (U) -> process:pd_mapper_294 (U)
+20: file:nfc_device_w_dev_sec-nfc (U) -> process:netmgrd_295 (U)
+21: file:nfc_device_w_dev_sec-nfc (U) -> process:netd_296 (U)
+22: file:nfc_device_w_dev_sec-nfc (U) -> process:lpm_310 (U)
+23: file:nfc_device_w_dev_sec-nfc (U) -> process:lmkd_318 (U)
+24: file:nfc_device_w_dev_sec-nfc (U) -> process:installd_327 (U)
+25: file:nfc_device_w_dev_sec-nfc (U) -> process:healthd_342 (U)
+26: file:nfc_device_w_dev_sec-nfc (U) -> process:hal_perf_default_355 (U)
+query>
+query>
+query> query file:nfc_device_w_dev_nfc-nci _ 1
+INFO: Start 1565200120.742211
+INFO: Query <file:nfc_device_w_dev_nfc-nci> -> <_> (cutoff 1)
+INFO: binary inst3 - ['o1192', '_', '1']
+INFO: Got 26 paths in 1.07 seconds (use `print` to display)
+query> print_trust
+1: file:nfc_device_w_dev_nfc-nci (U) -> process:init_1 (T)
+2: file:nfc_device_w_dev_nfc-nci (U) -> process:crash_dump_204 (U)
+3: file:nfc_device_w_dev_nfc-nci (U) -> process:hal_nfc_default_356 (U)
+4: file:nfc_device_w_dev_nfc-nci (U) -> process:hal_iop_default_360 (U)
+5: file:nfc_device_w_dev_nfc-nci (U) -> process:crash_dump_205 (U)
+6: file:nfc_device_w_dev_nfc-nci (U) -> process:edmaudit_388 (U)
+7: file:nfc_device_w_dev_nfc-nci (U) -> process:adbd_416 (U)
+8: file:nfc_device_w_dev_nfc-nci (U) -> process:DMM-daemon_417 (U)
+9: file:nfc_device_w_dev_nfc-nci (U) -> process:vold_220 (T)
+10: file:nfc_device_w_dev_nfc-nci (U) -> process:zygote_2 (U)
+11: file:nfc_device_w_dev_nfc-nci (U) -> process:time_daemon_243 (U)
+12: file:nfc_device_w_dev_nfc-nci (U) -> process:thermal-engine_244 (U)
+13: file:nfc_device_w_dev_nfc-nci (U) -> process:tee_245 (U)
+14: file:nfc_device_w_dev_nfc-nci (U) -> process:zygote_3 (U)
+15: file:nfc_device_w_dev_nfc-nci (U) -> process:sensors_256 (U)
+16: file:nfc_device_w_dev_nfc-nci (U) -> process:sem_257 (U)
+17: file:nfc_device_w_dev_nfc-nci (U) -> process:rmt_storage_263 (U)
+18: file:nfc_device_w_dev_nfc-nci (U) -> process:rfs_access_265 (U)
+19: file:nfc_device_w_dev_nfc-nci (U) -> process:pd_mapper_294 (U)
+20: file:nfc_device_w_dev_nfc-nci (U) -> process:netmgrd_295 (U)
+21: file:nfc_device_w_dev_nfc-nci (U) -> process:netd_296 (U)
+22: file:nfc_device_w_dev_nfc-nci (U) -> process:lpm_310 (U)
+23: file:nfc_device_w_dev_nfc-nci (U) -> process:lmkd_318 (U)
+24: file:nfc_device_w_dev_nfc-nci (U) -> process:installd_327 (U)
+25: file:nfc_device_w_dev_nfc-nci (U) -> process:healthd_342 (U)
+26: file:nfc_device_w_dev_nfc-nci (U) -> process:hal_perf_default_355 (U)
+query>
+query>
+query>
+query> query file:nfc_device_r_dev_nq-nci _ 1
+INFO: Start 1565200151.776648
+INFO: Query <file:nfc_device_r_dev_nq-nci> -> <_> (cutoff 1)
+INFO: binary inst3 - ['o1189', '_', '1']
+INFO: Got 0 paths in 0.75 seconds (use `print` to display)
+query>
+query>
+query> query file:nfc_device_w_dev_nq-nci _ 1
+INFO: Start 1565200169.776737
+INFO: Query <file:nfc_device_w_dev_nq-nci> -> <_> (cutoff 1)
+INFO: binary inst3 - ['o1193', '_', '1']
+INFO: Got 26 paths in 1.12 seconds (use `print` to display)
+query> print_trust
+1: file:nfc_device_w_dev_nq-nci (U) -> process:init_1 (T)
+2: file:nfc_device_w_dev_nq-nci (U) -> process:crash_dump_204 (U)
+3: file:nfc_device_w_dev_nq-nci (U) -> process:hal_nfc_default_356 (U)
+4: file:nfc_device_w_dev_nq-nci (U) -> process:hal_iop_default_360 (U)
+5: file:nfc_device_w_dev_nq-nci (U) -> process:crash_dump_205 (U)
+6: file:nfc_device_w_dev_nq-nci (U) -> process:edmaudit_388 (U)
+7: file:nfc_device_w_dev_nq-nci (U) -> process:adbd_416 (U)
+8: file:nfc_device_w_dev_nq-nci (U) -> process:DMM-daemon_417 (U)
+9: file:nfc_device_w_dev_nq-nci (U) -> process:vold_220 (T)
+10: file:nfc_device_w_dev_nq-nci (U) -> process:zygote_2 (U)
+11: file:nfc_device_w_dev_nq-nci (U) -> process:time_daemon_243 (U)
+12: file:nfc_device_w_dev_nq-nci (U) -> process:thermal-engine_244 (U)
+13: file:nfc_device_w_dev_nq-nci (U) -> process:tee_245 (U)
+14: file:nfc_device_w_dev_nq-nci (U) -> process:zygote_3 (U)
+15: file:nfc_device_w_dev_nq-nci (U) -> process:sensors_256 (U)
+16: file:nfc_device_w_dev_nq-nci (U) -> process:sem_257 (U)
+17: file:nfc_device_w_dev_nq-nci (U) -> process:rmt_storage_263 (U)
+18: file:nfc_device_w_dev_nq-nci (U) -> process:rfs_access_265 (U)
+19: file:nfc_device_w_dev_nq-nci (U) -> process:pd_mapper_294 (U)
+20: file:nfc_device_w_dev_nq-nci (U) -> process:netmgrd_295 (U)
+21: file:nfc_device_w_dev_nq-nci (U) -> process:netd_296 (U)
+22: file:nfc_device_w_dev_nq-nci (U) -> process:lpm_310 (U)
+23: file:nfc_device_w_dev_nq-nci (U) -> process:lmkd_318 (U)
+24: file:nfc_device_w_dev_nq-nci (U) -> process:installd_327 (U)
+25: file:nfc_device_w_dev_nq-nci (U) -> process:healthd_342 (U)
+26: file:nfc_device_w_dev_nq-nci (U) -> process:hal_perf_default_355 (U)
+query>
+query>
+query> query file:nfc_device_r_dev_nfc-nci _ 1
+INFO: Start 1565200206.837216
+INFO: Query <file:nfc_device_r_dev_nfc-nci> -> <_> (cutoff 1)
+INFO: binary inst3 - ['o1188', '_', '1']
+INFO: Got 0 paths in 0.80 seconds (use `print` to display)
+query>
+query> query file:nfc_device_r_dev_pn547 _ 1
+INFO: Start 1565200222.962909
+INFO: Query <file:nfc_device_r_dev_pn547> -> <_> (cutoff 1)
+INFO: binary inst3 - ['o1190', '_', '1']
+INFO: Got 0 paths in 0.80 seconds (use `print` to display)
+query>
+query> query file:nfc_device_w_dev_pn547 _ 1
+INFO: Start 1565200234.735244
+INFO: Query <file:nfc_device_w_dev_pn547> -> <_> (cutoff 1)
+INFO: binary inst3 - ['o1194', '_', '1']
+INFO: Got 26 paths in 1.09 seconds (use `print` to display)
+query> print_trust
+1: file:nfc_device_w_dev_pn547 (U) -> process:init_1 (T)
+2: file:nfc_device_w_dev_pn547 (U) -> process:crash_dump_204 (U)
+3: file:nfc_device_w_dev_pn547 (U) -> process:hal_nfc_default_356 (U)
+4: file:nfc_device_w_dev_pn547 (U) -> process:hal_iop_default_360 (U)
+5: file:nfc_device_w_dev_pn547 (U) -> process:crash_dump_205 (U)
+6: file:nfc_device_w_dev_pn547 (U) -> process:edmaudit_388 (U)
+7: file:nfc_device_w_dev_pn547 (U) -> process:adbd_416 (U)
+8: file:nfc_device_w_dev_pn547 (U) -> process:DMM-daemon_417 (U)
+9: file:nfc_device_w_dev_pn547 (U) -> process:vold_220 (T)
+10: file:nfc_device_w_dev_pn547 (U) -> process:zygote_2 (U)
+11: file:nfc_device_w_dev_pn547 (U) -> process:time_daemon_243 (U)
+12: file:nfc_device_w_dev_pn547 (U) -> process:thermal-engine_244 (U)
+13: file:nfc_device_w_dev_pn547 (U) -> process:tee_245 (U)
+14: file:nfc_device_w_dev_pn547 (U) -> process:zygote_3 (U)
+15: file:nfc_device_w_dev_pn547 (U) -> process:sensors_256 (U)
+16: file:nfc_device_w_dev_pn547 (U) -> process:sem_257 (U)
+17: file:nfc_device_w_dev_pn547 (U) -> process:rmt_storage_263 (U)
+18: file:nfc_device_w_dev_pn547 (U) -> process:rfs_access_265 (U)
+19: file:nfc_device_w_dev_pn547 (U) -> process:pd_mapper_294 (U)
+20: file:nfc_device_w_dev_pn547 (U) -> process:netmgrd_295 (U)
+21: file:nfc_device_w_dev_pn547 (U) -> process:netd_296 (U)
+22: file:nfc_device_w_dev_pn547 (U) -> process:lpm_310 (U)
+23: file:nfc_device_w_dev_pn547 (U) -> process:lmkd_318 (U)
+24: file:nfc_device_w_dev_pn547 (U) -> process:installd_327 (U)
+25: file:nfc_device_w_dev_pn547 (U) -> process:healthd_342 (U)
+26: file:nfc_device_w_dev_pn547 (U) -> process:hal_perf_default_355 (U)
+query>
+query>
+query> query file:nfc_device_r_dev_sec-nfc _ 1
+INFO: Start 1565200260.056774
+INFO: Query <file:nfc_device_r_dev_sec-nfc> -> <_> (cutoff 1)
+INFO: binary inst3 - ['o1191', '_', '1']
+INFO: Got 0 paths in 0.76 seconds (use `print` to display)
+query>
+
+

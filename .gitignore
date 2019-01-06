@@ -1,0 +1,13 @@
+*.swp
+*.swo
+
+.plq
+missing-fc-report.txt
+
+inst*
+facts.pl
+extract/
+policy/
+*.pyc
+__pycache__
+*.svg

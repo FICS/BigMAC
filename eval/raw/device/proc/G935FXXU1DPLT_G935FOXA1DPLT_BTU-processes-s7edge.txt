@@ -1,0 +1,1942 @@
+Exe:	/init
+Sid:	u:r:init:s0
+Name:	init
+Pid:	1
+PPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/init
+Sid:	u:r:ueventd:s0
+Name:	ueventd
+Pid:	2016
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/init
+Sid:	u:r:watchdogd:s0
+Name:	watchdogd
+Pid:	3012
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/logd
+Sid:	u:r:logd:s0
+Name:	logd
+Pid:	3033
+PPid:	1
+Uid:	1036	1036	1036	1036
+Gid:	1036	1036	1036	1036
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000000440000000
+CapEff:	0000000440000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/debuggerd
+Sid:	u:r:debuggerd:s0
+Name:	debuggerd
+Pid:	3107
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/debuggerd64
+Sid:	u:r:debuggerd:s0
+Name:	debuggerd64
+Pid:	3108
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/mcDriverDaemon
+Sid:	u:r:tee:s0
+Name:	mcDriverDaemon
+Pid:	3109
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/vold
+Sid:	u:r:vold:s0
+Name:	vold
+Pid:	3110
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/auditd
+Sid:	u:r:auditd:s0
+Name:	auditd
+Pid:	3114
+PPid:	1
+Uid:	1999	1999	1999	1999
+Gid:	1999	1999	1999	1999
+Groups:	1000 1032 1999 
+CapInh:	0000000000000000
+CapPrm:	0000000440000000
+CapEff:	0000000440000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/debuggerd64
+Sid:	u:r:debuggerd:s0
+Name:	debuggerd64:sig
+Pid:	3117
+PPid:	3108
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/debuggerd
+Sid:	u:r:debuggerd:s0
+Name:	debuggerd:sig
+Pid:	3118
+PPid:	3107
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/sbin/healthd
+Sid:	u:r:healthd:s0
+Name:	healthd
+Pid:	3675
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 3010 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/lmkd
+Sid:	u:r:lmkd:s0
+Name:	lmkd
+Pid:	3678
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/servicemanager
+Sid:	u:r:servicemanager:s0
+Name:	servicemanager
+Pid:	3679
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/surfaceflinger
+Sid:	u:r:surfaceflinger:s0
+Name:	surfaceflinger
+Pid:	3680
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1003	1003	1003	1003
+Groups:	1026 1048 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/cs
+Sid:	u:r:cs:s0
+Name:	cs
+Pid:	3681
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/secure_storage_daemon
+Sid:	u:r:secure_storage:s0
+Name:	secure_storage_
+Pid:	3682
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/ss_conn_daemon
+Sid:	u:r:ss_conn_daemon:s0
+Name:	ss_conn_daemon
+Pid:	3683
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	3003	3003	3003	3003
+Groups:	3004 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/edmaudit
+Sid:	u:r:edmaudit:s0
+Name:	edmaudit
+Pid:	3684
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000400000000
+CapEff:	0000000400000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/ss_kbservice_daemon
+Sid:	u:r:ss_kbservice_daemon:s0
+Name:	ss_kbservice_da
+Pid:	3685
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/drmserver
+Sid:	u:r:drmserver:s0
+Name:	drmserver
+Pid:	3686
+PPid:	1
+Uid:	1019	1019	1019	1019
+Gid:	1000	1000	1000	1000
+Groups:	1001 1019 1026 3003 3009 8001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/apaservice
+Sid:	u:r:apaservice:s0
+Name:	apaservice
+Pid:	3688
+PPid:	1
+Uid:	4001	4001	4001	4001
+Gid:	3003	3003	3003	3003
+Groups:	1015 1023 1028 2000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/jackservice
+Sid:	u:r:jackservice:s0
+Name:	jackservice
+Pid:	3689
+PPid:	1
+Uid:	4001	4001	4001	4001
+Gid:	1005	1005	1005	1005
+Groups:	2000 3003 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/sensorhubservice
+Sid:	u:r:sensorhubservice:s0
+Name:	sensorhubservic
+Pid:	3691
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1004	1004	1004	1004
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/bintvoutservice
+Sid:	u:r:bintvoutservice:s0
+Name:	Binder:3692_2
+Pid:	3692
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1003	1003	1003	1003
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/imsd
+Sid:	u:r:imsd:s0
+Name:	imsd
+Pid:	3693
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 3003 3004 3005 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000203087
+CapEff:	0000000000203087
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/argosd
+Sid:	u:r:argosd:s0
+Name:	argosd
+Pid:	3694
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/cellgeofenced
+Sid:	u:r:cellgeofenced:s0
+Name:	cellgeofenced
+Pid:	3695
+PPid:	1
+Uid:	1021	1021	1021	1021
+Gid:	1000	1000	1000	1000
+Groups:	3003 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/apexserver
+Sid:	u:r:apexserver:s0
+Name:	apexserver
+Pid:	3696
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1003 1013 1023 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/sh
+Sid:	u:r:rtc_log:s0
+Name:	rtc_log.sh
+Pid:	3697
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/sbin/cbd
+Sid:	u:r:cbd:s0
+Name:	cbd
+Pid:	3698
+PPid:	1
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1005 1007 1015 1028 2000 2001 3003 9998 
+CapInh:	0000000000000000
+CapPrm:	0000001400603002
+CapEff:	0000001400603002
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/diagexe
+Sid:	u:r:diagexe:s0
+Name:	diagexe
+Pid:	3699
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 3003 3004 
+CapInh:	0000000000000000
+CapPrm:	0000000000603002
+CapEff:	0000000000603002
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/ddexe
+Sid:	u:r:ddexe:s0
+Name:	ddexe
+Pid:	3700
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 3003 3004 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/smdexe
+Sid:	u:r:smdexe:s0
+Name:	smdexe
+Pid:	3701
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 3003 3004 
+CapInh:	0000000000000000
+CapPrm:	0000000000603002
+CapEff:	0000000000603002
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/connfwexe
+Sid:	u:r:connfwexe:s0
+Name:	connfwexe
+Pid:	3702
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 3003 3004 
+CapInh:	0000000000000000
+CapPrm:	0000000000603002
+CapEff:	0000000000603002
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/lhd
+Sid:	u:r:lhd:s0
+Name:	lhd
+Pid:	3703
+PPid:	1
+Uid:	1021	1021	1021	1021
+Gid:	1000	1000	1000	1000
+Groups:	3003 3004 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/gpsd
+Sid:	u:r:gpsd:s0
+Name:	gpsd
+Pid:	3704
+PPid:	1
+Uid:	1021	1021	1021	1021
+Gid:	1000	1000	1000	1000
+Groups:	3003 3004 3010 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:zygote:s0
+Name:	main
+Pid:	3706
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:zygote:s0
+Name:	main
+Pid:	3709
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/sdp_cryptod
+Sid:	u:r:sdp_cryptod:s0
+Name:	sdp_cryptod
+Pid:	3711
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/audioserver
+Sid:	u:r:audioserver:s0
+Name:	audioserver
+Pid:	3712
+PPid:	1
+Uid:	1041	1041	1041	1041
+Gid:	1005	1005	1005	1005
+Groups:	1006 1007 1013 1023 1026 1031 3001 3002 3003 3004 3007 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/cameraserver
+Sid:	u:r:cameraserver:s0
+Name:	cameraserver
+Pid:	3713
+PPid:	1
+Uid:	1047	1047	1047	1047
+Gid:	1023	1023	1023	1023
+Groups:	1000 1005 1006 1013 1026 1028 1031 2000 3001 3002 3003 3007 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/rild
+Sid:	u:r:rild:s0
+Name:	rild
+Pid:	3714
+PPid:	1
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1000 1005 1007 1015 1016 1028 2001 3003 3009 9998 
+CapInh:	0000000000000000
+CapPrm:	0000001000203005
+CapEff:	0000001000203005
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/installd
+Sid:	u:r:installd:s0
+Name:	installd
+Pid:	3715
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/keystore
+Sid:	u:r:keystore:s0
+Name:	keystore
+Pid:	3723
+PPid:	1
+Uid:	1017	1017	1017	1017
+Gid:	1017	1017	1017	1017
+Groups:	1000 1026 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/mediacodec
+Sid:	u:r:mediacodec:s0
+Name:	mediacodec
+Pid:	3725
+PPid:	1
+Uid:	1046	1046	1046	1046
+Gid:	1006	1006	1006	1006
+Groups:	1026 1031 1048 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/mediadrmserver
+Sid:	u:r:mediadrmserver:s0
+Name:	mediadrmserver
+Pid:	3726
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1000	1000	1000	1000
+Groups:	1001 1026 1031 3003 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/mediaextractor
+Sid:	u:r:mediaextractor:s0
+Name:	mediaextractor
+Pid:	3731
+PPid:	1
+Uid:	1040	1040	1040	1040
+Gid:	1026	1026	1026	1026
+Groups:	1031 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/mediaserver
+Sid:	u:r:mediaserver:s0
+Name:	mediaserver
+Pid:	3732
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1000	1000	1000	1000
+Groups:	1005 1006 1023 1026 1031 1048 3001 3002 3003 3007 6001 8001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/netd
+Sid:	u:r:netd:s0
+Name:	Binder:3733_2
+Pid:	3733
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/bootchecker
+Sid:	u:r:bootchecker:s0
+Name:	bootchecker
+Pid:	3734
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1007 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/fingerprintd
+Sid:	u:r:fingerprintd:s0
+Name:	fingerprintd
+Pid:	3736
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/at_distributor
+Sid:	u:r:at_distributor:s0
+Name:	at_distributor
+Pid:	3740
+PPid:	1
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1007 9998 
+CapInh:	0000000000000000
+CapPrm:	0000000002603003
+CapEff:	0000000002603003
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/gatekeeperd
+Sid:	u:r:gatekeeperd:s0
+Name:	gatekeeperd
+Pid:	3741
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/androidshmservice
+Sid:	u:r:jackservice:s0
+Name:	androidshmservi
+Pid:	3818
+PPid:	3689
+Uid:	4001	4001	4001	4001
+Gid:	1005	1005	1005	1005
+Groups:	2000 3003 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_server:s0
+Name:	system_server
+Pid:	4108
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1018 1021 1023 1032 3001 3002 3003 3004 3005 3006 3007 3008 3009 3010 
+CapInh:	0000000000000000
+CapPrm:	0000001007817c20
+CapEff:	0000001007817c20
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/tlc_server
+Sid:	u:r:tlc_server:s0
+Name:	tlc_server
+Pid:	4385
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/tlc_server
+Sid:	u:r:tlc_server:s0
+Name:	tlc_server
+Pid:	4386
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/otp_server
+Sid:	u:r:otp_server:s0
+Name:	otp_server
+Pid:	4411
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/magisk/.core/bin/su
+Sid:	u:r:su:s0
+Name:	su
+Pid:	4471
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:radio:s0
+Name:	m.android.phone
+Pid:	4566
+PPid:	3706
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1007 1015 1023 1030 3001 3002 3003 3006 9997 41001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:bluetooth:s0
+Name:	droid.bluetooth
+Pid:	4579
+PPid:	3709
+Uid:	1002	1002	1002	1002
+Gid:	1002	1002	1002	1002
+Groups:	1016 3001 3002 3003 3005 3008 3010 9997 41002 
+CapInh:	0000000000000000
+CapPrm:	0000001800002400
+CapEff:	0000001800002400
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	ndroid.systemui
+Pid:	4591
+PPid:	3706
+Uid:	10003	10003	10003	10003
+Gid:	10003	10003	10003	10003
+Groups:	1015 1023 3001 3002 3003 3006 9997 50003 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/sdcard
+Sid:	u:r:sdcardd:s0
+Name:	sdcard
+Pid:	4611
+PPid:	3110
+Uid:	1023	1023	1023	1023
+Gid:	1023	1023	1023	1023
+Groups:	1032 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	location.nsflp2
+Pid:	4761
+PPid:	3706
+Uid:	5013	5013	5013	5013
+Gid:	5013	5013	5013	5013
+Groups:	3003 9997 45013 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	ncymode.service
+Pid:	4778
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	com.sec.sve
+Pid:	4794
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	.sec.imsservice
+Pid:	4808
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	com.sec.epdg
+Pid:	4825
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	ndroid.settings
+Pid:	4840
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	.gms.persistent
+Pid:	4922
+PPid:	3706
+Uid:	10025	10025	10025	10025
+Gid:	10025	10025	10025	10025
+Groups:	1005 1007 2001 3001 3002 3003 3006 3007 9997 50025 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	id.ext.services
+Pid:	5018
+PPid:	3706
+Uid:	10027	10027	10027	10027
+Gid:	10027	10027	10027	10027
+Groups:	9997 50027 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/iod
+Sid:	u:r:iod:s0
+Name:	iod
+Pid:	5023
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	2000	2000	2000	2000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/sdcard
+Sid:	u:r:sdcardd:s0
+Name:	sdcard
+Pid:	5037
+PPid:	3110
+Uid:	1023	1023	1023	1023
+Gid:	1023	1023	1023	1023
+Groups:	1032 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	e.process.gapps
+Pid:	5122
+PPid:	3706
+Uid:	10025	10025	10025	10025
+Gid:	10025	10025	10025	10025
+Groups:	1005 1007 2001 3001 3002 3003 3006 3007 9997 50025 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	hbox:interactor
+Pid:	5144
+PPid:	3706
+Uid:	10088	10088	10088	10088
+Gid:	10088	10088	10088	10088
+Groups:	1005 3001 3002 3003 9997 50088 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	d.app.wfdbroker
+Pid:	5173
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	iobasedlocation
+Pid:	5182
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:nfc:s0
+Name:	com.android.nfc
+Pid:	5201
+PPid:	3706
+Uid:	1027	1027	1027	1027
+Gid:	1027	1027	1027	1027
+Groups:	3001 3002 3003 9997 41027 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	oviders.context
+Pid:	5214
+PPid:	3706
+Uid:	10011	10011	10011	10011
+Gid:	10011	10011	10011	10011
+Groups:	1007 1015 1023 3002 3003 3006 9997 50011 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	system
+Pid:	5229
+PPid:	3706
+Uid:	10000	10000	10000	10000
+Gid:	10000	10000	10000	10000
+Groups:	9997 50000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	tworkdiagnostic
+Pid:	5243
+PPid:	3706
+Uid:	5017	5017	5017	5017
+Gid:	5017	5017	5017	5017
+Groups:	3003 9997 45017 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	device.keyguard
+Pid:	5257
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	gle.android.gms
+Pid:	5270
+PPid:	3706
+Uid:	10025	10025	10025	10025
+Gid:	10025	10025	10025	10025
+Groups:	1005 1007 2001 3001 3002 3003 3006 3007 9997 50025 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	id.app.launcher
+Pid:	5320
+PPid:	3706
+Uid:	10082	10082	10082	10082
+Gid:	10082	10082	10082	10082
+Groups:	3001 3003 9997 50082 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	getapp.briefing
+Pid:	5340
+PPid:	3706
+Uid:	10095	10095	10095	10095
+Gid:	10095	10095	10095	10095
+Groups:	9997 50095 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	ce.peoplestripe
+Pid:	5359
+PPid:	3706
+Uid:	10044	10044	10044	10044
+Gid:	10044	10044	10044	10044
+Groups:	3003 9997 50044 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	.app.aodservice
+Pid:	5372
+PPid:	3706
+Uid:	10003	10003	10003	10003
+Gid:	10003	10003	10003	10003
+Groups:	1015 1023 3001 3002 3003 3006 9997 50003 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	d.process.acore
+Pid:	5386
+PPid:	3706
+Uid:	10005	10005	10005	10005
+Gid:	10005	10005	10005	10005
+Groups:	1015 1023 3002 3003 9997 50005 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	earchbox:search
+Pid:	5402
+PPid:	3706
+Uid:	10088	10088	10088	10088
+Gid:	10088	10088	10088	10088
+Groups:	1005 3001 3002 3003 9997 50088 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	.provider.badge
+Pid:	5469
+PPid:	3706
+Uid:	10006	10006	10006	10006
+Gid:	10006	10006	10006	10006
+Groups:	9997 50006 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	.service:remote
+Pid:	5506
+PPid:	3706
+Uid:	10163	10163	10163	10163
+Gid:	10163	10163	10163	10163
+Groups:	9997 50163 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	droid.daemonapp
+Pid:	5582
+PPid:	3706
+Uid:	10177	10177	10177	10177
+Gid:	10177	10177	10177	10177
+Groups:	3003 9997 50177 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	d.process.media
+Pid:	5684
+PPid:	3706
+Uid:	10040	10040	10040	10040
+Gid:	10040	10040	10040	10040
+Groups:	1015 1023 1024 2001 3001 3002 3003 3007 9997 50040 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	rosoft.skydrive
+Pid:	5766
+PPid:	3706
+Uid:	10051	10051	10051	10051
+Gid:	10051	10051	10051	10051
+Groups:	3003 9997 50051 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	samsung.cmh:CMH
+Pid:	5825
+PPid:	3706
+Uid:	5004	5004	5004	5004
+Gid:	5004	5004	5004	5004
+Groups:	1015 1023 3003 9997 45004 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	.enhanceservice
+Pid:	5934
+PPid:	3706
+Uid:	5004	5004	5004	5004
+Gid:	5004	5004	5004	5004
+Groups:	1015 1023 3003 9997 45004 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	sung.dcmservice
+Pid:	5947
+PPid:	3706
+Uid:	5004	5004	5004	5004
+Gid:	5004	5004	5004	5004
+Groups:	1015 1023 3003 9997 45004 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	ung.faceservice
+Pid:	5973
+PPid:	3706
+Uid:	5004	5004	5004	5004
+Gid:	5004	5004	5004	5004
+Groups:	1015 1023 3003 9997 45004 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	ng.storyservice
+Pid:	5987
+PPid:	3706
+Uid:	5004	5004	5004	5004
+Gid:	5004	5004	5004	5004
+Groups:	1015 1023 3003 9997 45004 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	msung.ipservice
+Pid:	5999
+PPid:	3706
+Uid:	5004	5004	5004	5004
+Gid:	5004	5004	5004	5004
+Groups:	1015 1023 3003 9997 45004 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	droid.messaging
+Pid:	6056
+PPid:	3706
+Uid:	10049	10049	10049	10049
+Gid:	10049	10049	10049	10049
+Groups:	1003 1015 1023 3003 9997 50049 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	ktailbarservice
+Pid:	6104
+PPid:	3706
+Uid:	10012	10012	10012	10012
+Gid:	10012	10012	10012	10012
+Groups:	3003 9997 50012 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	ndroid.contacts
+Pid:	6214
+PPid:	3706
+Uid:	10005	10005	10005	10005
+Gid:	10005	10005	10005	10005
+Groups:	1015 1023 3002 3003 9997 50005 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	ng.android.lool
+Pid:	6238
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:radio:s0
+Name:	com.sec.phone
+Pid:	6265
+PPid:	3706
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1007 1015 1023 1030 3001 3002 3003 3006 9997 41001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	onic.tuiservice
+Pid:	6307
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	m.sec.bcservice
+Pid:	6423
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	.ucs.agent.boot
+Pid:	6646
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	g.ucs.agent.ese
+Pid:	6660
+PPid:	3706
+Uid:	10106	10106	10106	10106
+Gid:	10106	10106	10106	10106
+Groups:	3003 9997 50106 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	.MtpApplication
+Pid:	6713
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	.app.soundalive
+Pid:	6726
+PPid:	3706
+Uid:	10075	10075	10075	10075
+Gid:	10075	10075	10075	10075
+Groups:	3002 3003 9997 50075 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	gedprovisioning
+Pid:	6770
+PPid:	3706
+Uid:	10039	10039	10039	10039
+Gid:	10039	10039	10039	10039
+Groups:	3003 9997 50039 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	viders.calendar
+Pid:	6814
+PPid:	3706
+Uid:	10063	10063	10063	10063
+Gid:	10063	10063	10063	10063
+Groups:	3003 9997 50063 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/sbin/adbd
+Sid:	u:r:adbd:s0
+Name:	adbd
+Pid:	6834
+PPid:	1
+Uid:	2000	2000	2000	2000
+Gid:	2000	2000	2000	2000
+Groups:	1004 1007 1011 1015 1028 3001 3002 3003 3006 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	00000000000000c0
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	id.defcontainer
+Pid:	6841
+PPid:	3706
+Uid:	10013	10013	10013	10013
+Gid:	10013	10013	10013	10013
+Groups:	1015 1023 2001 9997 50013 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	d.beaconmanager
+Pid:	7604
+PPid:	3706
+Uid:	5006	5006	5006	5006
+Gid:	5006	5006	5006	5006
+Groups:	3001 3002 9997 45006 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	nnect:QcService
+Pid:	7834
+PPid:	3706
+Uid:	10143	10143	10143	10143
+Gid:	10143	10143	10143	10143
+Groups:	1015 1023 3001 3002 3003 9997 50143 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:radio:s0
+Name:	m.samsung.crane
+Pid:	7996
+PPid:	3706
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1007 1015 1023 1030 3001 3002 3003 3006 9997 41001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	roid.app.camera
+Pid:	8069
+PPid:	3706
+Uid:	10056	10056	10056	10056
+Gid:	10056	10056	10056	10056
+Groups:	1015 1023 3003 9997 50056 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	droid.gallery3d
+Pid:	8399
+PPid:	3706
+Uid:	10068	10068	10068	10068
+Gid:	10068	10068	10068	10068
+Groups:	1003 1015 1023 3002 3003 9997 50068 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	om.sec.spp.push
+Pid:	8539
+PPid:	3706
+Uid:	10054	10054	10054	10054
+Gid:	10054	10054	10054	10054
+Groups:	3003 9997 50054 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	com.wssyncmldm
+Pid:	8583
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	me.twrp.twrpapp
+Pid:	8605
+PPid:	3706
+Uid:	10087	10087	10087	10087
+Gid:	10087	10087	10087	10087
+Groups:	3002 3003 9997 50087 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	ettingsReceiver
+Pid:	8662
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	android.vending
+Pid:	8711
+PPid:	3709
+Uid:	10046	10046	10046	10046
+Gid:	10046	10046	10046	10046
+Groups:	3003 9997 50046 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	nicationservice
+Pid:	8797
+PPid:	3706
+Uid:	5002	5002	5002	5002
+Gid:	5002	5002	5002	5002
+Groups:	3003 9997 45002 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	ndroid.coreapps
+Pid:	8813
+PPid:	3706
+Uid:	5011	5011	5011	5011
+Gid:	5011	5011	5011	5011
+Groups:	3003 9997 45011 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	sec.android.omc
+Pid:	8874
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	id.printspooler
+Pid:	8887
+PPid:	3706
+Uid:	10150	10150	10150	10150
+Gid:	10150	10150	10150	10150
+Groups:	9997 50150 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	oud:contentsync
+Pid:	8912
+PPid:	3706
+Uid:	5009	5009	5009	5009
+Gid:	5009	5009	5009	5009
+Groups:	1015 1023 3003 9997 45009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	msung.klmsagent
+Pid:	8942
+PPid:	3706
+Uid:	10036	10036	10036	10036
+Gid:	10036	10036	10036	10036
+Groups:	3003 9997 50036 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	droid.apps.maps
+Pid:	8967
+PPid:	3706
+Uid:	10146	10146	10146	10146
+Gid:	10146	10146	10146	10146
+Groups:	3001 3002 3003 9997 50146 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	t_app_installer
+Pid:	8989
+PPid:	3709
+Uid:	10046	10046	10046	10046
+Gid:	10046	10046	10046	10046
+Groups:	3003 9997 50046 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	ndroid.calendar
+Pid:	9068
+PPid:	3706
+Uid:	10158	10158	10158	10158
+Gid:	10158	10158	10158	10158
+Groups:	1015 1023 3002 3003 9997 50158 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	ogle.android.gm
+Pid:	9087
+PPid:	3706
+Uid:	10126	10126	10126	10126
+Gid:	10126	10126	10126	10126
+Groups:	3003 9997 50126 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	.android.gms.ui
+Pid:	9136
+PPid:	3706
+Uid:	10025	10025	10025	10025
+Gid:	10025	10025	10025	10025
+Groups:	1005 1007 2001 3001 3002 3003 3006 3007 9997 50025 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	p.simplesharing
+Pid:	9154
+PPid:	3706
+Uid:	5011	5011	5011	5011
+Gid:	5011	5011	5011	5011
+Groups:	3003 9997 45011 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	ndroid.svcagent
+Pid:	9194
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	id.diagmonagent
+Pid:	9208
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	ndroid.app.sns3
+Pid:	9221
+PPid:	3706
+Uid:	10052	10052	10052	10052
+Gid:	10052	10052	10052	10052
+Groups:	3003 9997 50052 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:policyloader_app:s0
+Name:	com.policydm
+Pid:	9246
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	android.soagent
+Pid:	9263
+PPid:	3706
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1015 1023 1024 2001 3001 3002 3003 3009 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	er:CustomLogger
+Pid:	9278
+PPid:	3709
+Uid:	10156	10156	10156	10156
+Gid:	10156	10156	10156	10156
+Groups:	1007 1015 1023 3001 3002 3003 8001 9997 50156 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	emoteDlcProcess
+Pid:	9303
+PPid:	3706
+Uid:	10054	10054	10054	10054
+Gid:	10054	10054	10054	10054
+Groups:	3003 9997 50054 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	moteNotiProcess
+Pid:	9322
+PPid:	3706
+Uid:	10054	10054	10054	10054
+Gid:	10054	10054	10054	10054
+Groups:	3003 9997 50054 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/sh
+Sid:	u:r:shell:s0
+Name:	sh
+Pid:	9378
+PPid:	6834
+Uid:	2000	2000	2000	2000
+Gid:	2000	2000	2000	2000
+Groups:	1004 1007 1011 1015 1028 3001 3002 3003 3006 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	00000000000000c0
+
+Exe:	/magisk/.core/bin/su
+Sid:	u:r:shell:s0
+Name:	su
+Pid:	9380
+PPid:	9378
+Uid:	2000	2000	2000	2000
+Gid:	2000	2000	2000	2000
+Groups:	1004 1007 1011 1015 1028 3001 3002 3003 3006 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	00000000000000c0
+
+Exe:	/magisk/.core/bin/su
+Sid:	u:r:su:s0
+Name:	su
+Pid:	9383
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+WARN: pid 9386 is gone
+WARN: pid 9387 is gone
+WARN: pid 9388 is gone
+WARN: pid 9389 is gone
+WARN: pid 9390 is gone

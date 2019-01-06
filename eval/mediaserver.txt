@@ -1,0 +1,98 @@
+query> query process:mediaserver_304 _ 1
+INFO: Start 1564096056.272561
+INFO: Query <process:mediaserver_304> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n75', '_', '1']
+INFO: Got 86 paths in 1.04 seconds (use `print` to display)
+query> print
+1: process:mediaserver_304 -> file:gpu_device_r_dev_kgsl-3d0
+2: process:mediaserver_304 -> file:video_device_r_dev_jpeg0
+3: process:mediaserver_304 -> file:video_device_r_dev_jpeg1
+4: process:mediaserver_304 -> file:video_device_r_dev_jpeg2
+5: process:mediaserver_304 -> file:video_device_r_dev_jpeg3
+6: process:mediaserver_304 -> file:video_device_r_dev_media0
+7: process:mediaserver_304 -> file:video_device_r_dev_v4l-subdev0
+8: process:mediaserver_304 -> file:video_device_r_dev_video0
+9: process:mediaserver_304 -> file:zero_device_r_dev_zero
+10: process:mediaserver_304 -> hwservice_manager:hal_graphics_allocator_hwservice_r_0
+11: process:mediaserver_304 -> hwservice_manager:hidl_allocator_hwservice_r_0
+12: process:mediaserver_304 -> hwservice_manager:hidl_manager_hwservice_r_0
+13: process:mediaserver_304 -> hwservice_manager:hidl_token_hwservice_r_0
+14: process:mediaserver_304 -> property_service:audio_prop_r_0
+15: process:mediaserver_304 -> property_service:camera_prop_r_0
+16: process:mediaserver_304 -> property_service:ctl_apexserver_prop_r_0
+17: process:mediaserver_304 -> property_service:sec_camera_prop_r_0
+18: process:mediaserver_304 -> property_service:secmm_prop_r_0
+19: process:mediaserver_304 -> service_manager:activity_service_r_0
+20: process:mediaserver_304 -> service_manager:appops_service_r_0
+21: process:mediaserver_304 -> service_manager:audioserver_service_r_0
+22: process:mediaserver_304 -> service_manager:batterystats_service_r_0
+23: process:mediaserver_304 -> service_manager:cameraserver_service_r_0
+24: process:mediaserver_304 -> service_manager:codecsolution_service_r_0
+25: process:mediaserver_304 -> file:hwbinder_device_r_dev_hwbinder
+26: process:mediaserver_304 -> service_manager:drmserver_service_r_0
+27: process:mediaserver_304 -> service_manager:keystore_service_r_0
+28: process:mediaserver_304 -> service_manager:media_session_service_r_0
+29: process:mediaserver_304 -> service_manager:mediadrmserver_service_r_0
+30: process:mediaserver_304 -> service_manager:mediaextractor_service_r_0
+31: process:mediaserver_304 -> service_manager:mediametrics_service_r_0
+32: process:mediaserver_304 -> service_manager:mediaserver_service_w_0
+33: process:mediaserver_304 -> service_manager:permission_service_r_0
+34: process:mediaserver_304 -> service_manager:power_service_r_0
+35: process:mediaserver_304 -> service_manager:processinfo_service_r_0
+36: process:mediaserver_304 -> service_manager:remotedisplay_service_r_0
+37: process:mediaserver_304 -> service_manager:scheduling_policy_service_r_0
+38: process:mediaserver_304 -> service_manager:surfaceflinger_service_r_0
+39: process:mediaserver_304 -> file:kgsl_device_r_dev_kgsl-2d0
+40: process:mediaserver_304 -> file:kgsl_device_r_dev_kgsl-2d1
+41: process:mediaserver_304 -> socket:logd_r_0
+42: process:mediaserver_304 -> socket:mediaserver_w_0
+43: process:mediaserver_304 -> socket:surfaceflinger_r_0
+44: process:mediaserver_304 -> file:media_data_file_data_mediadrm
+45: process:mediaserver_304 -> file:media_data_file_data_misc_media
+46: process:mediaserver_304 -> file:mobicore_user_device_r_dev_mobicore-user
+47: process:mediaserver_304 -> file:null_device_r_dev_null
+48: process:mediaserver_304 -> file:owntty_device_r_dev_tty
+49: process:mediaserver_304 -> file:ptmx_device_r_dev_ptmx
+50: process:mediaserver_304 -> binder:apaservice_r_0
+51: process:mediaserver_304 -> binder:apexserver_r_0
+52: process:mediaserver_304 -> file:random_device_r_dev_random
+53: process:mediaserver_304 -> file:random_device_r_dev_urandom
+54: process:mediaserver_304 -> binder:audioserver_r_0
+55: process:mediaserver_304 -> binder:cameraserver_r_0
+56: process:mediaserver_304 -> binder:drmserver_r_0
+57: process:mediaserver_304 -> binder:faced_r_0
+58: process:mediaserver_304 -> binder:filtered_untrusted_app_r_0
+59: process:mediaserver_304 -> binder:gatekeeperd_r_0
+60: process:mediaserver_304 -> binder:hal_allocator_default_r_0
+61: process:mediaserver_304 -> binder:hal_graphics_allocator_default_r_0
+62: process:mediaserver_304 -> binder:healthd_r_0
+63: process:mediaserver_304 -> binder:hwservicemanager_r_0
+64: process:mediaserver_304 -> binder:irisd_r_0
+65: process:mediaserver_304 -> binder:jackservice_r_0
+66: process:mediaserver_304 -> binder:keystore_r_0
+67: process:mediaserver_304 -> binder:mediadrmserver_r_0
+68: process:mediaserver_304 -> binder:mediaextractor_r_0
+69: process:mediaserver_304 -> binder:mediametrics_r_0
+70: process:mediaserver_304 -> binder:mediaserver_w_0
+71: process:mediaserver_304 -> binder:remotedisplay_r_0
+72: process:mediaserver_304 -> binder:rild_r_0
+73: process:mediaserver_304 -> binder:sec_untrusted_app_r_0
+74: process:mediaserver_304 -> binder:servicemanager_r_0
+75: process:mediaserver_304 -> binder:shell_r_0
+76: process:mediaserver_304 -> binder:surfaceflinger_r_0
+77: process:mediaserver_304 -> binder:system_server_r_0
+78: process:mediaserver_304 -> binder:tlc_server_r_0
+79: process:mediaserver_304 -> binder:untrusted_app_25_r_0
+80: process:mediaserver_304 -> binder:untrusted_app_r_0
+81: process:mediaserver_304 -> binder:visiond_r_0
+82: process:mediaserver_304 -> binder:vzwfiltered_untrusted_app_r_0
+83: process:mediaserver_304 -> file:ashmem_device_r_dev_ashmem
+84: process:mediaserver_304 -> file:binder_device_r_dev_binder
+85: process:mediaserver_304 -> file:camera_data_file_data_misc_camera
+86: process:mediaserver_304 -> file:tee_device_r_dev_qseecom
+query> query _ process:mediaserver_304 1
+INFO: Start 1564096074.027237
+INFO: Query <_> -> <process:mediaserver_304> (cutoff 1)
+INFO: binary inst3 - ['_', 'n75', '1']
+INFO: Got 9095 paths in 23.46 seconds (use `print` to display)
+query>

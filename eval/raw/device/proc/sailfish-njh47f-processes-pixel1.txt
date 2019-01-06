@@ -1,0 +1,1274 @@
+Exe:	/init
+Sid:	u:r:init:s0
+Name:	init
+Pid:	1
+PPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/init
+Sid:	u:r:ueventd:s0
+Name:	ueventd
+Pid:	410
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/logd
+Sid:	u:r:logd:s0
+Name:	logd
+Pid:	429
+PPid:	1
+Uid:	1036	1036	1036	1036
+Gid:	1036	1036	1036	1036
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000000440000000
+CapEff:	0000000440000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/servicemanager
+Sid:	u:r:servicemanager:s0
+Name:	servicemanager
+Pid:	496
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/surfaceflinger
+Sid:	u:r:surfaceflinger:s0
+Name:	surfaceflinger
+Pid:	498
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1003	1003	1003	1003
+Groups:	1026 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000800000
+CapEff:	0000000000800000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/audioserver
+Sid:	u:r:audioserver:s0
+Name:	audioserver
+Pid:	499
+PPid:	1
+Uid:	1041	1041	1041	1041
+Gid:	1005	1005	1005	1005
+Groups:	1006 1013 1026 1031 3001 3002 3003 3007 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/debuggerd
+Sid:	u:r:debuggerd:s0
+Name:	debuggerd
+Pid:	539
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/debuggerd64
+Sid:	u:r:debuggerd:s0
+Name:	debuggerd64
+Pid:	540
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/vold
+Sid:	u:r:vold:s0
+Name:	vold
+Pid:	541
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/debuggerd64
+Sid:	u:r:debuggerd:s0
+Name:	debuggerd64:sig
+Pid:	543
+PPid:	540
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/debuggerd
+Sid:	u:r:debuggerd:s0
+Name:	debuggerd:sig
+Pid:	544
+PPid:	539
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/sbin/magisk.bin
+Sid:	u:r:magisk:s0
+Name:	magisk.bin
+Pid:	560
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/sbin/magisk.bin
+Sid:	u:r:magisk:s0
+Name:	magisk.bin
+Pid:	566
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/sbin/.magisk/mirror/system/bin/logcat
+Sid:	u:r:magisk:s0
+Name:	logcat
+Pid:	575
+PPid:	566
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/root/healthd
+Sid:	u:r:healthd:s0
+Name:	healthd
+Pid:	602
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 3010 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/pm-service
+Sid:	u:r:per_mgr:s0
+Name:	pm-service
+Pid:	603
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000400
+CapEff:	0000000000000400
+CapBnd:	0000003fffffffff
+
+Exe:	/vendor/bin/qseecomd
+Sid:	u:r:tee:s0
+Name:	qseecomd
+Pid:	604
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000020000
+CapEff:	0000000000020000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/rmt_storage
+Sid:	u:r:rmt:s0
+Name:	rmt_storage
+Pid:	606
+PPid:	1
+Uid:	9999	9999	9999	9999
+Gid:	1000	1000	1000	1000
+Groups:	1000 3010 
+CapInh:	0000000000000000
+CapPrm:	0000001000000400
+CapEff:	0000001000000400
+CapBnd:	00000010000004c0
+
+Exe:	/vendor/bin/msm_irqbalance
+Sid:	u:r:irqbalance:s0
+Name:	msm_irqbalance
+Pid:	607
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/lmkd
+Sid:	u:r:lmkd:s0
+Name:	lmkd
+Pid:	608
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/vendor/bin/qseecomd
+Sid:	u:r:tee:s0
+Name:	qseecomd
+Pid:	610
+PPid:	604
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000020000
+CapEff:	0000000000020000
+CapBnd:	0000003fffffffff
+
+Exe:	/root/adbd
+Sid:	u:r:adbd:s0
+Name:	adbd
+Pid:	637
+PPid:	1
+Uid:	2000	2000	2000	2000
+Gid:	2000	2000	2000	2000
+Groups:	1004 1007 1011 1015 1028 3001 3002 3003 3006 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	00000000000000c0
+
+Exe:	/system/bin/pm-proxy
+Sid:	u:r:per_proxy:s0
+Name:	pm-proxy
+Pid:	638
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/vendor/bin/thermal-engine
+Sid:	u:r:thermal-engine:s0
+Name:	thermal-engine
+Pid:	652
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/adsprpcd
+Sid:	u:r:adsprpcd:s0
+Name:	adsprpcd
+Pid:	653
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1013	1013	1013	1013
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/imsqmidaemon
+Sid:	u:r:ims:s0
+Name:	imsqmidaemon
+Pid:	654
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1001	1001	1001	1001
+Groups:	1007 2002 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/port-bridge
+Sid:	u:r:port-bridge:s0
+Name:	port-bridge
+Pid:	656
+PPid:	1
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1000 3003 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/netmgrd
+Sid:	u:r:netmgrd:s0
+Name:	netmgrd
+Pid:	657
+PPid:	1
+Uid:	1001	1001	1001	1001
+Gid:	3003	3003	3003	3003
+Groups:	1001 1010 3003 3010 
+CapInh:	0000000000000000
+CapPrm:	0000001000003000
+CapEff:	0000001000003000
+CapBnd:	00000010000030c0
+
+Exe:	/vendor/bin/perfd
+Sid:	u:r:perfd:s0
+Name:	perfd
+Pid:	658
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:zygote:s0
+Name:	main
+Pid:	659
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:zygote:s0
+Name:	main
+Pid:	660
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/cameraserver
+Sid:	u:r:cameraserver:s0
+Name:	cameraserver
+Pid:	661
+PPid:	1
+Uid:	1047	1047	1047	1047
+Gid:	1005	1005	1005	1005
+Groups:	1004 1006 1026 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/drmserver
+Sid:	u:r:drmserver:s0
+Name:	drmserver
+Pid:	662
+PPid:	1
+Uid:	1019	1019	1019	1019
+Gid:	1019	1019	1019	1019
+Groups:	1000 1026 3003 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/installd
+Sid:	u:r:installd:s0
+Name:	installd
+Pid:	663
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/keystore
+Sid:	u:r:keystore:s0
+Name:	keystore
+Pid:	664
+PPid:	1
+Uid:	1017	1017	1017	1017
+Gid:	1017	1017	1017	1017
+Groups:	1026 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/mediacodec
+Sid:	u:r:mediacodec:s0
+Name:	mediacodec
+Pid:	665
+PPid:	1
+Uid:	1046	1046	1046	1046
+Gid:	1006	1006	1006	1006
+Groups:	1026 1031 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/mediadrmserver
+Sid:	u:r:mediadrmserver:s0
+Name:	mediadrmserver
+Pid:	666
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1031	1031	1031	1031
+Groups:	1026 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/mediaextractor
+Sid:	u:r:mediaextractor:s0
+Name:	mediaextractor
+Pid:	667
+PPid:	1
+Uid:	1040	1040	1040	1040
+Gid:	1026	1026	1026	1026
+Groups:	1031 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/mediaserver
+Sid:	u:r:mediaserver:s0
+Name:	mediaserver
+Pid:	668
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1005	1005	1005	1005
+Groups:	1006 1026 1031 3001 3002 3003 3007 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/netd
+Sid:	u:r:netd:s0
+Name:	Binder:669_2
+Pid:	669
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/rild
+Sid:	u:r:rild:s0
+Name:	rild
+Pid:	670
+PPid:	1
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1005 1007 2001 3003 3009 3010 9998 
+CapInh:	0000000000000000
+CapPrm:	0000001000003000
+CapEff:	0000001000003000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/fingerprintd
+Sid:	u:r:fingerprintd:s0
+Name:	fingerprintd
+Pid:	672
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/time_daemon
+Sid:	u:r:time:s0
+Name:	time_daemon
+Pid:	673
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	3004	3004	3004	3004
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000002000000
+CapEff:	0000000002000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/cnd
+Sid:	u:r:cnd:s0
+Name:	cnd
+Pid:	674
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1010 
+CapInh:	0000000000000000
+CapPrm:	0000001000000411
+CapEff:	0000001000000411
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/cnss-daemon
+Sid:	u:r:cnss-daemon:s0
+Name:	cnss-daemon
+Pid:	676
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1010 3003 3005 
+CapInh:	0000000000000000
+CapPrm:	0000000000000400
+CapEff:	0000000000000400
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/loc_launcher
+Sid:	u:r:location:s0
+Name:	loc_launcher
+Pid:	677
+PPid:	1
+Uid:	1021	1021	1021	1021
+Gid:	1021	1021	1021	1021
+Groups:	1010 2002 3003 
+CapInh:	0000000000000000
+CapPrm:	00000000000000c0
+CapEff:	00000000000000c0
+CapBnd:	0000003fffffffff
+
+Exe:	/vendor/bin/nanohub_slpi
+Sid:	u:r:nanohub_slpi:s0
+Name:	nanohub_slpi
+Pid:	679
+PPid:	1
+Uid:	0	0	0	0
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/gatekeeperd
+Sid:	u:r:gatekeeperd:s0
+Name:	gatekeeperd
+Pid:	680
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/update_engine
+Sid:	u:r:update_engine:s0
+Name:	update_engine
+Pid:	682
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 1038 2001 3003 3010 
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/imsdatadaemon
+Sid:	u:r:ims:s0
+Name:	imsdatadaemon
+Pid:	688
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1010 2002 3003 
+CapInh:	0000000000000000
+CapPrm:	0000000000000400
+CapEff:	0000000000000400
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_server:s0
+Name:	system_server
+Pid:	1068
+PPid:	659
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1018 1021 1032 3001 3002 3003 3006 3007 3009 3010 
+CapInh:	0000000000000000
+CapPrm:	0000001006897c20
+CapEff:	0000001006897c20
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/lowi-server
+Sid:	u:r:location:s0
+Name:	lowi-server
+Pid:	1195
+PPid:	677
+Uid:	1021	1021	1021	1021
+Gid:	1021	1021	1021	1021
+Groups:	0 1010 1021 3003 3005 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/vendor/bin/slim_daemon
+Sid:	u:r:location:s0
+Name:	slim_daemon
+Pid:	1196
+PPid:	677
+Uid:	1021	1021	1021	1021
+Gid:	1021	1021	1021	1021
+Groups:	1021 3004 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/wpa_supplicant
+Sid:	u:r:wpa:s0
+Name:	wpa_supplicant
+Pid:	1480
+PPid:	1
+Uid:	1010	1010	1010	1010
+Gid:	1010	1010	1010	1010
+Groups:	1010 1017 3003 
+CapInh:	0000000000000000
+CapPrm:	0000000000003000
+CapEff:	0000000000003000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:bluetooth:s0
+Name:	droid.bluetooth
+Pid:	1482
+PPid:	660
+Uid:	1002	1002	1002	1002
+Gid:	1002	1002	1002	1002
+Groups:	1016 3001 3002 3003 3005 3008 3010 9997 41002 
+CapInh:	0000000000000000
+CapPrm:	0000001800002400
+CapEff:	0000001800002400
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	putmethod.latin
+Pid:	1488
+PPid:	659
+Uid:	10080	10080	10080	10080
+Gid:	10080	10080	10080	10080
+Groups:	3003 9997 50080 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/sdcard
+Sid:	u:r:sdcardd:s0
+Name:	sdcard
+Pid:	1507
+PPid:	541
+Uid:	1023	1023	1023	1023
+Gid:	1023	1023	1023	1023
+Groups:	1032 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:platform_app:s0:c512,c768
+Name:	ndroid.systemui
+Pid:	1543
+PPid:	659
+Uid:	10043	10043	10043	10043
+Gid:	10043	10043	10043	10043
+Groups:	1015 1023 3001 3002 3006 9997 50043 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	com.ustwo.lwp
+Pid:	1624
+PPid:	659
+Uid:	10101	10101	10101	10101
+Gid:	10101	10101	10101	10101
+Groups:	3003 9997 50101 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	.gms.persistent
+Pid:	1664
+PPid:	659
+Uid:	10018	10018	10018	10018
+Gid:	10018	10018	10018	10018
+Groups:	1005 1007 2001 3001 3002 3003 3006 3007 9997 50018 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	.cne.CNEService
+Pid:	1685
+PPid:	659
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1015 1023 3001 3002 3003 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:radio:s0
+Name:	m.android.phone
+Pid:	1692
+PPid:	659
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1005 2002 3001 3002 3003 9997 41001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	ndroid.settings
+Pid:	1712
+PPid:	659
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1015 1023 3001 3002 3003 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/wcnss_filter
+Sid:	u:r:wcnss_filter:s0
+Name:	wcnss_filter
+Pid:	1923
+PPid:	1
+Uid:	1002	1002	1002	1002
+Gid:	1002	1002	1002	1002
+Groups:	2002 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	id.ext.services
+Pid:	2025
+PPid:	659
+Uid:	10022	10022	10022	10022
+Gid:	10022	10022	10022	10022
+Groups:	9997 50022 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	e.process.gapps
+Pid:	2057
+PPid:	659
+Uid:	10018	10018	10018	10018
+Gid:	10018	10018	10018	10018
+Groups:	1005 1007 2001 3001 3002 3003 3006 3007 9997 50018 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	hbox:interactor
+Pid:	2084
+PPid:	659
+Uid:	10048	10048	10048	10048
+Gid:	10048	10048	10048	10048
+Groups:	1005 3001 3002 3003 9997 50048 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:nfc:s0
+Name:	com.android.nfc
+Pid:	2099
+PPid:	659
+Uid:	1027	1027	1027	1027
+Gid:	1027	1027	1027	1027
+Groups:	3001 3002 3003 9997 41027 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:radio:s0
+Name:	.ims.rcsservice
+Pid:	2105
+PPid:	659
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1005 2002 3001 3002 3003 9997 41001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:radio:s0
+Name:	csbootstraputil
+Pid:	2113
+PPid:	659
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1005 2002 3001 3002 3003 9997 41001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	RestartDetector
+Pid:	2130
+PPid:	659
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1015 1023 3001 3002 3003 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	id.printspooler
+Pid:	2152
+PPid:	659
+Uid:	10093	10093	10093	10093
+Gid:	10093	10093	10093	10093
+Groups:	9997 50093 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	s.nexuslauncher
+Pid:	2162
+PPid:	659
+Uid:	10032	10032	10032	10032
+Gid:	10032	10032	10032	10032
+Groups:	3003 9997 50032 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	oogle.vr.vrcore
+Pid:	2186
+PPid:	659
+Uid:	10076	10076	10076	10076
+Gid:	10076	10076	10076	10076
+Groups:	3001 3002 3003 9997 50076 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	earchbox:search
+Pid:	2253
+PPid:	659
+Uid:	10048	10048	10048	10048
+Gid:	10048	10048	10048	10048
+Groups:	1005 3001 3002 3003 9997 50048 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	gle.android.gms
+Pid:	2352
+PPid:	659
+Uid:	10018	10018	10018	10018
+Gid:	10018	10018	10018	10018
+Groups:	1005 1007 2001 3001 3002 3003 3006 3007 9997 50018 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	d.process.media
+Pid:	2357
+PPid:	659
+Uid:	10013	10013	10013	10013
+Gid:	10013	10013	10013	10013
+Groups:	1015 1023 1024 2001 3003 3007 9997 50013 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	opjohnwu.magisk
+Pid:	2555
+PPid:	659
+Uid:	10115	10115	10115	10115
+Gid:	10115	10115	10115	10115
+Groups:	3003 9997 50115 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/sbin/magisk.bin
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	magisk.bin
+Pid:	2576
+PPid:	2555
+Uid:	10115	10115	10115	10115
+Gid:	10115	10115	10115	10115
+Groups:	3003 9997 50115 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/sh
+Sid:	u:r:magisk:s0
+Name:	sh
+Pid:	2582
+PPid:	560
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	viders.calendar
+Pid:	2723
+PPid:	659
+Uid:	10003	10003	10003	10003
+Gid:	10003	10003	10003	10003
+Groups:	3003 9997 50003 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	android.vending
+Pid:	2742
+PPid:	660
+Uid:	10035	10035	10035	10035
+Gid:	10035	10035	10035	10035
+Groups:	3003 9997 50035 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	s.messaging:rcs
+Pid:	2956
+PPid:	659
+Uid:	10090	10090	10090	10090
+Gid:	10090	10090	10090	10090
+Groups:	3003 9997 50090 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	id.gms.unstable
+Pid:	3377
+PPid:	659
+Uid:	10018	10018	10018	10018
+Gid:	10018	10018	10018	10018
+Groups:	1005 1007 2001 3001 3002 3003 3006 3007 9997 50018 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	ssodownloadable
+Pid:	3508
+PPid:	660
+Uid:	10050	10050	10050	10050
+Gid:	10050	10050	10050	10050
+Groups:	3003 9997 50050 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:radio:s0
+Name:	.qcrilmsgtunnel
+Pid:	3547
+PPid:	659
+Uid:	1001	1001	1001	1001
+Gid:	1001	1001	1001	1001
+Groups:	1005 2002 3001 3002 3003 9997 41001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	lcomm.telephony
+Pid:	3552
+PPid:	659
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1015 1023 3001 3002 3003 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/ATFWD-daemon
+Sid:	u:r:atfwd:s0
+Name:	ATFWD-daemon
+Pid:	3583
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	roid.music:main
+Pid:	3848
+PPid:	659
+Uid:	10083	10083	10083	10083
+Gid:	10083	10083	10083	10083
+Groups:	3002 3003 9997 50083 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	droid.deskclock
+Pid:	3947
+PPid:	659
+Uid:	10091	10091	10091	10091
+Gid:	10091	10091	10091	10091
+Groups:	3003 9997 50091 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_app:s0
+Name:	omm.timeservice
+Pid:	3970
+PPid:	659
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1015 1023 3001 3002 3003 9997 41000 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	oid.apps.photos
+Pid:	3994
+PPid:	659
+Uid:	10088	10088	10088	10088
+Gid:	10088	10088	10088	10088
+Groups:	3002 3003 9997 50088 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	ogle.android.gm
+Pid:	4013
+PPid:	659
+Uid:	10092	10092	10092	10092
+Gid:	10092	10092	10092	10092
+Groups:	3003 9997 50092 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:untrusted_app:s0:c512,c768
+Name:	.android.chrome
+Pid:	4044
+PPid:	660
+Uid:	10061	10061	10061	10061
+Gid:	10061	10061	10061	10061
+Groups:	3001 3002 3003 9997 50061 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	ndroid.apps.gcs
+Pid:	4082
+PPid:	659
+Uid:	10016	10016	10016	10016
+Gid:	10016	10016	10016	10016
+Groups:	3003 9997 50016 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:priv_app:s0:c512,c768
+Name:	.android.gms.ui
+Pid:	4162
+PPid:	659
+Uid:	10018	10018	10018	10018
+Gid:	10018	10018	10018	10018
+Groups:	1005 1007 2001 3001 3002 3003 3006 3007 9997 50018 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000000000000000
+
+Exe:	/system/bin/sh
+Sid:	u:r:shell:s0
+Name:	sh
+Pid:	16899
+PPid:	637
+Uid:	2000	2000	2000	2000
+Gid:	2000	2000	2000	2000
+Groups:	1004 1007 1011 1015 1028 3001 3002 3003 3006 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	00000000000000c0
+
+Exe:	/sbin/magisk.bin
+Sid:	u:r:shell:s0
+Name:	magisk.bin
+Pid:	16901
+PPid:	16899
+Uid:	2000	2000	2000	2000
+Gid:	2000	2000	2000	2000
+Groups:	1004 1007 1011 1015 1028 3001 3002 3003 3006 3009 
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	00000000000000c0
+

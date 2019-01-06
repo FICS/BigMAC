@@ -1,0 +1,1038 @@
+query> query file:mtp_device_r_dev_mtp_usb _ 1
+INFO: Start 1564425010.835133
+INFO: Query <file:mtp_device_r_dev_mtp_usb> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1306', '_', '1']
+INFO: Got 0 paths in 0.75 seconds (use `print` to display)
+query> query file:mtp_device_r_dev_mtp_usb _ 2
+INFO: Start 1564425033.869620
+INFO: Query <file:mtp_device_r_dev_mtp_usb> -> <_> (cutoff 2)
+INFO: binary inst3 - ['n1306', '_', '2']
+INFO: Got 0 paths in 0.75 seconds (use `print` to display)
+query> query file:mtp_device_w_dev_mtp_usb _ 1
+INFO: Start 1564425093.384060
+INFO: Query <file:mtp_device_w_dev_mtp_usb> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1308', '_', '1']
+INFO: Got 39 paths in 1.13 seconds (use `print` to display)
+query> print
+1: file:mtp_device_w_dev_mtp_usb -> process:DMM-daemon_417
+2: file:mtp_device_w_dev_mtp_usb -> process:adbd_416
+3: file:mtp_device_w_dev_mtp_usb -> process:connfwexe_402
+4: file:mtp_device_w_dev_mtp_usb -> process:rfs_access_265
+5: file:mtp_device_w_dev_mtp_usb -> process:rmt_storage_263
+6: file:mtp_device_w_dev_mtp_usb -> process:ddexe_399
+7: file:mtp_device_w_dev_mtp_usb -> process:sensors_256
+8: file:mtp_device_w_dev_mtp_usb -> process:smdexe_253
+9: file:mtp_device_w_dev_mtp_usb -> process:storaged_249
+10: file:mtp_device_w_dev_mtp_usb -> process:diag_392
+11: file:mtp_device_w_dev_mtp_usb -> process:tee_245
+12: file:mtp_device_w_dev_mtp_usb -> process:thermal-engine_244
+13: file:mtp_device_w_dev_mtp_usb -> process:time_daemon_243
+14: file:mtp_device_w_dev_mtp_usb -> process:vold_220
+15: file:mtp_device_w_dev_mtp_usb -> process:diag_393
+16: file:mtp_device_w_dev_mtp_usb -> process:zygote_2
+17: file:mtp_device_w_dev_mtp_usb -> process:zygote_3
+18: file:mtp_device_w_dev_mtp_usb -> process:diag_394
+19: file:mtp_device_w_dev_mtp_usb -> process:diag_395
+20: file:mtp_device_w_dev_mtp_usb -> process:diag_396
+21: file:mtp_device_w_dev_mtp_usb -> process:diag_397
+22: file:mtp_device_w_dev_mtp_usb -> process:edmaudit_388
+23: file:mtp_device_w_dev_mtp_usb -> process:hal_iop_default_360
+24: file:mtp_device_w_dev_mtp_usb -> process:hal_perf_default_355
+25: file:mtp_device_w_dev_mtp_usb -> process:at_distributor_412
+26: file:mtp_device_w_dev_mtp_usb -> process:healthd_342
+27: file:mtp_device_w_dev_mtp_usb -> process:init_1
+28: file:mtp_device_w_dev_mtp_usb -> process:installd_327
+29: file:mtp_device_w_dev_mtp_usb -> process:lmkd_318
+30: file:mtp_device_w_dev_mtp_usb -> process:location_312
+31: file:mtp_device_w_dev_mtp_usb -> process:location_313
+32: file:mtp_device_w_dev_mtp_usb -> process:location_314
+33: file:mtp_device_w_dev_mtp_usb -> process:location_315
+34: file:mtp_device_w_dev_mtp_usb -> process:location_316
+35: file:mtp_device_w_dev_mtp_usb -> process:location_317
+36: file:mtp_device_w_dev_mtp_usb -> process:lpm_310
+37: file:mtp_device_w_dev_mtp_usb -> process:netd_296
+38: file:mtp_device_w_dev_mtp_usb -> process:netmgrd_295
+39: file:mtp_device_w_dev_mtp_usb -> process:pd_mapper_294
+query> query file:mtp_device_r_dev_usb_mtp_gadget _ 1
+INFO: Start 1564426077.048024
+INFO: Query <file:mtp_device_r_dev_usb_mtp_gadget> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1307', '_', '1']
+INFO: Got 0 paths in 0.80 seconds (use `print` to display)
+query> query file:mtp_device_w_dev_usb_mtp_gadget _ 1
+INFO: Start 1564426083.071279
+INFO: Query <file:mtp_device_w_dev_usb_mtp_gadget> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1309', '_', '1']
+INFO: Got 67 paths in 1.05 seconds (use `print` to display)
+query> print
+1: file:mtp_device_w_dev_usb_mtp_gadget -> process:DMM-daemon_417
+2: file:mtp_device_w_dev_usb_mtp_gadget -> process:adbd_416
+3: file:mtp_device_w_dev_usb_mtp_gadget -> process:rfs_access_265
+4: file:mtp_device_w_dev_usb_mtp_gadget -> process:rmt_storage_263
+5: file:mtp_device_w_dev_usb_mtp_gadget -> process:sdp_cryptod_260
+6: file:mtp_device_w_dev_usb_mtp_gadget -> process:secure_storage_258
+7: file:mtp_device_w_dev_usb_mtp_gadget -> process:sem_257
+8: file:mtp_device_w_dev_usb_mtp_gadget -> process:sensors_256
+9: file:mtp_device_w_dev_usb_mtp_gadget -> process:servicemanager_255
+10: file:mtp_device_w_dev_usb_mtp_gadget -> process:ss_conn_daemon_252
+11: file:mtp_device_w_dev_usb_mtp_gadget -> process:ssr_diag_251
+12: file:mtp_device_w_dev_usb_mtp_gadget -> process:subsystem_ramdump_248
+13: file:mtp_device_w_dev_usb_mtp_gadget -> process:surfaceflinger_247
+14: file:mtp_device_w_dev_usb_mtp_gadget -> process:system_server_21
+15: file:mtp_device_w_dev_usb_mtp_gadget -> process:tee_245
+16: file:mtp_device_w_dev_usb_mtp_gadget -> process:thermal-engine_244
+17: file:mtp_device_w_dev_usb_mtp_gadget -> process:time_daemon_243
+18: file:mtp_device_w_dev_usb_mtp_gadget -> process:tlc_server_242
+19: file:mtp_device_w_dev_usb_mtp_gadget -> process:vndservicemanager_232
+20: file:mtp_device_w_dev_usb_mtp_gadget -> process:vold_220
+21: file:mtp_device_w_dev_usb_mtp_gadget -> process:wsmd_214
+22: file:mtp_device_w_dev_usb_mtp_gadget -> process:zygote_2
+23: file:mtp_device_w_dev_usb_mtp_gadget -> process:zygote_3
+24: file:mtp_device_w_dev_usb_mtp_gadget -> process:edmaudit_388
+25: file:mtp_device_w_dev_usb_mtp_gadget -> process:faced_384
+26: file:mtp_device_w_dev_usb_mtp_gadget -> process:factory_adsp_383
+27: file:mtp_device_w_dev_usb_mtp_gadget -> process:gatekeeperd_374
+28: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_allocator_default_373
+29: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_configstore_default_370
+30: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_fingerprint_default_366
+31: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_gatekeeper_default_365
+32: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_gnss_default_364
+33: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_graphics_allocator_default_363
+34: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_graphics_composer_default_362
+35: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_health_default_361
+36: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_iop_default_360
+37: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_keymaster_default_359
+38: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_light_default_358
+39: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_memtrack_default_357
+40: file:mtp_device_w_dev_usb_mtp_gadget -> process:apexserver_413
+41: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_perf_default_355
+42: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_power_default_353
+43: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_power_default_354
+44: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_qdutils_disp_qti_352
+45: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_qteeconnector_qti_351
+46: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_sensors_default_350
+47: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_thermal_default_349
+48: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_tui_comm_qti_348
+49: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_vibrator_default_347
+50: file:mtp_device_w_dev_usb_mtp_gadget -> process:hal_vr_default_346
+51: file:mtp_device_w_dev_usb_mtp_gadget -> process:hbtp_343
+52: file:mtp_device_w_dev_usb_mtp_gadget -> process:healthd_342
+53: file:mtp_device_w_dev_usb_mtp_gadget -> process:hwservicemanager_338
+54: file:mtp_device_w_dev_usb_mtp_gadget -> process:imsd_336
+55: file:mtp_device_w_dev_usb_mtp_gadget -> process:init_1
+56: file:mtp_device_w_dev_usb_mtp_gadget -> process:installd_327
+57: file:mtp_device_w_dev_usb_mtp_gadget -> process:irisd_322
+58: file:mtp_device_w_dev_usb_mtp_gadget -> process:atfwd_411
+59: file:mtp_device_w_dev_usb_mtp_gadget -> process:lmkd_318
+60: file:mtp_device_w_dev_usb_mtp_gadget -> process:lpm_310
+61: file:mtp_device_w_dev_usb_mtp_gadget -> process:mobicoredaemon_301
+62: file:mtp_device_w_dev_usb_mtp_gadget -> process:netd_296
+63: file:mtp_device_w_dev_usb_mtp_gadget -> process:netmgrd_295
+64: file:mtp_device_w_dev_usb_mtp_gadget -> process:pd_mapper_294
+65: file:mtp_device_w_dev_usb_mtp_gadget -> process:bsd_405
+66: file:mtp_device_w_dev_usb_mtp_gadget -> process:per_mgr_292
+67: file:mtp_device_w_dev_usb_mtp_gadget -> process:per_mgr_293
+query> query file:at_device_r_dev_at_usb0 _ 1
+INFO: Start 1564426152.734977
+INFO: Query <file:at_device_r_dev_at_usb0> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n372', '_', '1']
+INFO: Got 0 paths in 0.82 seconds (use `print` to display)
+query> query file:at_device_w_dev_at_usb0 _ 1
+INFO: Start 1564426158.320002
+INFO: Query <file:at_device_w_dev_at_usb0> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n374', '_', '1']
+INFO: Got 41 paths in 1.03 seconds (use `print` to display)
+query> print
+1: file:at_device_w_dev_at_usb0 -> process:DMM-daemon_417
+2: file:at_device_w_dev_at_usb0 -> process:adbd_416
+3: file:at_device_w_dev_at_usb0 -> process:connfwexe_402
+4: file:at_device_w_dev_at_usb0 -> process:rfs_access_265
+5: file:at_device_w_dev_at_usb0 -> process:rild_264
+6: file:at_device_w_dev_at_usb0 -> process:rmt_storage_263
+7: file:at_device_w_dev_at_usb0 -> process:ddexe_399
+8: file:at_device_w_dev_at_usb0 -> process:sensors_256
+9: file:at_device_w_dev_at_usb0 -> process:smdexe_253
+10: file:at_device_w_dev_at_usb0 -> process:system_server_21
+11: file:at_device_w_dev_at_usb0 -> process:diag_392
+12: file:at_device_w_dev_at_usb0 -> process:tee_245
+13: file:at_device_w_dev_at_usb0 -> process:thermal-engine_244
+14: file:at_device_w_dev_at_usb0 -> process:time_daemon_243
+15: file:at_device_w_dev_at_usb0 -> process:vold_220
+16: file:at_device_w_dev_at_usb0 -> process:diag_393
+17: file:at_device_w_dev_at_usb0 -> process:zygote_2
+18: file:at_device_w_dev_at_usb0 -> process:zygote_3
+19: file:at_device_w_dev_at_usb0 -> process:diag_394
+20: file:at_device_w_dev_at_usb0 -> process:diag_395
+21: file:at_device_w_dev_at_usb0 -> process:diag_396
+22: file:at_device_w_dev_at_usb0 -> process:diag_397
+23: file:at_device_w_dev_at_usb0 -> process:edmaudit_388
+24: file:at_device_w_dev_at_usb0 -> process:factory_adsp_383
+25: file:at_device_w_dev_at_usb0 -> process:hal_drm_default_367
+26: file:at_device_w_dev_at_usb0 -> process:hal_iop_default_360
+27: file:at_device_w_dev_at_usb0 -> process:hal_perf_default_355
+28: file:at_device_w_dev_at_usb0 -> process:at_distributor_412
+29: file:at_device_w_dev_at_usb0 -> process:healthd_342
+30: file:at_device_w_dev_at_usb0 -> process:imsd_336
+31: file:at_device_w_dev_at_usb0 -> process:init_1
+32: file:at_device_w_dev_at_usb0 -> process:installd_327
+33: file:at_device_w_dev_at_usb0 -> process:ipacm-diag_323
+34: file:at_device_w_dev_at_usb0 -> process:ipacm_324
+35: file:at_device_w_dev_at_usb0 -> process:atfwd_411
+36: file:at_device_w_dev_at_usb0 -> process:lmkd_318
+37: file:at_device_w_dev_at_usb0 -> process:lpm_310
+38: file:at_device_w_dev_at_usb0 -> process:mediadrmserver_307
+39: file:at_device_w_dev_at_usb0 -> process:netd_296
+40: file:at_device_w_dev_at_usb0 -> process:netmgrd_295
+41: file:at_device_w_dev_at_usb0 -> process:pd_mapper_294
+query>
+
+
+
+query> query file:device_r_dev_usb-ffs _ 1
+INFO: Start 1564426310.369326
+INFO: Query <file:device_r_dev_usb-ffs> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n872', '_', '1']
+INFO: Got 0 paths in 0.75 seconds (use `print` to display)
+query> query file:device_w_dev_usb-ffs _ 1
+INFO: Start 1564426315.055843
+INFO: Query <file:device_w_dev_usb-ffs> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n932', '_', '1']
+INFO: Got 46 paths in 1.06 seconds (use `print` to display)
+query> print
+1: file:device_w_dev_usb-ffs -> process:DMM-daemon_417
+2: file:device_w_dev_usb-ffs -> process:adbd_416
+3: file:device_w_dev_usb-ffs -> process:qti_init_shell_287
+4: file:device_w_dev_usb-ffs -> process:qti_init_shell_288
+5: file:device_w_dev_usb-ffs -> process:rfs_access_265
+6: file:device_w_dev_usb-ffs -> process:rmt_storage_263
+7: file:device_w_dev_usb-ffs -> process:sensors_256
+8: file:device_w_dev_usb-ffs -> process:shell_254
+9: file:device_w_dev_usb-ffs -> process:tee_245
+10: file:device_w_dev_usb-ffs -> process:thermal-engine_244
+11: file:device_w_dev_usb-ffs -> process:time_daemon_243
+12: file:device_w_dev_usb-ffs -> process:vold_220
+13: file:device_w_dev_usb-ffs -> process:zygote_2
+14: file:device_w_dev_usb-ffs -> process:zygote_3
+15: file:device_w_dev_usb-ffs -> process:edmaudit_388
+16: file:device_w_dev_usb-ffs -> process:apaservice_414
+17: file:device_w_dev_usb-ffs -> process:hal_iop_default_360
+18: file:device_w_dev_usb-ffs -> process:hal_perf_default_355
+19: file:device_w_dev_usb-ffs -> process:healthd_342
+20: file:device_w_dev_usb-ffs -> process:init_1
+21: file:device_w_dev_usb-ffs -> process:installd_327
+22: file:device_w_dev_usb-ffs -> process:jackservice_320
+23: file:device_w_dev_usb-ffs -> process:lmkd_318
+24: file:device_w_dev_usb-ffs -> process:lpm_310
+25: file:device_w_dev_usb-ffs -> process:netd_296
+26: file:device_w_dev_usb-ffs -> process:netmgrd_295
+27: file:device_w_dev_usb-ffs -> process:pd_mapper_294
+28: file:device_w_dev_usb-ffs -> process:qti_init_shell_269
+29: file:device_w_dev_usb-ffs -> process:qti_init_shell_270
+30: file:device_w_dev_usb-ffs -> process:qti_init_shell_271
+31: file:device_w_dev_usb-ffs -> process:qti_init_shell_272
+32: file:device_w_dev_usb-ffs -> process:qti_init_shell_273
+33: file:device_w_dev_usb-ffs -> process:qti_init_shell_274
+34: file:device_w_dev_usb-ffs -> process:qti_init_shell_275
+35: file:device_w_dev_usb-ffs -> process:qti_init_shell_276
+36: file:device_w_dev_usb-ffs -> process:cameraserver_404
+37: file:device_w_dev_usb-ffs -> process:qti_init_shell_277
+38: file:device_w_dev_usb-ffs -> process:qti_init_shell_278
+39: file:device_w_dev_usb-ffs -> process:qti_init_shell_279
+40: file:device_w_dev_usb-ffs -> process:qti_init_shell_280
+41: file:device_w_dev_usb-ffs -> process:qti_init_shell_281
+42: file:device_w_dev_usb-ffs -> process:qti_init_shell_282
+43: file:device_w_dev_usb-ffs -> process:qti_init_shell_283
+44: file:device_w_dev_usb-ffs -> process:qti_init_shell_284
+45: file:device_w_dev_usb-ffs -> process:qti_init_shell_285
+46: file:device_w_dev_usb-ffs -> process:qti_init_shell_286
+query>
+query>
+query>
+query> query file:functionfs_r_dev_usb-ffs_adb _ 1
+INFO: Start 1564426355.464824
+INFO: Query <file:functionfs_r_dev_usb-ffs_adb> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1081', '_', '1']
+INFO: Got 0 paths in 0.76 seconds (use `print` to display)
+query> query file:functionfs_w_dev_usb-ffs_adb _ 1
+INFO: Start 1564426360.372143
+INFO: Query <file:functionfs_w_dev_usb-ffs_adb> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1082', '_', '1']
+INFO: Got 46 paths in 1.04 seconds (use `print` to display)
+query> print
+1: file:functionfs_w_dev_usb-ffs_adb -> process:DMM-daemon_417
+2: file:functionfs_w_dev_usb-ffs_adb -> process:adbd_416
+3: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_287
+4: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_288
+5: file:functionfs_w_dev_usb-ffs_adb -> process:rfs_access_265
+6: file:functionfs_w_dev_usb-ffs_adb -> process:rmt_storage_263
+7: file:functionfs_w_dev_usb-ffs_adb -> process:sensors_256
+8: file:functionfs_w_dev_usb-ffs_adb -> process:shell_254
+9: file:functionfs_w_dev_usb-ffs_adb -> process:tee_245
+10: file:functionfs_w_dev_usb-ffs_adb -> process:thermal-engine_244
+11: file:functionfs_w_dev_usb-ffs_adb -> process:time_daemon_243
+12: file:functionfs_w_dev_usb-ffs_adb -> process:vold_220
+13: file:functionfs_w_dev_usb-ffs_adb -> process:zygote_2
+14: file:functionfs_w_dev_usb-ffs_adb -> process:zygote_3
+15: file:functionfs_w_dev_usb-ffs_adb -> process:edmaudit_388
+16: file:functionfs_w_dev_usb-ffs_adb -> process:apaservice_414
+17: file:functionfs_w_dev_usb-ffs_adb -> process:hal_iop_default_360
+18: file:functionfs_w_dev_usb-ffs_adb -> process:hal_perf_default_355
+19: file:functionfs_w_dev_usb-ffs_adb -> process:healthd_342
+20: file:functionfs_w_dev_usb-ffs_adb -> process:init_1
+21: file:functionfs_w_dev_usb-ffs_adb -> process:installd_327
+22: file:functionfs_w_dev_usb-ffs_adb -> process:jackservice_320
+23: file:functionfs_w_dev_usb-ffs_adb -> process:lmkd_318
+24: file:functionfs_w_dev_usb-ffs_adb -> process:lpm_310
+25: file:functionfs_w_dev_usb-ffs_adb -> process:netd_296
+26: file:functionfs_w_dev_usb-ffs_adb -> process:netmgrd_295
+27: file:functionfs_w_dev_usb-ffs_adb -> process:pd_mapper_294
+28: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_269
+29: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_270
+30: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_271
+31: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_272
+32: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_273
+33: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_274
+34: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_275
+35: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_276
+36: file:functionfs_w_dev_usb-ffs_adb -> process:cameraserver_404
+37: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_277
+38: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_278
+39: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_279
+40: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_280
+41: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_281
+42: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_282
+43: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_283
+44: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_284
+45: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_285
+46: file:functionfs_w_dev_usb-ffs_adb -> process:qti_init_shell_286
+query>
+
+
+query> query file:serial_device_r_dev_ttyHS0 _ 1
+INFO: Start 1564426576.708656
+INFO: Query <file:serial_device_r_dev_ttyHS0> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1549', '_', '1']
+INFO: Got 0 paths in 0.71 seconds (use `print` to display)
+query> query file:serial_device_w_dev_ttyHS0 _ 1
+INFO: Start 1564426581.870672
+INFO: Query <file:serial_device_w_dev_ttyHS0> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1552', '_', '1']
+INFO: Got 25 paths in 1.03 seconds (use `print` to display)
+query> print
+1: file:serial_device_w_dev_ttyHS0 -> process:DMM-daemon_417
+2: file:serial_device_w_dev_ttyHS0 -> process:adbd_416
+3: file:serial_device_w_dev_ttyHS0 -> process:remotedisplay_267
+4: file:serial_device_w_dev_ttyHS0 -> process:rfs_access_265
+5: file:serial_device_w_dev_ttyHS0 -> process:rmt_storage_263
+6: file:serial_device_w_dev_ttyHS0 -> process:sensors_256
+7: file:serial_device_w_dev_ttyHS0 -> process:system_server_21
+8: file:serial_device_w_dev_ttyHS0 -> process:tee_245
+9: file:serial_device_w_dev_ttyHS0 -> process:thermal-engine_244
+10: file:serial_device_w_dev_ttyHS0 -> process:time_daemon_243
+11: file:serial_device_w_dev_ttyHS0 -> process:vold_220
+12: file:serial_device_w_dev_ttyHS0 -> process:zygote_2
+13: file:serial_device_w_dev_ttyHS0 -> process:zygote_3
+14: file:serial_device_w_dev_ttyHS0 -> process:edmaudit_388
+15: file:serial_device_w_dev_ttyHS0 -> process:hal_bluetooth_default_371
+16: file:serial_device_w_dev_ttyHS0 -> process:hal_iop_default_360
+17: file:serial_device_w_dev_ttyHS0 -> process:hal_perf_default_355
+18: file:serial_device_w_dev_ttyHS0 -> process:healthd_342
+19: file:serial_device_w_dev_ttyHS0 -> process:init_1
+20: file:serial_device_w_dev_ttyHS0 -> process:installd_327
+21: file:serial_device_w_dev_ttyHS0 -> process:lmkd_318
+22: file:serial_device_w_dev_ttyHS0 -> process:lpm_310
+23: file:serial_device_w_dev_ttyHS0 -> process:netd_296
+24: file:serial_device_w_dev_ttyHS0 -> process:netmgrd_295
+25: file:serial_device_w_dev_ttyHS0 -> process:pd_mapper_294
+query>
+
+
+
+query> query file:serial_device_r_dev_ttyHS1 _ 1
+INFO: Start 1564426619.587824
+INFO: Query <file:serial_device_r_dev_ttyHS1> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1550', '_', '1']
+INFO: Got 0 paths in 0.74 seconds (use `print` to display)
+query> query file:serial_device_w_dev_ttyHS1 _ 1
+INFO: Start 1564426625.290174
+INFO: Query <file:serial_device_w_dev_ttyHS1> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1553', '_', '1']
+INFO: Got 81 paths in 1.07 seconds (use `print` to display)
+query> print
+1: file:serial_device_w_dev_ttyHS1 -> process:DMM-daemon_417
+2: file:serial_device_w_dev_ttyHS1 -> process:adbd_416
+3: file:serial_device_w_dev_ttyHS1 -> process:connfwexe_402
+4: file:serial_device_w_dev_ttyHS1 -> process:remotedisplay_267
+5: file:serial_device_w_dev_ttyHS1 -> process:rfs_access_265
+6: file:serial_device_w_dev_ttyHS1 -> process:rild_264
+7: file:serial_device_w_dev_ttyHS1 -> process:rmt_storage_263
+8: file:serial_device_w_dev_ttyHS1 -> process:sdp_cryptod_260
+9: file:serial_device_w_dev_ttyHS1 -> process:secure_storage_258
+10: file:serial_device_w_dev_ttyHS1 -> process:sem_257
+11: file:serial_device_w_dev_ttyHS1 -> process:ddexe_399
+12: file:serial_device_w_dev_ttyHS1 -> process:sensors_256
+13: file:serial_device_w_dev_ttyHS1 -> process:servicemanager_255
+14: file:serial_device_w_dev_ttyHS1 -> process:smdexe_253
+15: file:serial_device_w_dev_ttyHS1 -> process:ss_conn_daemon_252
+16: file:serial_device_w_dev_ttyHS1 -> process:ssr_diag_251
+17: file:serial_device_w_dev_ttyHS1 -> process:subsystem_ramdump_248
+18: file:serial_device_w_dev_ttyHS1 -> process:surfaceflinger_247
+19: file:serial_device_w_dev_ttyHS1 -> process:system_server_21
+20: file:serial_device_w_dev_ttyHS1 -> process:tee_245
+21: file:serial_device_w_dev_ttyHS1 -> process:thermal-engine_244
+22: file:serial_device_w_dev_ttyHS1 -> process:time_daemon_243
+23: file:serial_device_w_dev_ttyHS1 -> process:tlc_server_242
+24: file:serial_device_w_dev_ttyHS1 -> process:tombstoned_241
+25: file:serial_device_w_dev_ttyHS1 -> process:visiond_233
+26: file:serial_device_w_dev_ttyHS1 -> process:vndservicemanager_232
+27: file:serial_device_w_dev_ttyHS1 -> process:vold_220
+28: file:serial_device_w_dev_ttyHS1 -> process:wsmd_214
+29: file:serial_device_w_dev_ttyHS1 -> process:zygote_2
+30: file:serial_device_w_dev_ttyHS1 -> process:zygote_3
+31: file:serial_device_w_dev_ttyHS1 -> process:drmserver_390
+32: file:serial_device_w_dev_ttyHS1 -> process:edmaudit_388
+33: file:serial_device_w_dev_ttyHS1 -> process:faced_384
+34: file:serial_device_w_dev_ttyHS1 -> process:factory_adsp_383
+35: file:serial_device_w_dev_ttyHS1 -> process:gatekeeperd_374
+36: file:serial_device_w_dev_ttyHS1 -> process:hal_allocator_default_373
+37: file:serial_device_w_dev_ttyHS1 -> process:hal_configstore_default_370
+38: file:serial_device_w_dev_ttyHS1 -> process:hal_drm_default_367
+39: file:serial_device_w_dev_ttyHS1 -> process:hal_drm_default_368
+40: file:serial_device_w_dev_ttyHS1 -> process:hal_fingerprint_default_366
+41: file:serial_device_w_dev_ttyHS1 -> process:hal_gatekeeper_default_365
+42: file:serial_device_w_dev_ttyHS1 -> process:hal_gnss_default_364
+43: file:serial_device_w_dev_ttyHS1 -> process:hal_graphics_allocator_default_363
+44: file:serial_device_w_dev_ttyHS1 -> process:hal_graphics_composer_default_362
+45: file:serial_device_w_dev_ttyHS1 -> process:hal_health_default_361
+46: file:serial_device_w_dev_ttyHS1 -> process:hal_iop_default_360
+47: file:serial_device_w_dev_ttyHS1 -> process:hal_keymaster_default_359
+48: file:serial_device_w_dev_ttyHS1 -> process:hal_light_default_358
+49: file:serial_device_w_dev_ttyHS1 -> process:hal_memtrack_default_357
+50: file:serial_device_w_dev_ttyHS1 -> process:apexserver_413
+51: file:serial_device_w_dev_ttyHS1 -> process:hal_perf_default_355
+52: file:serial_device_w_dev_ttyHS1 -> process:hal_power_default_353
+53: file:serial_device_w_dev_ttyHS1 -> process:hal_power_default_354
+54: file:serial_device_w_dev_ttyHS1 -> process:hal_qdutils_disp_qti_352
+55: file:serial_device_w_dev_ttyHS1 -> process:hal_qteeconnector_qti_351
+56: file:serial_device_w_dev_ttyHS1 -> process:hal_sensors_default_350
+57: file:serial_device_w_dev_ttyHS1 -> process:hal_thermal_default_349
+58: file:serial_device_w_dev_ttyHS1 -> process:hal_tui_comm_qti_348
+59: file:serial_device_w_dev_ttyHS1 -> process:hal_vibrator_default_347
+60: file:serial_device_w_dev_ttyHS1 -> process:hal_vr_default_346
+61: file:serial_device_w_dev_ttyHS1 -> process:hbtp_343
+62: file:serial_device_w_dev_ttyHS1 -> process:healthd_342
+63: file:serial_device_w_dev_ttyHS1 -> process:hwservicemanager_338
+64: file:serial_device_w_dev_ttyHS1 -> process:imsd_336
+65: file:serial_device_w_dev_ttyHS1 -> process:init_1
+66: file:serial_device_w_dev_ttyHS1 -> process:installd_327
+67: file:serial_device_w_dev_ttyHS1 -> process:irisd_322
+68: file:serial_device_w_dev_ttyHS1 -> process:atfwd_411
+69: file:serial_device_w_dev_ttyHS1 -> process:keystore_319
+70: file:serial_device_w_dev_ttyHS1 -> process:lmkd_318
+71: file:serial_device_w_dev_ttyHS1 -> process:logd_311
+72: file:serial_device_w_dev_ttyHS1 -> process:lpm_310
+73: file:serial_device_w_dev_ttyHS1 -> process:mediadrmserver_307
+74: file:serial_device_w_dev_ttyHS1 -> process:mobicoredaemon_301
+75: file:serial_device_w_dev_ttyHS1 -> process:netd_296
+76: file:serial_device_w_dev_ttyHS1 -> process:netmgrd_295
+77: file:serial_device_w_dev_ttyHS1 -> process:pd_mapper_294
+78: file:serial_device_w_dev_ttyHS1 -> process:bsd_405
+79: file:serial_device_w_dev_ttyHS1 -> process:per_mgr_292
+80: file:serial_device_w_dev_ttyHS1 -> process:per_mgr_293
+81: file:serial_device_w_dev_ttyHS1 -> process:cameraserver_404
+query>
+
+
+
+query> query file:serial_device_r_dev_ttyHS2 _ 1
+INFO: Start 1564426680.747194
+INFO: Query <file:serial_device_r_dev_ttyHS2> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1551', '_', '1']
+INFO: Got 0 paths in 0.75 seconds (use `print` to display)
+query> query file:serial_device_w_dev_ttyHS2 _ 1
+INFO: Start 1564426686.197913
+INFO: Query <file:serial_device_w_dev_ttyHS2> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n1554', '_', '1']
+INFO: Got 25 paths in 1.08 seconds (use `print` to display)
+query> print
+1: file:serial_device_w_dev_ttyHS2 -> process:DMM-daemon_417
+2: file:serial_device_w_dev_ttyHS2 -> process:adbd_416
+3: file:serial_device_w_dev_ttyHS2 -> process:remotedisplay_267
+4: file:serial_device_w_dev_ttyHS2 -> process:rfs_access_265
+5: file:serial_device_w_dev_ttyHS2 -> process:rmt_storage_263
+6: file:serial_device_w_dev_ttyHS2 -> process:sensors_256
+7: file:serial_device_w_dev_ttyHS2 -> process:system_server_21
+8: file:serial_device_w_dev_ttyHS2 -> process:tee_245
+9: file:serial_device_w_dev_ttyHS2 -> process:thermal-engine_244
+10: file:serial_device_w_dev_ttyHS2 -> process:time_daemon_243
+11: file:serial_device_w_dev_ttyHS2 -> process:vold_220
+12: file:serial_device_w_dev_ttyHS2 -> process:zygote_2
+13: file:serial_device_w_dev_ttyHS2 -> process:zygote_3
+14: file:serial_device_w_dev_ttyHS2 -> process:edmaudit_388
+15: file:serial_device_w_dev_ttyHS2 -> process:hal_bluetooth_default_371
+16: file:serial_device_w_dev_ttyHS2 -> process:hal_iop_default_360
+17: file:serial_device_w_dev_ttyHS2 -> process:hal_perf_default_355
+18: file:serial_device_w_dev_ttyHS2 -> process:healthd_342
+19: file:serial_device_w_dev_ttyHS2 -> process:init_1
+20: file:serial_device_w_dev_ttyHS2 -> process:installd_327
+21: file:serial_device_w_dev_ttyHS2 -> process:lmkd_318
+22: file:serial_device_w_dev_ttyHS2 -> process:lpm_310
+23: file:serial_device_w_dev_ttyHS2 -> process:netd_296
+24: file:serial_device_w_dev_ttyHS2 -> process:netmgrd_295
+25: file:serial_device_w_dev_ttyHS2 -> process:pd_mapper_294
+query>
+
+
+
+query> query file:usb_device_r_dev_android_ssusbcon _ 1
+INFO: Start 1564429284.090153
+INFO: Query <file:usb_device_r_dev_android_ssusbcon> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9223', '_', '1']
+INFO: Got 0 paths in 0.75 seconds (use `print` to display)
+query> query file:usb_device_w_dev_android_ssusbcon _ 1
+INFO: Start 1564429290.787032
+INFO: Query <file:usb_device_w_dev_android_ssusbcon> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9227', '_', '1']
+INFO: Got 81 paths in 1.10 seconds (use `print` to display)
+query> print
+1: file:usb_device_w_dev_android_ssusbcon -> process:DMM-daemon_417
+2: file:usb_device_w_dev_android_ssusbcon -> process:adbd_416
+3: file:usb_device_w_dev_android_ssusbcon -> process:connfwexe_402
+4: file:usb_device_w_dev_android_ssusbcon -> process:remotedisplay_267
+5: file:usb_device_w_dev_android_ssusbcon -> process:rfs_access_265
+6: file:usb_device_w_dev_android_ssusbcon -> process:rild_264
+7: file:usb_device_w_dev_android_ssusbcon -> process:rmt_storage_263
+8: file:usb_device_w_dev_android_ssusbcon -> process:sdp_cryptod_260
+9: file:usb_device_w_dev_android_ssusbcon -> process:secure_storage_258
+10: file:usb_device_w_dev_android_ssusbcon -> process:sem_257
+11: file:usb_device_w_dev_android_ssusbcon -> process:ddexe_399
+12: file:usb_device_w_dev_android_ssusbcon -> process:sensors_256
+13: file:usb_device_w_dev_android_ssusbcon -> process:servicemanager_255
+14: file:usb_device_w_dev_android_ssusbcon -> process:smdexe_253
+15: file:usb_device_w_dev_android_ssusbcon -> process:ss_conn_daemon_252
+16: file:usb_device_w_dev_android_ssusbcon -> process:ssr_diag_251
+17: file:usb_device_w_dev_android_ssusbcon -> process:subsystem_ramdump_248
+18: file:usb_device_w_dev_android_ssusbcon -> process:surfaceflinger_247
+19: file:usb_device_w_dev_android_ssusbcon -> process:system_server_21
+20: file:usb_device_w_dev_android_ssusbcon -> process:tee_245
+21: file:usb_device_w_dev_android_ssusbcon -> process:thermal-engine_244
+22: file:usb_device_w_dev_android_ssusbcon -> process:time_daemon_243
+23: file:usb_device_w_dev_android_ssusbcon -> process:tlc_server_242
+24: file:usb_device_w_dev_android_ssusbcon -> process:tombstoned_241
+25: file:usb_device_w_dev_android_ssusbcon -> process:visiond_233
+26: file:usb_device_w_dev_android_ssusbcon -> process:vndservicemanager_232
+27: file:usb_device_w_dev_android_ssusbcon -> process:vold_220
+28: file:usb_device_w_dev_android_ssusbcon -> process:wsmd_214
+29: file:usb_device_w_dev_android_ssusbcon -> process:zygote_2
+30: file:usb_device_w_dev_android_ssusbcon -> process:zygote_3
+31: file:usb_device_w_dev_android_ssusbcon -> process:drmserver_390
+32: file:usb_device_w_dev_android_ssusbcon -> process:edmaudit_388
+33: file:usb_device_w_dev_android_ssusbcon -> process:faced_384
+34: file:usb_device_w_dev_android_ssusbcon -> process:factory_adsp_383
+35: file:usb_device_w_dev_android_ssusbcon -> process:gatekeeperd_374
+36: file:usb_device_w_dev_android_ssusbcon -> process:hal_allocator_default_373
+37: file:usb_device_w_dev_android_ssusbcon -> process:hal_configstore_default_370
+38: file:usb_device_w_dev_android_ssusbcon -> process:hal_drm_default_367
+39: file:usb_device_w_dev_android_ssusbcon -> process:hal_drm_default_368
+40: file:usb_device_w_dev_android_ssusbcon -> process:hal_fingerprint_default_366
+41: file:usb_device_w_dev_android_ssusbcon -> process:hal_gatekeeper_default_365
+42: file:usb_device_w_dev_android_ssusbcon -> process:hal_gnss_default_364
+43: file:usb_device_w_dev_android_ssusbcon -> process:hal_graphics_allocator_default_363
+44: file:usb_device_w_dev_android_ssusbcon -> process:hal_graphics_composer_default_362
+45: file:usb_device_w_dev_android_ssusbcon -> process:hal_health_default_361
+46: file:usb_device_w_dev_android_ssusbcon -> process:hal_iop_default_360
+47: file:usb_device_w_dev_android_ssusbcon -> process:hal_keymaster_default_359
+48: file:usb_device_w_dev_android_ssusbcon -> process:hal_light_default_358
+49: file:usb_device_w_dev_android_ssusbcon -> process:hal_memtrack_default_357
+50: file:usb_device_w_dev_android_ssusbcon -> process:apexserver_413
+51: file:usb_device_w_dev_android_ssusbcon -> process:hal_perf_default_355
+52: file:usb_device_w_dev_android_ssusbcon -> process:hal_power_default_353
+53: file:usb_device_w_dev_android_ssusbcon -> process:hal_power_default_354
+54: file:usb_device_w_dev_android_ssusbcon -> process:hal_qdutils_disp_qti_352
+55: file:usb_device_w_dev_android_ssusbcon -> process:hal_qteeconnector_qti_351
+56: file:usb_device_w_dev_android_ssusbcon -> process:hal_sensors_default_350
+57: file:usb_device_w_dev_android_ssusbcon -> process:hal_thermal_default_349
+58: file:usb_device_w_dev_android_ssusbcon -> process:hal_tui_comm_qti_348
+59: file:usb_device_w_dev_android_ssusbcon -> process:hal_vibrator_default_347
+60: file:usb_device_w_dev_android_ssusbcon -> process:hal_vr_default_346
+61: file:usb_device_w_dev_android_ssusbcon -> process:hbtp_343
+62: file:usb_device_w_dev_android_ssusbcon -> process:healthd_342
+63: file:usb_device_w_dev_android_ssusbcon -> process:hwservicemanager_338
+64: file:usb_device_w_dev_android_ssusbcon -> process:imsd_336
+65: file:usb_device_w_dev_android_ssusbcon -> process:init_1
+66: file:usb_device_w_dev_android_ssusbcon -> process:installd_327
+67: file:usb_device_w_dev_android_ssusbcon -> process:irisd_322
+68: file:usb_device_w_dev_android_ssusbcon -> process:atfwd_411
+69: file:usb_device_w_dev_android_ssusbcon -> process:keystore_319
+70: file:usb_device_w_dev_android_ssusbcon -> process:lmkd_318
+71: file:usb_device_w_dev_android_ssusbcon -> process:logd_311
+72: file:usb_device_w_dev_android_ssusbcon -> process:lpm_310
+73: file:usb_device_w_dev_android_ssusbcon -> process:mediadrmserver_307
+74: file:usb_device_w_dev_android_ssusbcon -> process:mobicoredaemon_301
+75: file:usb_device_w_dev_android_ssusbcon -> process:netd_296
+76: file:usb_device_w_dev_android_ssusbcon -> process:netmgrd_295
+77: file:usb_device_w_dev_android_ssusbcon -> process:pd_mapper_294
+78: file:usb_device_w_dev_android_ssusbcon -> process:bsd_405
+79: file:usb_device_w_dev_android_ssusbcon -> process:per_mgr_292
+80: file:usb_device_w_dev_android_ssusbcon -> process:per_mgr_293
+81: file:usb_device_w_dev_android_ssusbcon -> process:cameraserver_404
+query>
+
+
+
+
+query> query file:usb_device_r_dev_bus_usb _ 1
+INFO: Start 1564429328.723526
+INFO: Query <file:usb_device_r_dev_bus_usb> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9224', '_', '1']
+INFO: Got 0 paths in 0.72 seconds (use `print` to display)
+query> query file:usb_device_w_dev_bus_usb _ 1
+INFO: Start 1564429333.982426
+INFO: Query <file:usb_device_w_dev_bus_usb> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9228', '_', '1']
+INFO: Got 136 paths in 1.04 seconds (use `print` to display)
+query> print
+1: file:usb_device_w_dev_bus_usb -> process:DMM-daemon_417
+2: file:usb_device_w_dev_bus_usb -> process:adbd_416
+3: file:usb_device_w_dev_bus_usb -> process:connfwexe_402
+4: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_287
+5: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_288
+6: file:usb_device_w_dev_bus_usb -> process:remotedisplay_267
+7: file:usb_device_w_dev_bus_usb -> process:rfs_access_265
+8: file:usb_device_w_dev_bus_usb -> process:rild_264
+9: file:usb_device_w_dev_bus_usb -> process:rmt_storage_263
+10: file:usb_device_w_dev_bus_usb -> process:sdp_cryptod_260
+11: file:usb_device_w_dev_bus_usb -> process:sec_untrusted_app_164
+12: file:usb_device_w_dev_bus_usb -> process:secure_storage_258
+13: file:usb_device_w_dev_bus_usb -> process:sem_257
+14: file:usb_device_w_dev_bus_usb -> process:ddexe_399
+15: file:usb_device_w_dev_bus_usb -> process:sensors_256
+16: file:usb_device_w_dev_bus_usb -> process:servicemanager_255
+17: file:usb_device_w_dev_bus_usb -> process:shell_254
+18: file:usb_device_w_dev_bus_usb -> process:smdexe_253
+19: file:usb_device_w_dev_bus_usb -> process:ss_conn_daemon_252
+20: file:usb_device_w_dev_bus_usb -> process:ssr_diag_251
+21: file:usb_device_w_dev_bus_usb -> process:storaged_249
+22: file:usb_device_w_dev_bus_usb -> process:subsystem_ramdump_248
+23: file:usb_device_w_dev_bus_usb -> process:surfaceflinger_247
+24: file:usb_device_w_dev_bus_usb -> process:system_server_21
+25: file:usb_device_w_dev_bus_usb -> process:diag_392
+26: file:usb_device_w_dev_bus_usb -> process:tee_245
+27: file:usb_device_w_dev_bus_usb -> process:thermal-engine_244
+28: file:usb_device_w_dev_bus_usb -> process:time_daemon_243
+29: file:usb_device_w_dev_bus_usb -> process:tlc_server_242
+30: file:usb_device_w_dev_bus_usb -> process:tombstoned_241
+31: file:usb_device_w_dev_bus_usb -> process:untrusted_app_149
+32: file:usb_device_w_dev_bus_usb -> process:untrusted_app_25_147
+33: file:usb_device_w_dev_bus_usb -> process:visiond_233
+34: file:usb_device_w_dev_bus_usb -> process:vndservicemanager_232
+35: file:usb_device_w_dev_bus_usb -> process:vold_220
+36: file:usb_device_w_dev_bus_usb -> process:diag_393
+37: file:usb_device_w_dev_bus_usb -> process:vzwfiltered_untrusted_app_143
+38: file:usb_device_w_dev_bus_usb -> process:webview_zygote_217
+39: file:usb_device_w_dev_bus_usb -> process:webview_zygote_218
+40: file:usb_device_w_dev_bus_usb -> process:wificond_216
+41: file:usb_device_w_dev_bus_usb -> process:wsmd_214
+42: file:usb_device_w_dev_bus_usb -> process:zygote_2
+43: file:usb_device_w_dev_bus_usb -> process:zygote_3
+44: file:usb_device_w_dev_bus_usb -> process:diag_394
+45: file:usb_device_w_dev_bus_usb -> process:diag_395
+46: file:usb_device_w_dev_bus_usb -> process:diag_396
+47: file:usb_device_w_dev_bus_usb -> process:diag_397
+48: file:usb_device_w_dev_bus_usb -> process:drmserver_390
+49: file:usb_device_w_dev_bus_usb -> process:edmaudit_388
+50: file:usb_device_w_dev_bus_usb -> process:adsprpcd_415
+51: file:usb_device_w_dev_bus_usb -> process:faced_384
+52: file:usb_device_w_dev_bus_usb -> process:factory_adsp_383
+53: file:usb_device_w_dev_bus_usb -> process:filtered_untrusted_app_196
+54: file:usb_device_w_dev_bus_usb -> process:gatekeeperd_374
+55: file:usb_device_w_dev_bus_usb -> process:hal_allocator_default_373
+56: file:usb_device_w_dev_bus_usb -> process:hal_bluetooth_default_371
+57: file:usb_device_w_dev_bus_usb -> process:hal_configstore_default_370
+58: file:usb_device_w_dev_bus_usb -> process:hal_drm_default_367
+59: file:usb_device_w_dev_bus_usb -> process:hal_drm_default_368
+60: file:usb_device_w_dev_bus_usb -> process:hal_fingerprint_default_366
+61: file:usb_device_w_dev_bus_usb -> process:apaservice_414
+62: file:usb_device_w_dev_bus_usb -> process:hal_gatekeeper_default_365
+63: file:usb_device_w_dev_bus_usb -> process:hal_gnss_default_364
+64: file:usb_device_w_dev_bus_usb -> process:hal_graphics_allocator_default_363
+65: file:usb_device_w_dev_bus_usb -> process:hal_graphics_composer_default_362
+66: file:usb_device_w_dev_bus_usb -> process:hal_health_default_361
+67: file:usb_device_w_dev_bus_usb -> process:hal_iop_default_360
+68: file:usb_device_w_dev_bus_usb -> process:hal_keymaster_default_359
+69: file:usb_device_w_dev_bus_usb -> process:hal_light_default_358
+70: file:usb_device_w_dev_bus_usb -> process:hal_memtrack_default_357
+71: file:usb_device_w_dev_bus_usb -> process:hal_nfc_default_356
+72: file:usb_device_w_dev_bus_usb -> process:apexserver_413
+73: file:usb_device_w_dev_bus_usb -> process:hal_perf_default_355
+74: file:usb_device_w_dev_bus_usb -> process:hal_power_default_353
+75: file:usb_device_w_dev_bus_usb -> process:hal_power_default_354
+76: file:usb_device_w_dev_bus_usb -> process:hal_qdutils_disp_qti_352
+77: file:usb_device_w_dev_bus_usb -> process:hal_qteeconnector_qti_351
+78: file:usb_device_w_dev_bus_usb -> process:hal_sensors_default_350
+79: file:usb_device_w_dev_bus_usb -> process:hal_thermal_default_349
+80: file:usb_device_w_dev_bus_usb -> process:hal_tui_comm_qti_348
+81: file:usb_device_w_dev_bus_usb -> process:hal_vibrator_default_347
+82: file:usb_device_w_dev_bus_usb -> process:hal_vr_default_346
+83: file:usb_device_w_dev_bus_usb -> process:at_distributor_412
+84: file:usb_device_w_dev_bus_usb -> process:hal_wifi_default_345
+85: file:usb_device_w_dev_bus_usb -> process:hbtp_343
+86: file:usb_device_w_dev_bus_usb -> process:healthd_342
+87: file:usb_device_w_dev_bus_usb -> process:hwservicemanager_338
+88: file:usb_device_w_dev_bus_usb -> process:imsd_336
+89: file:usb_device_w_dev_bus_usb -> process:init_1
+90: file:usb_device_w_dev_bus_usb -> process:installd_327
+91: file:usb_device_w_dev_bus_usb -> process:ipacm-diag_323
+92: file:usb_device_w_dev_bus_usb -> process:ipacm_324
+93: file:usb_device_w_dev_bus_usb -> process:irisd_322
+94: file:usb_device_w_dev_bus_usb -> process:atfwd_411
+95: file:usb_device_w_dev_bus_usb -> process:jackservice_320
+96: file:usb_device_w_dev_bus_usb -> process:keystore_319
+97: file:usb_device_w_dev_bus_usb -> process:lmkd_318
+98: file:usb_device_w_dev_bus_usb -> process:location_312
+99: file:usb_device_w_dev_bus_usb -> process:location_313
+100: file:usb_device_w_dev_bus_usb -> process:location_314
+101: file:usb_device_w_dev_bus_usb -> process:location_315
+102: file:usb_device_w_dev_bus_usb -> process:location_316
+103: file:usb_device_w_dev_bus_usb -> process:location_317
+104: file:usb_device_w_dev_bus_usb -> process:audioserver_410
+105: file:usb_device_w_dev_bus_usb -> process:logd_311
+106: file:usb_device_w_dev_bus_usb -> process:lpm_310
+107: file:usb_device_w_dev_bus_usb -> process:mediadrmserver_307
+108: file:usb_device_w_dev_bus_usb -> process:mediaextractor_306
+109: file:usb_device_w_dev_bus_usb -> process:mediametrics_305
+110: file:usb_device_w_dev_bus_usb -> process:mediaserver_304
+111: file:usb_device_w_dev_bus_usb -> process:mobicoredaemon_301
+112: file:usb_device_w_dev_bus_usb -> process:netd_296
+113: file:usb_device_w_dev_bus_usb -> process:netmgrd_295
+114: file:usb_device_w_dev_bus_usb -> process:pd_mapper_294
+115: file:usb_device_w_dev_bus_usb -> process:bsd_405
+116: file:usb_device_w_dev_bus_usb -> process:per_mgr_292
+117: file:usb_device_w_dev_bus_usb -> process:per_mgr_293
+118: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_269
+119: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_270
+120: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_271
+121: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_272
+122: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_273
+123: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_274
+124: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_275
+125: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_276
+126: file:usb_device_w_dev_bus_usb -> process:cameraserver_404
+127: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_277
+128: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_278
+129: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_279
+130: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_280
+131: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_281
+132: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_282
+133: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_283
+134: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_284
+135: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_285
+136: file:usb_device_w_dev_bus_usb -> process:qti_init_shell_286
+query>
+
+
+
+query> query file:usb_device_r_dev_bus_usb_0 _ 1
+INFO: Start 1564434401.643878
+INFO: Query <file:usb_device_r_dev_bus_usb_0> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9225', '_', '1']
+INFO: Got 0 paths in 0.83 seconds (use `print` to display)
+query> query file:usb_device_w_dev_bus_usb_0 _ 1
+INFO: Start 1564434407.843469
+INFO: Query <file:usb_device_w_dev_bus_usb_0> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9229', '_', '1']
+INFO: Got 40 paths in 1.09 seconds (use `print` to display)
+query> print
+1: file:usb_device_w_dev_bus_usb_0 -> process:DMM-daemon_417
+2: file:usb_device_w_dev_bus_usb_0 -> process:adbd_416
+3: file:usb_device_w_dev_bus_usb_0 -> process:connfwexe_402
+4: file:usb_device_w_dev_bus_usb_0 -> process:rfs_access_265
+5: file:usb_device_w_dev_bus_usb_0 -> process:rmt_storage_263
+6: file:usb_device_w_dev_bus_usb_0 -> process:ddexe_399
+7: file:usb_device_w_dev_bus_usb_0 -> process:sensors_256
+8: file:usb_device_w_dev_bus_usb_0 -> process:smdexe_253
+9: file:usb_device_w_dev_bus_usb_0 -> process:storaged_249
+10: file:usb_device_w_dev_bus_usb_0 -> process:system_server_21
+11: file:usb_device_w_dev_bus_usb_0 -> process:diag_392
+12: file:usb_device_w_dev_bus_usb_0 -> process:tee_245
+13: file:usb_device_w_dev_bus_usb_0 -> process:thermal-engine_244
+14: file:usb_device_w_dev_bus_usb_0 -> process:time_daemon_243
+15: file:usb_device_w_dev_bus_usb_0 -> process:vold_220
+16: file:usb_device_w_dev_bus_usb_0 -> process:diag_393
+17: file:usb_device_w_dev_bus_usb_0 -> process:zygote_2
+18: file:usb_device_w_dev_bus_usb_0 -> process:zygote_3
+19: file:usb_device_w_dev_bus_usb_0 -> process:diag_394
+20: file:usb_device_w_dev_bus_usb_0 -> process:diag_395
+21: file:usb_device_w_dev_bus_usb_0 -> process:diag_396
+22: file:usb_device_w_dev_bus_usb_0 -> process:diag_397
+23: file:usb_device_w_dev_bus_usb_0 -> process:edmaudit_388
+24: file:usb_device_w_dev_bus_usb_0 -> process:hal_iop_default_360
+25: file:usb_device_w_dev_bus_usb_0 -> process:hal_perf_default_355
+26: file:usb_device_w_dev_bus_usb_0 -> process:at_distributor_412
+27: file:usb_device_w_dev_bus_usb_0 -> process:healthd_342
+28: file:usb_device_w_dev_bus_usb_0 -> process:init_1
+29: file:usb_device_w_dev_bus_usb_0 -> process:installd_327
+30: file:usb_device_w_dev_bus_usb_0 -> process:lmkd_318
+31: file:usb_device_w_dev_bus_usb_0 -> process:location_312
+32: file:usb_device_w_dev_bus_usb_0 -> process:location_313
+33: file:usb_device_w_dev_bus_usb_0 -> process:location_314
+34: file:usb_device_w_dev_bus_usb_0 -> process:location_315
+35: file:usb_device_w_dev_bus_usb_0 -> process:location_316
+36: file:usb_device_w_dev_bus_usb_0 -> process:location_317
+37: file:usb_device_w_dev_bus_usb_0 -> process:lpm_310
+38: file:usb_device_w_dev_bus_usb_0 -> process:netd_296
+39: file:usb_device_w_dev_bus_usb_0 -> process:netmgrd_295
+40: file:usb_device_w_dev_bus_usb_0 -> process:pd_mapper_294
+query>
+
+
+
+query> query file:usb_serial_device_r_dev_ttyGS0 _ 1
+INFO: Start 1564434708.975629
+INFO: Query <file:usb_serial_device_r_dev_ttyGS0> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9231', '_', '1']
+INFO: Got 0 paths in 0.74 seconds (use `print` to display)
+query> query file:usb_serial_device_w_dev_ttyGS0 _ 1
+INFO: Start 1564434713.724918
+INFO: Query <file:usb_serial_device_w_dev_ttyGS0> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9232', '_', '1']
+INFO: Got 81 paths in 1.05 seconds (use `print` to display)
+query> print
+1: file:usb_serial_device_w_dev_ttyGS0 -> process:DMM-daemon_417
+2: file:usb_serial_device_w_dev_ttyGS0 -> process:adbd_416
+3: file:usb_serial_device_w_dev_ttyGS0 -> process:connfwexe_402
+4: file:usb_serial_device_w_dev_ttyGS0 -> process:remotedisplay_267
+5: file:usb_serial_device_w_dev_ttyGS0 -> process:rfs_access_265
+6: file:usb_serial_device_w_dev_ttyGS0 -> process:rild_264
+7: file:usb_serial_device_w_dev_ttyGS0 -> process:rmt_storage_263
+8: file:usb_serial_device_w_dev_ttyGS0 -> process:sdp_cryptod_260
+9: file:usb_serial_device_w_dev_ttyGS0 -> process:secure_storage_258
+10: file:usb_serial_device_w_dev_ttyGS0 -> process:sem_257
+11: file:usb_serial_device_w_dev_ttyGS0 -> process:ddexe_399
+12: file:usb_serial_device_w_dev_ttyGS0 -> process:sensors_256
+13: file:usb_serial_device_w_dev_ttyGS0 -> process:servicemanager_255
+14: file:usb_serial_device_w_dev_ttyGS0 -> process:smdexe_253
+15: file:usb_serial_device_w_dev_ttyGS0 -> process:ss_conn_daemon_252
+16: file:usb_serial_device_w_dev_ttyGS0 -> process:ssr_diag_251
+17: file:usb_serial_device_w_dev_ttyGS0 -> process:subsystem_ramdump_248
+18: file:usb_serial_device_w_dev_ttyGS0 -> process:surfaceflinger_247
+19: file:usb_serial_device_w_dev_ttyGS0 -> process:system_server_21
+20: file:usb_serial_device_w_dev_ttyGS0 -> process:tee_245
+21: file:usb_serial_device_w_dev_ttyGS0 -> process:thermal-engine_244
+22: file:usb_serial_device_w_dev_ttyGS0 -> process:time_daemon_243
+23: file:usb_serial_device_w_dev_ttyGS0 -> process:tlc_server_242
+24: file:usb_serial_device_w_dev_ttyGS0 -> process:tombstoned_241
+25: file:usb_serial_device_w_dev_ttyGS0 -> process:visiond_233
+26: file:usb_serial_device_w_dev_ttyGS0 -> process:vndservicemanager_232
+27: file:usb_serial_device_w_dev_ttyGS0 -> process:vold_220
+28: file:usb_serial_device_w_dev_ttyGS0 -> process:wsmd_214
+29: file:usb_serial_device_w_dev_ttyGS0 -> process:zygote_2
+30: file:usb_serial_device_w_dev_ttyGS0 -> process:zygote_3
+31: file:usb_serial_device_w_dev_ttyGS0 -> process:drmserver_390
+32: file:usb_serial_device_w_dev_ttyGS0 -> process:edmaudit_388
+33: file:usb_serial_device_w_dev_ttyGS0 -> process:faced_384
+34: file:usb_serial_device_w_dev_ttyGS0 -> process:factory_adsp_383
+35: file:usb_serial_device_w_dev_ttyGS0 -> process:gatekeeperd_374
+36: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_allocator_default_373
+37: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_configstore_default_370
+38: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_drm_default_367
+39: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_drm_default_368
+40: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_fingerprint_default_366
+41: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_gatekeeper_default_365
+42: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_gnss_default_364
+43: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_graphics_allocator_default_363
+44: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_graphics_composer_default_362
+45: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_health_default_361
+46: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_iop_default_360
+47: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_keymaster_default_359
+48: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_light_default_358
+49: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_memtrack_default_357
+50: file:usb_serial_device_w_dev_ttyGS0 -> process:apexserver_413
+51: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_perf_default_355
+52: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_power_default_353
+53: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_power_default_354
+54: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_qdutils_disp_qti_352
+55: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_qteeconnector_qti_351
+56: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_sensors_default_350
+57: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_thermal_default_349
+58: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_tui_comm_qti_348
+59: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_vibrator_default_347
+60: file:usb_serial_device_w_dev_ttyGS0 -> process:hal_vr_default_346
+61: file:usb_serial_device_w_dev_ttyGS0 -> process:hbtp_343
+62: file:usb_serial_device_w_dev_ttyGS0 -> process:healthd_342
+63: file:usb_serial_device_w_dev_ttyGS0 -> process:hwservicemanager_338
+64: file:usb_serial_device_w_dev_ttyGS0 -> process:imsd_336
+65: file:usb_serial_device_w_dev_ttyGS0 -> process:init_1
+66: file:usb_serial_device_w_dev_ttyGS0 -> process:installd_327
+67: file:usb_serial_device_w_dev_ttyGS0 -> process:irisd_322
+68: file:usb_serial_device_w_dev_ttyGS0 -> process:atfwd_411
+69: file:usb_serial_device_w_dev_ttyGS0 -> process:keystore_319
+70: file:usb_serial_device_w_dev_ttyGS0 -> process:lmkd_318
+71: file:usb_serial_device_w_dev_ttyGS0 -> process:logd_311
+72: file:usb_serial_device_w_dev_ttyGS0 -> process:lpm_310
+73: file:usb_serial_device_w_dev_ttyGS0 -> process:mediadrmserver_307
+74: file:usb_serial_device_w_dev_ttyGS0 -> process:mobicoredaemon_301
+75: file:usb_serial_device_w_dev_ttyGS0 -> process:netd_296
+76: file:usb_serial_device_w_dev_ttyGS0 -> process:netmgrd_295
+77: file:usb_serial_device_w_dev_ttyGS0 -> process:pd_mapper_294
+78: file:usb_serial_device_w_dev_ttyGS0 -> process:bsd_405
+79: file:usb_serial_device_w_dev_ttyGS0 -> process:per_mgr_292
+80: file:usb_serial_device_w_dev_ttyGS0 -> process:per_mgr_293
+81: file:usb_serial_device_w_dev_ttyGS0 -> process:cameraserver_404
+query>
+
+
+
+
+query> query file:usb_uicc_device_r_dev_ccid_bridge _ 1
+INFO: Start 1564434751.669130
+INFO: Query <file:usb_uicc_device_r_dev_ccid_bridge> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9233', '_', '1']
+INFO: Got 0 paths in 0.80 seconds (use `print` to display)
+query> query file:usb_uicc_device_w_dev_ccid_bridge _ 1
+INFO: Start 1564434756.621296
+INFO: Query <file:usb_uicc_device_w_dev_ccid_bridge> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9234', '_', '1']
+INFO: Got 81 paths in 0.90 seconds (use `print` to display)
+query> print
+1: file:usb_uicc_device_w_dev_ccid_bridge -> process:DMM-daemon_417
+2: file:usb_uicc_device_w_dev_ccid_bridge -> process:adbd_416
+3: file:usb_uicc_device_w_dev_ccid_bridge -> process:connfwexe_402
+4: file:usb_uicc_device_w_dev_ccid_bridge -> process:remotedisplay_267
+5: file:usb_uicc_device_w_dev_ccid_bridge -> process:rfs_access_265
+6: file:usb_uicc_device_w_dev_ccid_bridge -> process:rild_264
+7: file:usb_uicc_device_w_dev_ccid_bridge -> process:rmt_storage_263
+8: file:usb_uicc_device_w_dev_ccid_bridge -> process:sdp_cryptod_260
+9: file:usb_uicc_device_w_dev_ccid_bridge -> process:secure_storage_258
+10: file:usb_uicc_device_w_dev_ccid_bridge -> process:sem_257
+11: file:usb_uicc_device_w_dev_ccid_bridge -> process:ddexe_399
+12: file:usb_uicc_device_w_dev_ccid_bridge -> process:sensors_256
+13: file:usb_uicc_device_w_dev_ccid_bridge -> process:servicemanager_255
+14: file:usb_uicc_device_w_dev_ccid_bridge -> process:smdexe_253
+15: file:usb_uicc_device_w_dev_ccid_bridge -> process:ss_conn_daemon_252
+16: file:usb_uicc_device_w_dev_ccid_bridge -> process:ssr_diag_251
+17: file:usb_uicc_device_w_dev_ccid_bridge -> process:subsystem_ramdump_248
+18: file:usb_uicc_device_w_dev_ccid_bridge -> process:surfaceflinger_247
+19: file:usb_uicc_device_w_dev_ccid_bridge -> process:system_server_21
+20: file:usb_uicc_device_w_dev_ccid_bridge -> process:tee_245
+21: file:usb_uicc_device_w_dev_ccid_bridge -> process:thermal-engine_244
+22: file:usb_uicc_device_w_dev_ccid_bridge -> process:time_daemon_243
+23: file:usb_uicc_device_w_dev_ccid_bridge -> process:tlc_server_242
+24: file:usb_uicc_device_w_dev_ccid_bridge -> process:tombstoned_241
+25: file:usb_uicc_device_w_dev_ccid_bridge -> process:visiond_233
+26: file:usb_uicc_device_w_dev_ccid_bridge -> process:vndservicemanager_232
+27: file:usb_uicc_device_w_dev_ccid_bridge -> process:vold_220
+28: file:usb_uicc_device_w_dev_ccid_bridge -> process:wsmd_214
+29: file:usb_uicc_device_w_dev_ccid_bridge -> process:zygote_2
+30: file:usb_uicc_device_w_dev_ccid_bridge -> process:zygote_3
+31: file:usb_uicc_device_w_dev_ccid_bridge -> process:drmserver_390
+32: file:usb_uicc_device_w_dev_ccid_bridge -> process:edmaudit_388
+33: file:usb_uicc_device_w_dev_ccid_bridge -> process:faced_384
+34: file:usb_uicc_device_w_dev_ccid_bridge -> process:factory_adsp_383
+35: file:usb_uicc_device_w_dev_ccid_bridge -> process:gatekeeperd_374
+36: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_allocator_default_373
+37: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_configstore_default_370
+38: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_drm_default_367
+39: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_drm_default_368
+40: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_fingerprint_default_366
+41: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_gatekeeper_default_365
+42: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_gnss_default_364
+43: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_graphics_allocator_default_363
+44: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_graphics_composer_default_362
+45: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_health_default_361
+46: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_iop_default_360
+47: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_keymaster_default_359
+48: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_light_default_358
+49: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_memtrack_default_357
+50: file:usb_uicc_device_w_dev_ccid_bridge -> process:apexserver_413
+51: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_perf_default_355
+52: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_power_default_353
+53: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_power_default_354
+54: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_qdutils_disp_qti_352
+55: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_qteeconnector_qti_351
+56: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_sensors_default_350
+57: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_thermal_default_349
+58: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_tui_comm_qti_348
+59: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_vibrator_default_347
+60: file:usb_uicc_device_w_dev_ccid_bridge -> process:hal_vr_default_346
+61: file:usb_uicc_device_w_dev_ccid_bridge -> process:hbtp_343
+62: file:usb_uicc_device_w_dev_ccid_bridge -> process:healthd_342
+63: file:usb_uicc_device_w_dev_ccid_bridge -> process:hwservicemanager_338
+64: file:usb_uicc_device_w_dev_ccid_bridge -> process:imsd_336
+65: file:usb_uicc_device_w_dev_ccid_bridge -> process:init_1
+66: file:usb_uicc_device_w_dev_ccid_bridge -> process:installd_327
+67: file:usb_uicc_device_w_dev_ccid_bridge -> process:irisd_322
+68: file:usb_uicc_device_w_dev_ccid_bridge -> process:atfwd_411
+69: file:usb_uicc_device_w_dev_ccid_bridge -> process:keystore_319
+70: file:usb_uicc_device_w_dev_ccid_bridge -> process:lmkd_318
+71: file:usb_uicc_device_w_dev_ccid_bridge -> process:logd_311
+72: file:usb_uicc_device_w_dev_ccid_bridge -> process:lpm_310
+73: file:usb_uicc_device_w_dev_ccid_bridge -> process:mediadrmserver_307
+74: file:usb_uicc_device_w_dev_ccid_bridge -> process:mobicoredaemon_301
+75: file:usb_uicc_device_w_dev_ccid_bridge -> process:netd_296
+76: file:usb_uicc_device_w_dev_ccid_bridge -> process:netmgrd_295
+77: file:usb_uicc_device_w_dev_ccid_bridge -> process:pd_mapper_294
+78: file:usb_uicc_device_w_dev_ccid_bridge -> process:bsd_405
+79: file:usb_uicc_device_w_dev_ccid_bridge -> process:per_mgr_292
+80: file:usb_uicc_device_w_dev_ccid_bridge -> process:per_mgr_293
+81: file:usb_uicc_device_w_dev_ccid_bridge -> process:cameraserver_404
+query>
+
+
+
+
+query> query file:usbaccessory_device_r_dev_usb_accessory _ 1
+INFO: Start 1564434791.142795
+INFO: Query <file:usbaccessory_device_r_dev_usb_accessory> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9235', '_', '1']
+INFO: Got 0 paths in 0.75 seconds (use `print` to display)
+query> query file:usbaccessory_device_w_dev_usb_accessory _ 1
+INFO: Start 1564434796.963254
+INFO: Query <file:usbaccessory_device_w_dev_usb_accessory> -> <_> (cutoff 1)
+INFO: binary inst3 - ['n9236', '_', '1']
+INFO: Got 40 paths in 1.11 seconds (use `print` to display)
+query> print
+1: file:usbaccessory_device_w_dev_usb_accessory -> process:DMM-daemon_417
+2: file:usbaccessory_device_w_dev_usb_accessory -> process:adbd_416
+3: file:usbaccessory_device_w_dev_usb_accessory -> process:connfwexe_402
+4: file:usbaccessory_device_w_dev_usb_accessory -> process:rfs_access_265
+5: file:usbaccessory_device_w_dev_usb_accessory -> process:rmt_storage_263
+6: file:usbaccessory_device_w_dev_usb_accessory -> process:ddexe_399
+7: file:usbaccessory_device_w_dev_usb_accessory -> process:sensors_256
+8: file:usbaccessory_device_w_dev_usb_accessory -> process:smdexe_253
+9: file:usbaccessory_device_w_dev_usb_accessory -> process:storaged_249
+10: file:usbaccessory_device_w_dev_usb_accessory -> process:system_server_21
+11: file:usbaccessory_device_w_dev_usb_accessory -> process:diag_392
+12: file:usbaccessory_device_w_dev_usb_accessory -> process:tee_245
+13: file:usbaccessory_device_w_dev_usb_accessory -> process:thermal-engine_244
+14: file:usbaccessory_device_w_dev_usb_accessory -> process:time_daemon_243
+15: file:usbaccessory_device_w_dev_usb_accessory -> process:vold_220
+16: file:usbaccessory_device_w_dev_usb_accessory -> process:diag_393
+17: file:usbaccessory_device_w_dev_usb_accessory -> process:zygote_2
+18: file:usbaccessory_device_w_dev_usb_accessory -> process:zygote_3
+19: file:usbaccessory_device_w_dev_usb_accessory -> process:diag_394
+20: file:usbaccessory_device_w_dev_usb_accessory -> process:diag_395
+21: file:usbaccessory_device_w_dev_usb_accessory -> process:diag_396
+22: file:usbaccessory_device_w_dev_usb_accessory -> process:diag_397
+23: file:usbaccessory_device_w_dev_usb_accessory -> process:edmaudit_388
+24: file:usbaccessory_device_w_dev_usb_accessory -> process:hal_iop_default_360
+25: file:usbaccessory_device_w_dev_usb_accessory -> process:hal_perf_default_355
+26: file:usbaccessory_device_w_dev_usb_accessory -> process:at_distributor_412
+27: file:usbaccessory_device_w_dev_usb_accessory -> process:healthd_342
+28: file:usbaccessory_device_w_dev_usb_accessory -> process:init_1
+29: file:usbaccessory_device_w_dev_usb_accessory -> process:installd_327
+30: file:usbaccessory_device_w_dev_usb_accessory -> process:lmkd_318
+31: file:usbaccessory_device_w_dev_usb_accessory -> process:location_312
+32: file:usbaccessory_device_w_dev_usb_accessory -> process:location_313
+33: file:usbaccessory_device_w_dev_usb_accessory -> process:location_314
+34: file:usbaccessory_device_w_dev_usb_accessory -> process:location_315
+35: file:usbaccessory_device_w_dev_usb_accessory -> process:location_316
+36: file:usbaccessory_device_w_dev_usb_accessory -> process:location_317
+37: file:usbaccessory_device_w_dev_usb_accessory -> process:lpm_310
+38: file:usbaccessory_device_w_dev_usb_accessory -> process:netd_296
+39: file:usbaccessory_device_w_dev_usb_accessory -> process:netmgrd_295
+40: file:usbaccessory_device_w_dev_usb_accessory -> process:pd_mapper_294
+query>
+
+
+
+

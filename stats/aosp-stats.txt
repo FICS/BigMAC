@@ -1,0 +1,740 @@
+INFO: STAT: Image summary: google - Pixel (BUILD_ID NKG47M, Android 7.1.2) (7.1.2)
+INFO: STAT: 477 file contexts
+INFO: STAT: 81 services
+INFO: STAT: 54 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 3695 files
+INFO: STAT: SEPolicy 776 nodes and 7186 allow edges
+INFO: STAT: SEPolicy attributes 29
+INFO: STAT: SEPolicy types 773
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 114
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 278/477 FCs (41.72% are missing)
+INFO: STAT: Dataflow created 114 subjects and 949 objects with a total of 9045 R/W edges
+INFO: STAT: Recovered subject 101 (88.6%) file mappings, but unable to do so for 13 subjects
+INFO: STAT: Recovered object 223 (76.5%) file mappings, but unable to do so for 726 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 172
+INFO: STAT: Recovered running processes 52
+INFO: STAT: Image summary: google - Pixel (BUILD_ID NJH47D, Android 7.1.2) (7.1.2)
+INFO: STAT: 477 file contexts
+INFO: STAT: 81 services
+INFO: STAT: 54 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 3695 files
+INFO: STAT: SEPolicy 776 nodes and 7186 allow edges
+INFO: STAT: SEPolicy attributes 29
+INFO: STAT: SEPolicy types 773
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 114
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 278/477 FCs (41.72% are missing)
+INFO: STAT: Dataflow created 114 subjects and 949 objects with a total of 9045 R/W edges
+INFO: STAT: Recovered subject 101 (88.6%) file mappings, but unable to do so for 13 subjects
+INFO: STAT: Recovered object 223 (76.5%) file mappings, but unable to do so for 726 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 172
+INFO: STAT: Recovered running processes 52
+INFO: STAT: Image summary: google - Pixel (BUILD_ID NJH47F, Android 7.1.2) (7.1.2)
+INFO: STAT: 477 file contexts
+INFO: STAT: 81 services
+INFO: STAT: 54 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 3695 files
+INFO: STAT: SEPolicy 776 nodes and 7186 allow edges
+INFO: STAT: SEPolicy attributes 29
+INFO: STAT: SEPolicy types 773
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 114
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 278/477 FCs (41.72% are missing)
+INFO: STAT: Dataflow created 114 subjects and 949 objects with a total of 9045 R/W edges
+INFO: STAT: Recovered subject 101 (88.6%) file mappings, but unable to do so for 13 subjects
+INFO: STAT: Recovered object 223 (76.5%) file mappings, but unable to do so for 726 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 172
+INFO: STAT: Recovered running processes 52
+INFO: STAT: Image summary: google - Pixel (BUILD_ID NZH54B, Android 7.1.2) (7.1.2)
+INFO: STAT: 477 file contexts
+INFO: STAT: 81 services
+INFO: STAT: 54 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 3695 files
+INFO: STAT: SEPolicy 776 nodes and 7186 allow edges
+INFO: STAT: SEPolicy attributes 29
+INFO: STAT: SEPolicy types 773
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 114
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 278/477 FCs (41.72% are missing)
+INFO: STAT: Dataflow created 114 subjects and 949 objects with a total of 9045 R/W edges
+INFO: STAT: Recovered subject 101 (88.6%) file mappings, but unable to do so for 13 subjects
+INFO: STAT: Recovered object 223 (76.5%) file mappings, but unable to do so for 726 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 172
+INFO: STAT: Recovered running processes 52
+INFO: STAT: Image summary: google - Pixel (BUILD_ID NKG47S, Android 7.1.2) (7.1.2)
+INFO: STAT: 477 file contexts
+INFO: STAT: 81 services
+INFO: STAT: 54 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 3695 files
+INFO: STAT: SEPolicy 776 nodes and 7186 allow edges
+INFO: STAT: SEPolicy attributes 29
+INFO: STAT: SEPolicy types 773
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 114
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 278/477 FCs (41.72% are missing)
+INFO: STAT: Dataflow created 114 subjects and 949 objects with a total of 9045 R/W edges
+INFO: STAT: Recovered subject 101 (88.6%) file mappings, but unable to do so for 13 subjects
+INFO: STAT: Recovered object 223 (76.5%) file mappings, but unable to do so for 726 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 172
+INFO: STAT: Recovered running processes 52
+INFO: STAT: Image summary: google - Pixel (BUILD_ID NZH54D, Android 7.1.2) (7.1.2)
+INFO: STAT: 477 file contexts
+INFO: STAT: 81 services
+INFO: STAT: 54 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 3695 files
+INFO: STAT: SEPolicy 776 nodes and 7186 allow edges
+INFO: STAT: SEPolicy attributes 29
+INFO: STAT: SEPolicy types 773
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 114
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 278/477 FCs (41.72% are missing)
+INFO: STAT: Dataflow created 114 subjects and 949 objects with a total of 9045 R/W edges
+INFO: STAT: Recovered subject 101 (88.6%) file mappings, but unable to do so for 13 subjects
+INFO: STAT: Recovered object 223 (76.5%) file mappings, but unable to do so for 726 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 172
+INFO: STAT: Recovered running processes 52
+INFO: STAT: Image summary: google - Pixel (BUILD_ID NHG47Q, Android 7.1.2) (7.1.2)
+INFO: STAT: 477 file contexts
+INFO: STAT: 81 services
+INFO: STAT: 54 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 3695 files
+INFO: STAT: SEPolicy 776 nodes and 7186 allow edges
+INFO: STAT: SEPolicy attributes 29
+INFO: STAT: SEPolicy types 773
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 114
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 278/477 FCs (41.72% are missing)
+INFO: STAT: Dataflow created 114 subjects and 949 objects with a total of 9045 R/W edges
+INFO: STAT: Recovered subject 101 (88.6%) file mappings, but unable to do so for 13 subjects
+INFO: STAT: Recovered object 223 (76.5%) file mappings, but unable to do so for 726 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 172
+INFO: STAT: Recovered running processes 52
+INFO: STAT: Image summary: google - Pixel (BUILD_ID NHG47O, Android 7.1.2) (7.1.2)
+INFO: STAT: 477 file contexts
+INFO: STAT: 81 services
+INFO: STAT: 54 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 3695 files
+INFO: STAT: SEPolicy 776 nodes and 7186 allow edges
+INFO: STAT: SEPolicy attributes 29
+INFO: STAT: SEPolicy types 773
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 114
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 278/477 FCs (41.72% are missing)
+INFO: STAT: Dataflow created 114 subjects and 949 objects with a total of 9045 R/W edges
+INFO: STAT: Recovered subject 101 (88.6%) file mappings, but unable to do so for 13 subjects
+INFO: STAT: Recovered object 223 (76.5%) file mappings, but unable to do so for 726 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 172
+INFO: STAT: Recovered running processes 52
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPR3.170623.008, Android 8.0.0) (8.0.0)
+INFO: STAT: 683 file contexts
+INFO: STAT: 112 services
+INFO: STAT: 85 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 4692 files
+INFO: STAT: SEPolicy 1614 nodes and 17520 allow edges
+INFO: STAT: SEPolicy attributes 601
+INFO: STAT: SEPolicy types 1093
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 173
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 404/683 FCs (40.85% are missing)
+INFO: STAT: Dataflow created 173 subjects and 1344 objects with a total of 27215 R/W edges
+INFO: STAT: Recovered subject 143 (82.7%) file mappings, but unable to do so for 30 subjects
+INFO: STAT: Recovered object 290 (78.4%) file mappings, but unable to do so for 1054 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 255
+INFO: STAT: Recovered running processes 83
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPR1.170623.032, Android 8.0.0) (8.0.0)
+INFO: STAT: 683 file contexts
+INFO: STAT: 112 services
+INFO: STAT: 85 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 4692 files
+INFO: STAT: SEPolicy 1614 nodes and 17520 allow edges
+INFO: STAT: SEPolicy attributes 601
+INFO: STAT: SEPolicy types 1093
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 173
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 404/683 FCs (40.85% are missing)
+INFO: STAT: Dataflow created 173 subjects and 1344 objects with a total of 27215 R/W edges
+INFO: STAT: Recovered subject 143 (82.7%) file mappings, but unable to do so for 30 subjects
+INFO: STAT: Recovered object 290 (78.4%) file mappings, but unable to do so for 1054 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 255
+INFO: STAT: Recovered running processes 83
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPM1.171019.011, Android 8.1.0) (8.1.0)
+INFO: STAT: 585 file contexts
+INFO: STAT: 116 services
+INFO: STAT: 89 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 4771 files
+INFO: STAT: SEPolicy 1194 nodes and 13608 allow edges
+INFO: STAT: SEPolicy attributes 112
+INFO: STAT: SEPolicy types 1131
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 179
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 377/585 FCs (35.56% are missing)
+INFO: STAT: Dataflow created 179 subjects and 1395 objects with a total of 22859 R/W edges
+INFO: STAT: Recovered subject 150 (83.8%) file mappings, but unable to do so for 29 subjects
+INFO: STAT: Recovered object 299 (78.6%) file mappings, but unable to do so for 1096 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 270
+INFO: STAT: Recovered running processes 88
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPM1.171019.016, Android 8.1.0) (8.1.0)
+INFO: STAT: 585 file contexts
+INFO: STAT: 116 services
+INFO: STAT: 89 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 4771 files
+INFO: STAT: SEPolicy 1194 nodes and 13608 allow edges
+INFO: STAT: SEPolicy attributes 112
+INFO: STAT: SEPolicy types 1131
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 179
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 377/585 FCs (35.56% are missing)
+INFO: STAT: Dataflow created 179 subjects and 1395 objects with a total of 22859 R/W edges
+INFO: STAT: Recovered subject 150 (83.8%) file mappings, but unable to do so for 29 subjects
+INFO: STAT: Recovered object 299 (78.6%) file mappings, but unable to do so for 1096 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 270
+INFO: STAT: Recovered running processes 88
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPM2.171019.029, Android 8.1.0) (8.1.0)
+INFO: STAT: 585 file contexts
+INFO: STAT: 116 services
+INFO: STAT: 89 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 4771 files
+INFO: STAT: SEPolicy 1194 nodes and 13608 allow edges
+INFO: STAT: SEPolicy attributes 112
+INFO: STAT: SEPolicy types 1131
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 179
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 377/585 FCs (35.56% are missing)
+INFO: STAT: Dataflow created 179 subjects and 1395 objects with a total of 22859 R/W edges
+INFO: STAT: Recovered subject 150 (83.8%) file mappings, but unable to do so for 29 subjects
+INFO: STAT: Recovered object 299 (78.6%) file mappings, but unable to do so for 1096 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 270
+INFO: STAT: Recovered running processes 88
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPM4.171019.021.D1, Android 8.1.0) (8.1.0)
+INFO: STAT: 585 file contexts
+INFO: STAT: 116 services
+INFO: STAT: 89 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 4771 files
+INFO: STAT: SEPolicy 1194 nodes and 13608 allow edges
+INFO: STAT: SEPolicy attributes 112
+INFO: STAT: SEPolicy types 1131
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 179
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 377/585 FCs (35.56% are missing)
+INFO: STAT: Dataflow created 179 subjects and 1395 objects with a total of 22859 R/W edges
+INFO: STAT: Recovered subject 150 (83.8%) file mappings, but unable to do so for 29 subjects
+INFO: STAT: Recovered object 299 (78.6%) file mappings, but unable to do so for 1096 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 270
+INFO: STAT: Recovered running processes 88
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPR6.170623.011, Android 8.0.0) (8.0.0)
+INFO: STAT: 683 file contexts
+INFO: STAT: 112 services
+INFO: STAT: 85 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 4692 files
+INFO: STAT: SEPolicy 1614 nodes and 17520 allow edges
+INFO: STAT: SEPolicy attributes 601
+INFO: STAT: SEPolicy types 1093
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 173
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 404/683 FCs (40.85% are missing)
+INFO: STAT: Dataflow created 173 subjects and 1344 objects with a total of 27215 R/W edges
+INFO: STAT: Recovered subject 143 (82.7%) file mappings, but unable to do so for 30 subjects
+INFO: STAT: Recovered object 290 (78.4%) file mappings, but unable to do so for 1054 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 255
+INFO: STAT: Recovered running processes 83
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPM4.171019.016.B1, Android 8.1.0) (8.1.0)
+INFO: STAT: 585 file contexts
+INFO: STAT: 116 services
+INFO: STAT: 89 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 4771 files
+INFO: STAT: SEPolicy 1194 nodes and 13608 allow edges
+INFO: STAT: SEPolicy attributes 112
+INFO: STAT: SEPolicy types 1131
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 179
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 377/585 FCs (35.56% are missing)
+INFO: STAT: Dataflow created 179 subjects and 1395 objects with a total of 22859 R/W edges
+INFO: STAT: Recovered subject 150 (83.8%) file mappings, but unable to do so for 29 subjects
+INFO: STAT: Recovered object 299 (78.6%) file mappings, but unable to do so for 1096 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 270
+INFO: STAT: Recovered running processes 88
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPM1.171019.021, Android 8.1.0) (8.1.0)
+INFO: STAT: 585 file contexts
+INFO: STAT: 116 services
+INFO: STAT: 89 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 4771 files
+INFO: STAT: SEPolicy 1194 nodes and 13608 allow edges
+INFO: STAT: SEPolicy attributes 112
+INFO: STAT: SEPolicy types 1131
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 179
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 377/585 FCs (35.56% are missing)
+INFO: STAT: Dataflow created 179 subjects and 1395 objects with a total of 22859 R/W edges
+INFO: STAT: Recovered subject 150 (83.8%) file mappings, but unable to do so for 29 subjects
+INFO: STAT: Recovered object 299 (78.6%) file mappings, but unable to do so for 1096 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 270
+INFO: STAT: Recovered running processes 88
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPR1.170623.027, Android 8.0.0) (8.0.0)
+INFO: STAT: 683 file contexts
+INFO: STAT: 112 services
+INFO: STAT: 85 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 4692 files
+INFO: STAT: SEPolicy 1614 nodes and 17520 allow edges
+INFO: STAT: SEPolicy attributes 601
+INFO: STAT: SEPolicy types 1093
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 173
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 404/683 FCs (40.85% are missing)
+INFO: STAT: Dataflow created 173 subjects and 1344 objects with a total of 27215 R/W edges
+INFO: STAT: Recovered subject 143 (82.7%) file mappings, but unable to do so for 30 subjects
+INFO: STAT: Recovered object 290 (78.4%) file mappings, but unable to do so for 1054 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 255
+INFO: STAT: Recovered running processes 83
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPM1.171019.012, Android 8.1.0) (8.1.0)
+INFO: STAT: 585 file contexts
+INFO: STAT: 116 services
+INFO: STAT: 89 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 4771 files
+INFO: STAT: SEPolicy 1194 nodes and 13608 allow edges
+INFO: STAT: SEPolicy attributes 112
+INFO: STAT: SEPolicy types 1131
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 179
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 377/585 FCs (35.56% are missing)
+INFO: STAT: Dataflow created 179 subjects and 1395 objects with a total of 22859 R/W edges
+INFO: STAT: Recovered subject 150 (83.8%) file mappings, but unable to do so for 29 subjects
+INFO: STAT: Recovered object 299 (78.6%) file mappings, but unable to do so for 1096 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 270
+INFO: STAT: Recovered running processes 88
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPR3.170623.013, Android 8.0.0) (8.0.0)
+INFO: STAT: 683 file contexts
+INFO: STAT: 112 services
+INFO: STAT: 85 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 4692 files
+INFO: STAT: SEPolicy 1614 nodes and 17520 allow edges
+INFO: STAT: SEPolicy attributes 601
+INFO: STAT: SEPolicy types 1093
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 173
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 404/683 FCs (40.85% are missing)
+INFO: STAT: Dataflow created 173 subjects and 1344 objects with a total of 27215 R/W edges
+INFO: STAT: Recovered subject 143 (82.7%) file mappings, but unable to do so for 30 subjects
+INFO: STAT: Recovered object 290 (78.4%) file mappings, but unable to do so for 1054 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 255
+INFO: STAT: Recovered running processes 83
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPM4.171019.021.P1, Android 8.1.0) (8.1.0)
+INFO: STAT: 585 file contexts
+INFO: STAT: 116 services
+INFO: STAT: 89 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 4771 files
+INFO: STAT: SEPolicy 1194 nodes and 13608 allow edges
+INFO: STAT: SEPolicy attributes 112
+INFO: STAT: SEPolicy types 1131
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 179
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 377/585 FCs (35.56% are missing)
+INFO: STAT: Dataflow created 179 subjects and 1395 objects with a total of 22859 R/W edges
+INFO: STAT: Recovered subject 150 (83.8%) file mappings, but unable to do so for 29 subjects
+INFO: STAT: Recovered object 299 (78.6%) file mappings, but unable to do so for 1096 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 270
+INFO: STAT: Recovered running processes 88
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPR6.170623.012, Android 8.0.0) (8.0.0)
+INFO: STAT: 683 file contexts
+INFO: STAT: 112 services
+INFO: STAT: 85 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 4692 files
+INFO: STAT: SEPolicy 1614 nodes and 17520 allow edges
+INFO: STAT: SEPolicy attributes 601
+INFO: STAT: SEPolicy types 1093
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 173
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 404/683 FCs (40.85% are missing)
+INFO: STAT: Dataflow created 173 subjects and 1344 objects with a total of 27215 R/W edges
+INFO: STAT: Recovered subject 143 (82.7%) file mappings, but unable to do so for 30 subjects
+INFO: STAT: Recovered object 290 (78.4%) file mappings, but unable to do so for 1054 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 255
+INFO: STAT: Recovered running processes 83
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPM1.171019.014, Android 8.1.0) (8.1.0)
+INFO: STAT: 585 file contexts
+INFO: STAT: 116 services
+INFO: STAT: 89 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 4771 files
+INFO: STAT: SEPolicy 1194 nodes and 13608 allow edges
+INFO: STAT: SEPolicy attributes 112
+INFO: STAT: SEPolicy types 1131
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 179
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 377/585 FCs (35.56% are missing)
+INFO: STAT: Dataflow created 179 subjects and 1395 objects with a total of 22859 R/W edges
+INFO: STAT: Recovered subject 150 (83.8%) file mappings, but unable to do so for 29 subjects
+INFO: STAT: Recovered object 299 (78.6%) file mappings, but unable to do so for 1096 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 270
+INFO: STAT: Recovered running processes 88
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPR3.170623.007, Android 8.0.0) (8.0.0)
+INFO: STAT: 683 file contexts
+INFO: STAT: 112 services
+INFO: STAT: 85 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 4692 files
+INFO: STAT: SEPolicy 1614 nodes and 17520 allow edges
+INFO: STAT: SEPolicy attributes 601
+INFO: STAT: SEPolicy types 1093
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 173
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 404/683 FCs (40.85% are missing)
+INFO: STAT: Dataflow created 173 subjects and 1344 objects with a total of 27215 R/W edges
+INFO: STAT: Recovered subject 143 (82.7%) file mappings, but unable to do so for 30 subjects
+INFO: STAT: Recovered object 290 (78.4%) file mappings, but unable to do so for 1054 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 255
+INFO: STAT: Recovered running processes 83
+INFO: STAT: Image summary: google - Pixel (BUILD_ID OPR1.170623.026, Android 8.0.0) (8.0.0)
+INFO: STAT: 683 file contexts
+INFO: STAT: 112 services
+INFO: STAT: 85 active
+INFO: STAT: 27 will start as root
+INFO: STAT: 4692 files
+INFO: STAT: SEPolicy 1614 nodes and 17520 allow edges
+INFO: STAT: SEPolicy attributes 601
+INFO: STAT: SEPolicy types 1093
+INFO: STAT: SEPolicy genfs 16
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 173
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 404/683 FCs (40.85% are missing)
+INFO: STAT: Dataflow created 173 subjects and 1344 objects with a total of 27215 R/W edges
+INFO: STAT: Recovered subject 143 (82.7%) file mappings, but unable to do so for 30 subjects
+INFO: STAT: Recovered object 290 (78.4%) file mappings, but unable to do so for 1054 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 255
+INFO: STAT: Recovered running processes 83
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PPR1.180610.010, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5194 files
+INFO: STAT: SEPolicy 1420 nodes and 18934 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1337
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1664 objects with a total of 28752 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1341 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PPR1.181005.003.A1, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5194 files
+INFO: STAT: SEPolicy 1420 nodes and 18929 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1337
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1664 objects with a total of 28752 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1341 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PPR2.180905.006, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5194 files
+INFO: STAT: SEPolicy 1420 nodes and 18929 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1337
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1664 objects with a total of 28752 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1341 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PPR2.181005.003.A1, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5194 files
+INFO: STAT: SEPolicy 1420 nodes and 18929 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1337
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1664 objects with a total of 28752 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1341 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PQ1A.181205.002.A1, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5197 files
+INFO: STAT: SEPolicy 1421 nodes and 18937 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1338
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1666 objects with a total of 28763 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1343 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PQ1A.190105.004, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5189 files
+INFO: STAT: SEPolicy 1421 nodes and 18937 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1338
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1666 objects with a total of 28763 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1343 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PPR1.181005.003, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5194 files
+INFO: STAT: SEPolicy 1420 nodes and 18929 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1337
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1664 objects with a total of 28752 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1341 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PPR1.180610.009, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5194 files
+INFO: STAT: SEPolicy 1420 nodes and 18934 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1337
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1664 objects with a total of 28752 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1341 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PPR2.180905.006.A1, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5194 files
+INFO: STAT: SEPolicy 1420 nodes and 18929 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1337
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1664 objects with a total of 28752 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1341 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PQ2A.190205.003, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5189 files
+INFO: STAT: SEPolicy 1421 nodes and 18939 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1338
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1666 objects with a total of 28767 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1343 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PPR1.180905.003, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5194 files
+INFO: STAT: SEPolicy 1420 nodes and 18929 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1337
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1664 objects with a total of 28752 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1341 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92
+INFO: STAT: Image summary: google - Pixel (BUILD_ID PPR2.181005.003, Android 9) (9.0.0)
+INFO: STAT: 656 file contexts
+INFO: STAT: 124 services
+INFO: STAT: 94 active
+INFO: STAT: 29 will start as root
+INFO: STAT: 5194 files
+INFO: STAT: SEPolicy 1420 nodes and 18929 allow edges
+INFO: STAT: SEPolicy attributes 125
+INFO: STAT: SEPolicy types 1337
+INFO: STAT: SEPolicy genfs 20
+INFO: STAT: SEPolicy fs_use 16
+INFO: STAT: SEPolicy domains 210
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 401/656 FCs (38.87% are missing)
+INFO: STAT: Dataflow created 210 subjects and 1664 objects with a total of 28752 R/W edges
+INFO: STAT: Recovered subject 169 (80.5%) file mappings, but unable to do so for 41 subjects
+INFO: STAT: Recovered object 323 (80.6%) file mappings, but unable to do so for 1341 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 317
+INFO: STAT: Recovered running processes 92

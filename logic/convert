@@ -1,0 +1,153 @@
+# FOR TTYUSB0
+
+1. Reachability
+
+?- query3(file:usb_device_r_dev_ttyUSB0,_,1,Z).
+Execution took 417 ms
+Path number 0
+Z = [].
+
+?- query3(file:usb_device_r_dev_ttyUSB0,_,2,Z).
+Execution took 0 ms
+Path number 0
+Z = [].
+
+?- query3(file:usb_device_r_dev_ttyUSB0,_,3,Z).
+Execution took 0 ms
+Path number 0
+Z = [].
+
+?- query3(file:usb_device_w_dev_ttyUSB0,_,1,Z).
+Execution took 239 ms
+Path number 25
+Z = [[file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417], [file:usb_device_w_dev_ttyUSB0, process:adbd_416], [file:usb_device_w_dev_ttyUSB0, process:remotedisplay_267], [file:usb_device_w_dev_ttyUSB0, process:rfs_access_265], [file:usb_device_w_dev_ttyUSB0, process:rmt_storage_263], [file:usb_device_w_dev_ttyUSB0, process:sensors_256], [file:usb_device_w_dev_ttyUSB0, process:system_server_21], [file:usb_device_w_dev_ttyUSB0|...], [...|...]|...].
+
+?- query3(file:usb_device_w_dev_ttyUSB0,_,2,Z).
+Execution took 93281 ms
+Path number 8697
+Z = [[file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:zero_device_r_dev_zero], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:hwbinder_device_r_dev_hwbinder], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, socket:DMM-daemon_w_0], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, socket:logd_r_0], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:media_rw_data_file_data_knox_sdcard], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417|...], [file:usb_device_w_dev_ttyUSB0|...], [...|...]|...].
+
+?- query3(file:usb_device_w_dev_ttyUSB0,_,3,Z).
+Execution took 1753919 ms
+Path number 80583
+Z = [[file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:zero_device_r_dev_zero], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:hwbinder_device_r_dev_hwbinder], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, socket:DMM-daemon_w_0], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, socket:logd_r_0], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, socket:logd_r_0|...], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417|...], [file:usb_device_w_dev_ttyUSB0|...], [...|...]|...].
+
+?-
+
+
+2. Reachability + Capability
+
+
+?- query4(file:usb_device_w_dev_ttyUSB0,_,1,1,Z).
+Execution took 234 ms
+Path number 22
+Z = [[file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417], [file:usb_device_w_dev_ttyUSB0, process:adbd_416], [file:usb_device_w_dev_ttyUSB0, process:rfs_access_265], [file:usb_device_w_dev_ttyUSB0, process:rmt_storage_263], [file:usb_device_w_dev_ttyUSB0, process:sensors_256], [file:usb_device_w_dev_ttyUSB0, process:tee_245], [file:usb_device_w_dev_ttyUSB0, process:thermal-engine_244], [file:usb_device_w_dev_ttyUSB0|...], [...|...]|...].
+
+?- query4(file:usb_device_w_dev_ttyUSB0,_,2,1,Z).
+Execution took 93632 ms
+Path number 7201
+Z = [[file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:zero_device_r_dev_zero], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:hwbinder_device_r_dev_hwbinder], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, socket:DMM-daemon_w_0], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, socket:logd_r_0], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:media_rw_data_file_data_knox_sdcard], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417|...], [file:usb_device_w_dev_ttyUSB0|...], [...|...]|...].
+
+
+
+
+?- query4(file:usb_device_w_dev_ttyUSB0,_,1,21,Z).
+Execution took 659 ms
+Path number 22
+Z = [[file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417], [file:usb_device_w_dev_ttyUSB0, process:adbd_416], [file:usb_device_w_dev_ttyUSB0, process:rfs_access_265], [file:usb_device_w_dev_ttyUSB0, process:rmt_storage_263], [file:usb_device_w_dev_ttyUSB0, process:sensors_256], [file:usb_device_w_dev_ttyUSB0, process:tee_245], [file:usb_device_w_dev_ttyUSB0, process:thermal-engine_244], [file:usb_device_w_dev_ttyUSB0|...], [...|...]|...].
+
+?- query4(file:usb_device_w_dev_ttyUSB0,_,2,21,Z).
+Execution took 93326 ms
+Path number 7201
+Z = [[file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:zero_device_r_dev_zero], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:hwbinder_device_r_dev_hwbinder], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, socket:DMM-daemon_w_0], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, socket:logd_r_0], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417, file:media_rw_data_file_data_knox_sdcard], [file:usb_device_w_dev_ttyUSB0, process:DMM-daemon_417|...], [file:usb_device_w_dev_ttyUSB0|...], [...|...]|...].
+
+
+
+
+
+
+
+
+
+# FOR ATD
+
+1. External attack surface for ATD
+
+?- query5(_,process:at_distributor_412,1,_,1,Z).
+Execution took 601471 ms
+Path number 29
+Z = [[file:mtp_device_w_dev_mtp_usb, process:at_distributor_412], [file:sysfs_android_usb_w_sys_class_android_usb_android0, process:at_distributor_412], [file:sysfs_android_usb_w_sys_class_android_usb_android0_f_mass_storage, process:at_distributor_412], [file:sysfs_android_usb_w_sys_class_android_usb_android0_f_mass_storage_lun, process:at_distributor_412], [file:sysfs_android_usb_w_sys_class_android_usb_android0_f_rndis, process:at_distributor_412], [file:sysfs_battery_w_sys_class_power_supply_battery_batt_high_current_usb, process:at_distributor_412], [file:sysfs_sec_w_sys_class_sec_switch_usb_sel, process:at_distributor_412], [file:sysfs_ss_writable_w_sys_class_host_notify_usb_otg|...], [...|...]|...].
+
+?- query5(_,process:at_distributor_412,1,_,2,Z).
+Execution took 601039 ms
+Path number 7
+Z = [[file:sysfs_bluetooth_writable_w_sys_class_rfkill_rfkill0_type, process:at_distributor_412], [file:block_device_w_dev_block_platform_soc_7464900.sdhci, process:at_distributor_412], [file:block_device_w_dev_block_platform_soc_7464900.sdhci_by-name, process:at_distributor_412], [file:block_device_w_dev_block_platform_soc_7824900.sdhci, process:at_distributor_412], [file:block_device_w_dev_block_platform_soc_7824900.sdhci_by-name, process:at_distributor_412], [file:block_device_w_dev_block_platform_soc_c0c4000.sdhci, process:at_distributor_412], [file:block_device_w_dev_block_platform_soc_c0c4000.sdhci_by-name, process:at_distributor_412]].
+
+?- query5(_,process:at_distributor_412,1,_,3,Z).
+Execution took 601089 ms
+Path number 31
+Z = [[file:qdsp_device_w_dev_adsprpc-smd, process:at_distributor_412], [file:radio_device_w_dev_mdm, process:at_distributor_412], [file:smd_cntl_device_w_dev_smdcntl0, process:at_distributor_412], [file:smd_cntl_device_w_dev_smdcntl1, process:at_distributor_412], [file:smd_cntl_device_w_dev_smdcntl2, process:at_distributor_412], [file:smd_cntl_device_w_dev_smdcntl3, process:at_distributor_412], [file:smd_cntl_device_w_dev_smdcntl4, process:at_distributor_412], [file:smd_cntl_device_w_dev_smdcntl5|...], [...|...]|...].
+
+?- query5(_,process:at_distributor_412,1,_,4,Z).
+Execution took 600458 ms
+Path number 0
+Z = [].
+
+
+
+
+
+?- query5(_,process:at_distributor_412,2,_,1,Z).
+Execution took 996873 ms
+Path number 29
+Z = [[file:mtp_device_w_dev_mtp_usb, process:at_distributor_412], [file:sysfs_android_usb_w_sys_class_android_usb_android0, process:at_distributor_412], [file:sysfs_android_usb_w_sys_class_android_usb_android0_f_mass_storage, process:at_distributor_412], [file:sysfs_android_usb_w_sys_class_android_usb_android0_f_mass_storage_lun, process:at_distributor_412], [file:sysfs_android_usb_w_sys_class_android_usb_android0_f_rndis, process:at_distributor_412], [file:sysfs_battery_w_sys_class_power_supply_battery_batt_high_current_usb, process:at_distributor_412], [file:sysfs_sec_w_sys_class_sec_switch_usb_sel, process:at_distributor_412], [file:sysfs_ss_writable_w_sys_class_host_notify_usb_otg|...], [...|...]|...].
+
+?-
+
+
+
+# FOR SYSTEM_SERVER
+# % process:system_server_21
+sub(process:system_server_21, 1000, [1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1018, 1021, 1023, 1032, 3001, 3002, 3003, 3006, 3007, 3009, 3010], 7, 7, 7, [5, 10, 11, 12, 13, 14, 16, 19, 23, 25, 26, 35]).
+
+
+?- query3(_,process:system_server_21,1,Z).
+Execution took 18208 ms
+Path number 9851
+Z = [[file:firmware_file_system_etc_firmware_V08QL_s5k3h1sx_cc_chromatix.xml, process:system_server_21], [file:vendor_file_system_vendor_lib64_libapex_jni.so, process:system_server_21], [file:vendor_file_system_vendor_lib64_libatparser.so, process:system_server_21], [file:vendor_file_system_vendor_lib64_libaudcal.so, process:system_server_21], [file:vendor_file_system_vendor_lib64_libaudioalsa.so, process:system_server_21], [file:vendor_file_system_vendor_lib64_libaudiohookclient.so, process:system_server_21], [file:vendor_file_system_vendor_lib64_libbase64.so, process:system_server_21], [file:vendor_file_system_vendor_lib64_libbauthserver.so|...], [...|...]|...].
+
+?- query3(_,process:system_server_21,2,Z).
+Execution took 355307 ms
+Path number 13294
+Z = [[process:DMM-daemon_417, file:media_rw_data_file_data_knox_sdcard, process:system_server_21], [process:DMM-daemon_417, file:media_rw_data_file_data_knox_secure_fs_enc_media, process:system_server_21], [process:DMM-daemon_417, file:media_rw_data_file_data_media, process:system_server_21], [process:DMM-daemon_417, file:media_rw_data_file_data_media_obb, process:system_server_21], [process:DMM-daemon_417, file:media_rw_data_file_mnt_obb, process:system_server_21], [process:adbd_416, file:vfat_firmware, process:system_server_21], [process:adbd_416, file:vfat_firmware-modem|...], [process:adbd_416|...], [...|...]|...].
+
+?-
+
+
+
+
+
+
+
+
+# FOR INIT
+# % process:init_1
+sub(process:init_1, 0, [0, 3009], 7, 7, 7, [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]).
+
+
+
+?- query3(_,process:init_1,1,Z).
+Execution took 17763 ms
+Path number 9755
+Z = [[file:firmware_file_system_etc_firmware_V08QL_s5k3h1sx_cc_chromatix.xml, process:init_1], [file:vendor_file_system_vendor_lib64_libapex_jni.so, process:init_1], [file:vendor_file_system_vendor_lib64_libatparser.so, process:init_1], [file:vendor_file_system_vendor_lib64_libaudcal.so, process:init_1], [file:vendor_file_system_vendor_lib64_libaudioalsa.so, process:init_1], [file:vendor_file_system_vendor_lib64_libaudiohookclient.so, process:init_1], [file:vendor_file_system_vendor_lib64_libbase64.so, process:init_1], [file:vendor_file_system_vendor_lib64_libbauthserver.so|...], [...|...]|...].
+
+?- query3(_,process:init_1,2,Z).
+Execution took 351728 ms
+Path number 12598
+Z = [[process:DMM-daemon_417, file:media_rw_data_file_data_knox_sdcard, process:init_1], [process:DMM-daemon_417, file:media_rw_data_file_data_knox_secure_fs_enc_media, process:init_1], [process:DMM-daemon_417, file:media_rw_data_file_data_media, process:init_1], [process:DMM-daemon_417, file:media_rw_data_file_data_media_obb, process:init_1], [process:DMM-daemon_417, file:media_rw_data_file_mnt_obb, process:init_1], [process:adbd_416, property_service:ffs_prop_r_0, process:init_1], [process:adbd_416, property_service:powerctl_prop_r_0|...], [process:adbd_416|...], [...|...]|...].
+
+?-
+
+
+
+

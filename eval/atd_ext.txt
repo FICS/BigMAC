@@ -1,0 +1,100 @@
+query> query _ process:at_distributor_412 1 _ 1
+INFO: Start 1564088562.006747
+INFO: Query <_> -> <process:at_distributor_412> (cutoff 1)
+INFO: Cap _
+INFO: Source 1
+INFO: binary inst5 - ['_', 'n5', '1', '_', '1']
+INFO: Got 29 paths in 772.82 seconds (use `print` to display)
+query> print
+1: file:mtp_device_w_dev_mtp_usb -> process:at_distributor_412
+2: file:sysfs_android_usb_w_sys_class_android_usb_android0 -> process:at_distributor_412
+3: file:sysfs_android_usb_w_sys_class_android_usb_android0_f_mass_storage -> process:at_distributor_412
+4: file:sysfs_android_usb_w_sys_class_android_usb_android0_f_mass_storage_lun -> process:at_distributor_412
+5: file:sysfs_android_usb_w_sys_class_android_usb_android0_f_rndis -> process:at_distributor_412
+6: file:sysfs_battery_w_sys_class_power_supply_battery_batt_high_current_usb -> process:at_distributor_412
+7: file:sysfs_sec_w_sys_class_sec_switch_usb_sel -> process:at_distributor_412
+8: file:sysfs_ss_writable_w_sys_class_host_notify_usb_otg -> process:at_distributor_412
+9: file:sysfs_ss_writable_w_sys_class_host_notify_usb_otg_booster -> process:at_distributor_412
+10: file:sysfs_usb_uicc_w_sys_module_ccid_bridge -> process:at_distributor_412
+11: file:sysfs_usb_uicc_w_sys_module_ccid_bridge_parameters -> process:at_distributor_412
+12: file:sysfs_usb_uicc_w_sys_module_ccid_bridge_parameters_bulk_msg_timeout -> process:at_distributor_412
+13: file:sysfs_w_sys_class_android_usb -> process:at_distributor_412
+14: file:sysfs_w_sys_class_usb_notify -> process:at_distributor_412
+15: file:sysfs_w_sys_class_usb_notify_usb_control -> process:at_distributor_412
+16: file:sysfs_w_sys_class_usb_notify_usb_control_disable -> process:at_distributor_412
+17: file:sysfs_w_sys_class_usb_notify_usb_control_hw_param -> process:at_distributor_412
+18: file:sysfs_w_sys_class_usb_notify_usb_control_usb_hw_param -> process:at_distributor_412
+19: file:sysfs_w_sys_devices_platform_msm_hsusb -> process:at_distributor_412
+20: file:sysfs_w_sys_devices_platform_msm_hsusb_gadget -> process:at_distributor_412
+21: file:sysfs_w_sys_devices_platform_msm_hsusb_gadget_usb_state -> process:at_distributor_412
+22: file:sysfs_w_sys_devices_platform_msm_serial_hs.0 -> process:at_distributor_412
+23: file:sysfs_w_sys_devices_virtual_usb_composite -> process:at_distributor_412
+24: file:sysfs_w_sys_devices_virtual_usb_composite_0 -> process:at_distributor_412
+25: file:sysfs_w_sys_devices_virtual_usb_composite_0_enable -> process:at_distributor_412
+26: file:at_device_w_dev_at_usb0 -> process:at_distributor_412
+27: file:usb_device_w_dev_bus_usb -> process:at_distributor_412
+28: file:usb_device_w_dev_bus_usb_0 -> process:at_distributor_412
+29: file:usbaccessory_device_w_dev_usb_accessory -> process:at_distributor_412
+query> query _ process:at_distributor_412 1 _ 2
+INFO: Start 1564089528.143261
+INFO: Query <_> -> <process:at_distributor_412> (cutoff 1)
+INFO: Cap _
+INFO: Source 2
+INFO: binary inst5 - ['_', 'n5', '1', '_', '2']
+INFO: Got 7 paths in 751.93 seconds (use `print` to display)
+query> print
+1: file:sysfs_bluetooth_writable_w_sys_class_rfkill_rfkill0_type -> process:at_distributor_412
+2: file:block_device_w_dev_block_platform_soc_7464900.sdhci -> process:at_distributor_412
+3: file:block_device_w_dev_block_platform_soc_7464900.sdhci_by-name -> process:at_distributor_412
+4: file:block_device_w_dev_block_platform_soc_7824900.sdhci -> process:at_distributor_412
+5: file:block_device_w_dev_block_platform_soc_7824900.sdhci_by-name -> process:at_distributor_412
+6: file:block_device_w_dev_block_platform_soc_c0c4000.sdhci -> process:at_distributor_412
+7: file:block_device_w_dev_block_platform_soc_c0c4000.sdhci_by-name -> process:at_distributor_412
+query> query _ process:at_distributor_412 1 _ 3
+INFO: Start 1564090318.568855
+INFO: Query <_> -> <process:at_distributor_412> (cutoff 1)
+INFO: Cap _
+INFO: Source 3
+INFO: binary inst5 - ['_', 'n5', '1', '_', '3']
+INFO: Got 31 paths in 751.37 seconds (use `print` to display)
+query> print
+1: file:qdsp_device_w_dev_adsprpc-smd -> process:at_distributor_412
+2: file:radio_device_w_dev_mdm -> process:at_distributor_412
+3: file:smd_cntl_device_w_dev_smdcntl0 -> process:at_distributor_412
+4: file:smd_cntl_device_w_dev_smdcntl1 -> process:at_distributor_412
+5: file:smd_cntl_device_w_dev_smdcntl2 -> process:at_distributor_412
+6: file:smd_cntl_device_w_dev_smdcntl3 -> process:at_distributor_412
+7: file:smd_cntl_device_w_dev_smdcntl4 -> process:at_distributor_412
+8: file:smd_cntl_device_w_dev_smdcntl5 -> process:at_distributor_412
+9: file:smd_cntl_device_w_dev_smdcntl6 -> process:at_distributor_412
+10: file:smd_cntl_device_w_dev_smdcntl7 -> process:at_distributor_412
+11: file:smd_cntl_device_w_dev_smdcntl8 -> process:at_distributor_412
+12: file:smd_cxm_qmi_device_w_dev_smd_cxm_qmi -> process:at_distributor_412
+13: file:smd_device_w_dev_smd11 -> process:at_distributor_412
+14: file:smd_device_w_dev_smdcnt_rev0 -> process:at_distributor_412
+15: file:smd_device_w_dev_smdcnt_rev1 -> process:at_distributor_412
+16: file:smd_device_w_dev_smdcnt_rev2 -> process:at_distributor_412
+17: file:smd_device_w_dev_smdcnt_rev3 -> process:at_distributor_412
+18: file:smd_device_w_dev_smdcnt_rev4 -> process:at_distributor_412
+19: file:smd_device_w_dev_smdcnt_rev5 -> process:at_distributor_412
+20: file:smd_device_w_dev_smdcnt_rev6 -> process:at_distributor_412
+21: file:smd_device_w_dev_smdcnt_rev7 -> process:at_distributor_412
+22: file:smd_device_w_dev_smdcnt_rev8 -> process:at_distributor_412
+23: file:sysfs_battery_w_sys_class_power_supply_battery_batt_inbat_voltage -> process:at_distributor_412
+24: file:sysfs_battery_w_sys_class_power_supply_battery_batt_inbat_wireless_cs100 -> process:at_distributor_412
+25: file:sysfs_battery_w_sys_class_power_supply_battery_batt_tune_float_voltage -> process:at_distributor_412
+26: file:sysfs_smd_open_timeout_w_sys_devices_virtual_smdpkt_smdcntl0_open_timeout -> process:at_distributor_412
+27: file:sysfs_w_sys_class_graphics_fb1_format_3d -> process:at_distributor_412
+28: file:sysfs_w_sys_devices_virtual_smdpkt -> process:at_distributor_412
+29: file:sysfs_w_sys_devices_virtual_smdpkt_smdcntl0 -> process:at_distributor_412
+30: file:at_device_w_dev_at_mdm0 -> process:at_distributor_412
+31: file:at_device_w_dev_at_usb0 -> process:at_distributor_412
+query> query _ process:at_distributor_412 1 _ 4
+INFO: Start 1564091571.187275
+INFO: Query <_> -> <process:at_distributor_412> (cutoff 1)
+INFO: Cap _
+INFO: Source 4
+INFO: binary inst5 - ['_', 'n5', '1', '_', '4']
+INFO: Got 0 paths in 794.97 seconds (use `print` to display)
+query>
+

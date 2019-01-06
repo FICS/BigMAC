@@ -1,0 +1,714 @@
+Exe:	/init
+Sid:	u:r:init:s0
+Name:	init
+Pid:	1
+PPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/app_process32
+Sid:	u:r:zygote:s0
+Name:	app_process32
+Pid:	2
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:zygote:s0
+Name:	app_process64
+Pid:	3
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/app_process64
+Sid:	u:r:system_server:s0
+Name:	app_process64
+Pid:	7
+PPid:	3
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1002 1003 1004 1005 1006 1007 1008 1009 1010 1018 1021 1023 1032 3001 3002 3003 3006 3007 3009 3010
+CapInh:	0000000806897c20
+CapPrm:	0000000806897c20
+CapEff:	0000000806897c20
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/wcnss_filter
+Sid:	u:r:wcnss_filter:s0
+Name:	wcnss_filter
+Pid:	78
+PPid:	1
+Uid:	1002	1002	1002	1002
+Gid:	1002	1002	1002	1002
+Groups:	2002
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/vold
+Sid:	u:r:vold:s0
+Name:	vold
+Pid:	80
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/update_engine
+Sid:	u:r:update_engine:s0
+Name:	update_engine
+Pid:	89
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 1038 2001 3003 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/bspatch
+Sid:	u:r:update_engine:s0
+Name:	bspatch
+Pid:	90
+PPid:	89
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 1038 2001 3003 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/sbin/ueventd
+Sid:	u:r:ueventd:s0
+Name:	ueventd
+Pid:	92
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/time_daemon
+Sid:	u:r:time:s0
+Name:	time_daemon
+Pid:	96
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/thermal-engine
+Sid:	u:r:thermal-engine:s0
+Name:	thermal-engine
+Pid:	97
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/qseecomd
+Sid:	u:r:tee:s0
+Name:	qseecomd
+Pid:	98
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/surfaceflinger
+Sid:	u:r:surfaceflinger:s0
+Name:	surfaceflinger
+Pid:	99
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1003	1003	1003	1003
+Groups:	1026 3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/sh
+Sid:	u:r:shell:s0
+Name:	sh
+Pid:	101
+PPid:	1
+Uid:	2000	2000	2000	2000
+Gid:	2000	2000	2000	2000
+Groups:	1007 3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/servicemanager
+Sid:	u:r:servicemanager:s0
+Name:	servicemanager
+Pid:	102
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/rmt_storage
+Sid:	u:r:rmt:s0
+Name:	rmt_storage
+Pid:	103
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/rild
+Sid:	u:r:rild:s0
+Name:	rild
+Pid:	104
+PPid:	1
+Uid:	0	0	0	0
+Gid:	1001	1001	1001	1001
+Groups:	1005 1007 2001 3003 3009 3010 9998
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/perfd
+Sid:	u:r:perfd:s0
+Name:	perfd
+Pid:	110
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/pm-proxy
+Sid:	u:r:per_proxy:s0
+Name:	pm-proxy
+Pid:	111
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/pm-service
+Sid:	u:r:per_mgr:s0
+Name:	pm-service
+Pid:	112
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/netmgrd
+Sid:	u:r:netmgrd:s0
+Name:	netmgrd
+Pid:	114
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1001 1010 3003 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/netd
+Sid:	u:r:netd:s0
+Name:	netd
+Pid:	115
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/nanohub_slpi
+Sid:	u:r:nanohub_slpi:s0
+Name:	nanohub_slpi
+Pid:	119
+PPid:	1
+Uid:	0	0	0	0
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/mediaserver
+Sid:	u:r:mediaserver:s0
+Name:	mediaserver
+Pid:	123
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1005	1005	1005	1005
+Groups:	1006 1026 1031 3001 3002 3003 3007
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/mediaextractor
+Sid:	u:r:mediaextractor:s0
+Name:	mediaextractor
+Pid:	124
+PPid:	1
+Uid:	1040	1040	1040	1040
+Gid:	1026	1026	1026	1026
+Groups:	1031
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/mediadrmserver
+Sid:	u:r:mediadrmserver:s0
+Name:	mediadrmserver
+Pid:	125
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1031	1031	1031	1031
+Groups:	1026
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/mediacodec
+Sid:	u:r:mediacodec:s0
+Name:	mediacodec
+Pid:	126
+PPid:	1
+Uid:	1046	1046	1046	1046
+Gid:	1006	1006	1006	1006
+Groups:	1026 1031
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/logd
+Sid:	u:r:logd:s0
+Name:	logd
+Pid:	128
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 3009
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/lowi-server
+Sid:	u:r:location:s0
+Name:	lowi-server
+Pid:	129
+PPid:	130
+Uid:	0	0	0	0
+Gid:	1021	1021	1021	1021
+Groups:	1010 2002 3003
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/loc_launcher
+Sid:	u:r:location:s0
+Name:	loc_launcher
+Pid:	130
+PPid:	1
+Uid:	0	0	0	0
+Gid:	1021	1021	1021	1021
+Groups:	1010 2002 3003
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/lmkd
+Sid:	u:r:lmkd:s0
+Name:	lmkd
+Pid:	131
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/keystore
+Sid:	u:r:keystore:s0
+Name:	keystore
+Pid:	132
+PPid:	1
+Uid:	1017	1017	1017	1017
+Gid:	1017	1017	1017	1017
+Groups:	1026 3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/vendor/bin/msm_irqbalance
+Sid:	u:r:irqbalance:s0
+Name:	msm_irqbalance
+Pid:	134
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/installd
+Sid:	u:r:installd:s0
+Name:	installd
+Pid:	135
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/imscmservice
+Sid:	u:r:imscm:s0
+Name:	imscmservice
+Pid:	145
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1001	1001	1001	1001
+Groups:	1007 2002
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/imsdatadaemon
+Sid:	u:r:ims:s0
+Name:	imsdatadaemon
+Pid:	146
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001 1007 1010 2002 3003
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/imsqmidaemon
+Sid:	u:r:ims:s0
+Name:	imsqmidaemon
+Pid:	147
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1001	1001	1001	1001
+Groups:	1007 2002
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/ims_rtp_daemon
+Sid:	u:r:ims:s0
+Name:	ims_rtp_daemon
+Pid:	148
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1001	1001	1001	1001
+Groups:	1007 2002 3003
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/sbin/healthd
+Sid:	u:r:healthd:s0
+Name:	healthd
+Pid:	149
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	1000 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/gatekeeperd
+Sid:	u:r:gatekeeperd:s0
+Name:	gatekeeperd
+Pid:	150
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/fingerprintd
+Sid:	u:r:fingerprintd:s0
+Name:	fingerprintd
+Pid:	154
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/drmserver
+Sid:	u:r:drmserver:s0
+Name:	drmserver
+Pid:	156
+PPid:	1
+Uid:	1019	1019	1019	1019
+Gid:	1019	1019	1019	1019
+Groups:	1000 1026 3003 3009
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/debuggerd
+Sid:	u:r:debuggerd:s0
+Name:	debuggerd
+Pid:	157
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/debuggerd64
+Sid:	u:r:debuggerd:s0
+Name:	debuggerd64
+Pid:	158
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3009
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/cnss-daemon
+Sid:	u:r:cnss-daemon:s0
+Name:	cnss-daemon
+Pid:	162
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1010 3003 3005
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/cnd
+Sid:	u:r:cnd:s0
+Name:	cnd
+Pid:	163
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	3003 3010
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/cameraserver
+Sid:	u:r:cameraserver:s0
+Name:	cameraserver
+Pid:	164
+PPid:	1
+Uid:	1047	1047	1047	1047
+Gid:	1005	1005	1005	1005
+Groups:	1004 1006 1026
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/audioserver
+Sid:	u:r:audioserver:s0
+Name:	audioserver
+Pid:	168
+PPid:	1
+Uid:	1041	1041	1041	1041
+Gid:	1005	1005	1005	1005
+Groups:	1006 1013 1026 1031 3001 3002 3003 3007
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/ATFWD-daemon
+Sid:	u:r:atfwd:s0
+Name:	ATFWD-daemon
+Pid:	169
+PPid:	1
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+Groups:	1001
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/system/bin/adsprpcd
+Sid:	u:r:adsprpcd:s0
+Name:	adsprpcd
+Pid:	170
+PPid:	1
+Uid:	1013	1013	1013	1013
+Gid:	1013	1013	1013	1013
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+
+Exe:	/sbin/adbd
+Sid:	u:r:adbd:s0
+Name:	adbd
+Pid:	171
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+CapInh:	0000000000000000
+CapPrm:	0000003fffffffff
+CapEff:	0000003fffffffff
+CapBnd:	0000003fffffffff
+CapAmb:	0000000000000000
+

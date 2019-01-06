@@ -1,0 +1,127 @@
+INFO: STAT: Image summary: samsung - SM-G925I (BUILD_ID LMY47X, Android 5.1.1) (5.1.1)
+INFO: STAT: 924 file contexts
+INFO: STAT: 108 services
+INFO: STAT: 55 active
+INFO: STAT: 25 will start as root
+INFO: STAT: 5659 files
+INFO: STAT: SEPolicy 1262 nodes and 15157 allow edges
+INFO: STAT: SEPolicy attributes 163
+INFO: STAT: SEPolicy types 1270
+INFO: STAT: SEPolicy genfs 19
+INFO: STAT: SEPolicy fs_use 19
+INFO: STAT: SEPolicy domains 229
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 305/924 FCs (66.99% are missing)
+INFO: STAT: Dataflow created 229 subjects and 2217 objects with a total of 49151 R/W edges
+INFO: STAT: Recovered subject 132 (57.6%) file mappings, but unable to do so for 97 subjects
+INFO: STAT: Recovered object 230 (89.6%) file mappings, but unable to do so for 1987 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 638
+INFO: STAT: Recovered running processes 56
+INFO: STAT: Image summary: samsung - SM-G925I (BUILD_ID LMY47X, Android 5.1.1) (5.1.1)
+INFO: STAT: 924 file contexts
+INFO: STAT: 108 services
+INFO: STAT: 55 active
+INFO: STAT: 25 will start as root
+INFO: STAT: 5659 files
+INFO: STAT: SEPolicy 1262 nodes and 15157 allow edges
+INFO: STAT: SEPolicy attributes 163
+INFO: STAT: SEPolicy types 1270
+INFO: STAT: SEPolicy genfs 19
+INFO: STAT: SEPolicy fs_use 19
+INFO: STAT: SEPolicy domains 229
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 305/924 FCs (66.99% are missing)
+INFO: STAT: Dataflow created 229 subjects and 2217 objects with a total of 49151 R/W edges
+INFO: STAT: Recovered subject 132 (57.6%) file mappings, but unable to do so for 97 subjects
+INFO: STAT: Recovered object 230 (89.6%) file mappings, but unable to do so for 1987 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 638
+INFO: STAT: Recovered running processes 56
+INFO: STAT: Image summary: samsung - SM-G925T (BUILD_ID MMB29K, Android 6.0.1) (6.0.1)
+INFO: STAT: 1824 file contexts
+INFO: STAT: 90 services
+INFO: STAT: 49 active
+INFO: STAT: 23 will start as root
+INFO: STAT: 5701 files
+ERROR: STAT: Unable to load SEAndroid policy file. Use --debug for more details
+INFO: STAT: Image summary: samsung - SM-G925I (BUILD_ID NRD90M, Android 7.0) (7.0.0)
+INFO: STAT: 1646 file contexts
+INFO: STAT: 120 services
+INFO: STAT: 66 active
+INFO: STAT: 28 will start as root
+INFO: STAT: 5736 files
+INFO: STAT: SEPolicy 1928 nodes and 16909 allow edges
+INFO: STAT: SEPolicy attributes 75
+INFO: STAT: SEPolicy types 2223
+INFO: STAT: SEPolicy genfs 24
+INFO: STAT: SEPolicy fs_use 18
+INFO: STAT: SEPolicy domains 349
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 385/1646 FCs (76.61% are missing)
+INFO: STAT: Dataflow created 349 subjects and 2423 objects with a total of 33549 R/W edges
+INFO: STAT: Recovered subject 137 (39.3%) file mappings, but unable to do so for 212 subjects
+INFO: STAT: Recovered object 287 (88.2%) file mappings, but unable to do so for 2136 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 322
+INFO: STAT: Recovered running processes 60
+INFO: STAT: Image summary: samsung - SM-G925T (BUILD_ID NRD90M, Android 7.0) (7.0.0)
+INFO: STAT: 1635 file contexts
+INFO: STAT: 117 services
+INFO: STAT: 64 active
+INFO: STAT: 28 will start as root
+INFO: STAT: 5704 files
+INFO: STAT: SEPolicy 1922 nodes and 16807 allow edges
+INFO: STAT: SEPolicy attributes 75
+INFO: STAT: SEPolicy types 2214
+INFO: STAT: SEPolicy genfs 24
+INFO: STAT: SEPolicy fs_use 18
+INFO: STAT: SEPolicy domains 349
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 385/1635 FCs (76.45% are missing)
+INFO: STAT: Dataflow created 349 subjects and 2413 objects with a total of 33315 R/W edges
+INFO: STAT: Recovered subject 138 (39.5%) file mappings, but unable to do so for 211 subjects
+INFO: STAT: Recovered object 287 (88.1%) file mappings, but unable to do so for 2126 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 323
+INFO: STAT: Recovered running processes 59
+INFO: STAT: Image summary: samsung - SM-G925I (BUILD_ID NRD90M, Android 7.0) (7.0.0)
+INFO: STAT: 1646 file contexts
+INFO: STAT: 120 services
+INFO: STAT: 66 active
+INFO: STAT: 28 will start as root
+INFO: STAT: 5736 files
+INFO: STAT: SEPolicy 1928 nodes and 16909 allow edges
+INFO: STAT: SEPolicy attributes 75
+INFO: STAT: SEPolicy types 2223
+INFO: STAT: SEPolicy genfs 24
+INFO: STAT: SEPolicy fs_use 18
+INFO: STAT: SEPolicy domains 349
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 385/1646 FCs (76.61% are missing)
+INFO: STAT: Dataflow created 349 subjects and 2423 objects with a total of 33549 R/W edges
+INFO: STAT: Recovered subject 137 (39.3%) file mappings, but unable to do so for 212 subjects
+INFO: STAT: Recovered object 287 (88.2%) file mappings, but unable to do so for 2136 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 322
+INFO: STAT: Recovered running processes 60
+INFO: STAT: Image summary: samsung - SM-G925P (BUILD_ID NRD90M, Android 7.0) (7.0.0)
+INFO: STAT: 1644 file contexts
+INFO: STAT: 99 services
+INFO: STAT: 51 active
+INFO: STAT: 24 will start as root
+INFO: STAT: 5360 files
+INFO: STAT: SEPolicy 1928 nodes and 16904 allow edges
+INFO: STAT: SEPolicy attributes 75
+INFO: STAT: SEPolicy types 2221
+INFO: STAT: SEPolicy genfs 24
+INFO: STAT: SEPolicy fs_use 18
+INFO: STAT: SEPolicy domains 349
+INFO: ------- STATS --------
+INFO: STAT: Filesystem matched 316/1644 FCs (80.78% are missing)
+INFO: STAT: Dataflow created 349 subjects and 2420 objects with a total of 33387 R/W edges
+INFO: STAT: Recovered subject 136 (39.0%) file mappings, but unable to do so for 213 subjects
+INFO: STAT: Recovered object 248 (89.8%) file mappings, but unable to do so for 2172 objects
+INFO: ------- END STATS --------
+INFO: STAT: Recovered processes 327
+INFO: STAT: Recovered running processes 51
