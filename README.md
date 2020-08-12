@@ -1,8 +1,15 @@
 # BigMAC
 
-Extract, process, and query Android security policies from Android firmware.
+<img src=".img/bigmac-logo.png?raw=true" align="left"
+     title="BigMAC" width="100">
 
-USENIX Presentation: https://www.usenix.org/conference/usenixsecurity20/presentation/hernandez
+Extract, process, and query Android security policies from Android firmware. BigMAC is a Python tool that helps analysts understand DAC, MAC (SELinux), and capabilities (CAP) on Android devices. It provides a framework for recovering security policies from firmware images, allowing for scalable policy extraction, and for interactive querying using Prolog. [This was released at USENIX Security'20.](https://www.usenix.org/conference/usenixsecurity20/presentation/hernandez)
+
+<br/>
+<p align="center">
+<img src=".img/policy-layers-linked.png?raw=true"
+     title="BigMAC Overview" width="600">
+</p>
 
 ## Installation
 
