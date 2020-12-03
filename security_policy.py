@@ -243,10 +243,17 @@ class AndroidSecurityPolicy:
     def get_saved_file_path(self, name):
         path = self.policy_files[name]["save_path"]
 
-        # drop the leading three path components
-        # from: policy/VENDOR/FIRMWARE/init/system/etc/init/mediaserver.rc
+        # find firmware image name in the saved path for the policy (this can change due to policy path)
+        common_path_component_idx = path.split(os.sep).index(self.firmware_name)
+
+        if common_path_component_idx == -1:
+            raise ValueError("Unable to determine saved policy file path (did you move or rename policy directory)?")
+
+        # drop the leading N+1 path components
+        # example: N = 2, Drop 0, 1, 2
+        # from: POLICY_DIR/VENDOR/FIRMWARE/init/system/etc/init/mediaserver.rc
         # to: init/system/etc/init/mediaserver.rc
-        return os.path.join(self.get_results_dir(), "/".join(path.split(os.sep)[3:]))
+        return os.path.join(self.get_results_dir(), "/".join(path.split(os.sep)[common_path_component_idx+1:]))
 
     def get_android_version(self):
         android_version = list(map(int, self.get_properties()['properties']['android_version'].split('.')))
