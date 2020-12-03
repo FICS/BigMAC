@@ -269,14 +269,15 @@ class AndroidSecurityPolicy:
         props = self.properties
         android_version = props['ro.build.version.release']
         build_id = props['ro.build.id']
-        brand =  props['ro.product.brand']
+        brand = props.get_multi_default(
+                ['ro.product.brand', 'ro.product.system.brand'], default="UNKNOWN")
 
         # Some samsung/lineage prop files don't have a model listed...
         model = props.get_multi_default(
-                ['ro.product.model', 'ro.product.base_model'], default="UNKNOWN")
+                ['ro.product.model', 'ro.product.base_model', 'ro.product.system.brand'], default="UNKNOWN")
 
-        product_name = props.get_multi_default(['ro.product.name'], default="UNKNOWN")
-        product_device = props.get_multi_default(['ro.product.device'],
+        product_name = props.get_multi_default(['ro.product.name', 'ro.product.system.name'], default="UNKNOWN")
+        product_device = props.get_multi_default(['ro.product.device', 'ro.product.system.device'],
                                                  default="UNKNOWN")
 
         interesting_properties = {
