@@ -665,7 +665,20 @@ class SEPolicyInst(object):
             if len(child_subject.backing_files) == 0:
                 continue
 
+            # Resolve symbolic links (should this be done earlier)?
+            backing_files_resolved = {}
+
             for fn, f in sorted(child_subject.backing_files.items()):
+                link_path = f["link_path"]
+                if link_path != '':
+                    resolved = self.filesystem.realpath(link_path)
+                    if resolved in self.filesystem.files:
+                        target = self.filesystem.files[resolved]
+                        backing_files_resolved.update({ link_path : target })
+                else:
+                    backing_files_resolved.update({ fn : f })
+
+            for fn, f in sorted(backing_files_resolved.items()):
                 fc = f["selinux"]
                 exec_rule_parent = None
                 exec_rule_child = None
