@@ -595,6 +595,14 @@ class SEPolicyInst(object):
                 for fn, f in zygote_files.items():
                     s.associate_file({fn:f})
 
+        # Special case for system_server which can be transitioned to from system_server_startup
+        # https://android.googlesource.com/platform/system/sepolicy/+blame/master/private/system_server_startup.te
+        # Mirror backing files from system_server_startup to system_server (if any)
+        if "system_server_startup" in self.subjects:
+            ss = self.subjects["system_server"]
+            for fn, f in self.subjects["system_server_startup"].backing_files.items():
+                ss.associate_file({fn:f})
+
         ##  4. Final chance for file recovery (heuristic)
         no_backing_file_transitions = set(list(self.subjects)) - has_backing_file_transition
 
@@ -612,7 +620,7 @@ class SEPolicyInst(object):
 
             if len(found_files) == 1:
                 (fn, fobj), = found_files[0].items()
-                log.info("Last ditch file mapping recovery for %s found '%s'", domain, fn)
+                log.warning("Last ditch file mapping recovery for %s found '%s' (this may be incorrect and cause further analysis to fail)", domain, fn)
                 self.subjects[domain].associate_file(found_files[0])
 
     def extract_selinux_capabilities(self):
@@ -823,13 +831,22 @@ class SEPolicyInst(object):
             return False
 
         zygotes = sorted(list(filter(lambda x: "zygote" in x.subject.sid.type, init.children)), key=lambda x: x.pid)
+        system_server_startup = list(filter(lambda x: x.subject.sid.type == "system_server_startup", system_server_parent.children))
+
+        if len(zygotes) ==  0:
+            log.error("No zygotes! This is bad")
+            return False
+
+        if system_server_parent not in zygotes:
+            log.error("system_server parent zygote is not in zygote list!")
+            return False
 
         # remove children from all zygotes with differing executables
         for zyg in zygotes:
             (z_fn, _), = zyg.exe.items()
 
             if system_server_parent != zyg:
-                zyg.children = set(filter(lambda x: x.subject.sid.type != "system_server", zyg.children))
+                zyg.children = set(filter(lambda x: not x.subject.sid.type.startswith("system_server"), zyg.children))
                 log.info("Dropping system_server from %s", zyg)
 
             for child in list(zyg.children):
@@ -838,37 +855,13 @@ class SEPolicyInst(object):
                 if fn != z_fn and "crash" not in fn:
                     zyg.children -= set([child])
 
-        # spawn an untrusted app
-        if len(zygotes) > 0:
-            app_parent = zygotes[0]
-            untrusted_apps = list(filter(lambda x: "untrusted_app" in x.subject.sid.type, app_parent.children))
-            crash_dump = list(filter(lambda x: "crash_dump" in x.subject.sid.type, app_parent.children))
-            app_id = 0
-
-            for crashes in sorted(crash_dump, key=lambda x: x.subject.sid.type):
-                crashes.cred = app_parent.cred.execve(new_sid=crashes.subject.sid)
-                crashes.state = ProcessState.RUNNING
-                log.info("Spawned crash_dump %s from %s", repr(crashes), repr(app_parent))
-
-            for primary_app in sorted(untrusted_apps, key=lambda x: x.subject.sid.type):
-                primary_app.cred = app_parent.cred.execve(new_sid=primary_app.subject.sid)
-                # Drop any supplemental groups from init
-                primary_app.cred.clear_groups()
-                primary_app.cred.cap.drop_all()
-
-                primary_app.cred.uid = 10000+app_id
-                primary_app.cred.gid = 10000+app_id
-                primary_app.cred.add_group('inet')
-                primary_app.cred.add_group('everybody')
-                primary_app.cred.add_group(50000+app_id)
-                primary_app.state = ProcessState.RUNNING
-                log.info("Spawned untrusted_app %s from %s", repr(primary_app), repr(app_parent))
-                app_id += 1
+        if len(system_server_startup) > 0:
+            # The parent won't match as the graph looks like zygote -> system_server_startup -> system_server
+            # system_server_startup is a temporary state and can be ignored
+            system_server = list(filter(lambda x: x.subject.sid.type == "system_server", system_server_startup[0].children))
+            log.info("system_server_startup detected, inferring system_server from this label instead of zygote directly");
         else:
-            log.error("No zygotes! This is bad")
-            return False
-
-        system_server = list(filter(lambda x: x.subject.sid.type == "system_server", system_server_parent.children))
+            system_server = list(filter(lambda x: x.subject.sid.type == "system_server", system_server_parent.children))
 
         if len(system_server) == 0:
             log.error("Issue spawning system_server")
@@ -894,6 +887,34 @@ class SEPolicyInst(object):
             system_server.cred.add_group(group)
 
         system_server.state = ProcessState.RUNNING
+
+        ## spawn extra applications
+
+        # spawn an untrusted app
+        app_parent = system_server_parent
+        untrusted_apps = list(filter(lambda x: "untrusted_app" in x.subject.sid.type, app_parent.children))
+        crash_dump = list(filter(lambda x: "crash_dump" in x.subject.sid.type, app_parent.children))
+        app_id = 0
+
+        for crashes in sorted(crash_dump, key=lambda x: x.subject.sid.type):
+            crashes.cred = app_parent.cred.execve(new_sid=crashes.subject.sid)
+            crashes.state = ProcessState.RUNNING
+            log.info("Spawned crash_dump %s from %s", repr(crashes), repr(app_parent))
+
+        for primary_app in sorted(untrusted_apps, key=lambda x: x.subject.sid.type):
+            primary_app.cred = app_parent.cred.execve(new_sid=primary_app.subject.sid)
+            # Drop any supplemental groups from init
+            primary_app.cred.clear_groups()
+            primary_app.cred.cap.drop_all()
+
+            primary_app.cred.uid = 10000+app_id
+            primary_app.cred.gid = 10000+app_id
+            primary_app.cred.add_group('inet')
+            primary_app.cred.add_group('everybody')
+            primary_app.cred.add_group(50000+app_id)
+            primary_app.state = ProcessState.RUNNING
+            log.info("Spawned untrusted_app %s from %s", repr(primary_app), repr(app_parent))
+            app_id += 1
 
         return True
 
