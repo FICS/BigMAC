@@ -661,8 +661,8 @@ class SEPolicyInst(object):
         # Technically the kernel can have a ton of processes, but we only consider one in our graph
         self.processes["kernel_0"] = ProcessNode(kernel_subject, None, {'/kernel' : {}}, 0)
 
-        # (parent, child)
-        stack = [(self.processes["kernel_0"], init_subject)]
+        # (parent_process, parent_exe, child_subject)
+        stack = [(self.processes["kernel_0"], "/kernel", init_subject)]
 
         ### Propagate subject permissions by simulating fork/exec
         # Depth-first traversal
@@ -670,8 +670,9 @@ class SEPolicyInst(object):
         pid = 1
 
         while len(stack):
-            parent_process, child_subject = stack.pop()
-            visited |= set([child_subject])
+            parent_process, parent_exe, child_subject = stack.pop()
+            # only visit an edge on the subject graph once
+            visited |= set([(parent_process.subject, parent_exe, child_subject)])
 
             # No backing files? Go away
             if len(child_subject.backing_files) == 0:
@@ -692,13 +693,26 @@ class SEPolicyInst(object):
 
             for fn, f in sorted(backing_files_resolved.items()):
                 fc = f["selinux"]
-                exec_rule_parent = None
-                exec_rule_child = None
+                exec_rule_parent = False
+                exec_rule_child = False
+                dyntransition = False
+                transition = False
 
                 if fc.type in G[parent_process.subject.sid.type]:
                     exec_rule_parent = "execute_no_trans" in G[parent_process.subject.sid.type][fc.type][0]
                 if fc.type in G[child_subject.sid.type]:
                     exec_rule_child = "execute_no_trans" in G[child_subject.sid.type][fc.type][0]["perms"]
+                if child_subject.sid.type in G[parent_process.subject.sid.type]:
+                    parent_child_edge = G[parent_process.subject.sid.type][child_subject.sid.type][0]["perms"]
+                    dyntransition = "dyntransition" in parent_child_edge
+                    transition = "transition" in parent_child_edge
+
+                # if only dyntransitions, child exe doesn't change, so make sure child processes respect that
+                if dyntransition and not transition:
+                    (fn_parent, _), = parent_process.exe.items()
+
+                    if fn_parent != fn:
+                        continue
 
                 # Conservatively assume the parent
                 new_process = ProcessNode(child_subject, parent_process, {fn : f}, pid)
@@ -711,8 +725,15 @@ class SEPolicyInst(object):
                 pid += 1
 
                 for child in sorted(child_subject.children, key=lambda x: str(x.sid.type)):
-                    if child not in visited or (child.sid.type == "crash_dump" and child_subject.sid.type in ["zygote"]):
-                        stack += [(new_process, child)]
+                    edge = (new_process, fn, child)
+                    edge_query = (new_process.subject, fn, child)
+
+                    cycle = new_process.subject == child
+
+                    # TODO: refactor special casing to networkx.algorithms.traversal.edgedfs.edge_dfs
+                    # We are _trying_ to avoid cycles while visiting every edge. This needs more work
+                    if edge_query not in visited or (child.sid.type == "crash_dump" and not cycle) or child.sid.type.startswith("system_server"):
+                        stack += [edge]
 
     def simulate_process_permissions(self):
         # Special cases for android
