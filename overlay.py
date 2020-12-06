@@ -197,7 +197,11 @@ class ProcessNode(GraphNode):
 
     def __repr__(self):
         parent_type = self.parent.subject.sid.type if self.parent else "god"
-        return "<ProcessNode %s->%s %s %s>" % (parent_type, self.subject.sid.type, list(self.exe.keys())[0], self.cred)
+
+        if self.state == ProcessState.RUNNING:
+            return "<ProcessNode %s->%s %s %s RUNNING pid=%d>" % (parent_type, self.subject.sid.type, list(self.exe.keys())[0], self.cred, self.pid)
+        else:
+            return "<ProcessNode %s->%s %s %s>" % (parent_type, self.subject.sid.type, list(self.exe.keys())[0], self.cred)
 
     def __eq__(self, other):
         return isinstance(other, ProcessNode) and hash(self) == hash(other)
