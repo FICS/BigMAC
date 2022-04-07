@@ -116,6 +116,16 @@ at_unzip()
 	local dir="$2"
 	local format=`file -b "$filename" | cut -d" " -f1`
 	local format2=`file -b "$filename" | cut -d" " -f2`
+	
+	## decompress lz4 if format is lz4
+	if [ "$format" == "LZ4" ]; then
+		lz4 -d "$filename"
+		## cleanup compressed lz4 file
+		rm $filename
+		## set filename var as decompressed filename (- .lz4)
+		filename=${filename::-5}
+	fi
+	
 	if [ "$format" == "zip" ] || [ "$format" == "ZIP" ] || [ "$format" == "Zip" ]; then
 		if [ -z "$dir" ]; then
 			unzip "$filename"
