@@ -100,7 +100,7 @@ def main():
             log.error("Unable to load saved instantiation: %s", e)
             return 1
     else:
-        inst = main_process(args, asp, aspc, file_contexts, primary_filesystem,
+        inst,graph = main_process(args, asp, aspc, file_contexts, primary_filesystem,
                 android_version)
 
     if inst is None:
@@ -267,7 +267,7 @@ def main_process(args, asp, aspc, file_contexts, primary_filesystem, android_ver
         #inst.file_mapping = {}
         aspc._save_db(inst, "inst")
 
-    return inst
+    return inst,graph
 
 def make_cute(G, show_labels=True):
     import math
